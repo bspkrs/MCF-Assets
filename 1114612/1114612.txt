@@ -1,0 +1,328 @@
+[b]The now consolidated home of bspkrs' mods.[/b]
+
+[spoiler='Read this before posting issues'][size=5][b]HELP! MOD X DOESN'T WORK!!! YOU CRASHED MINECRAFT!![/b][/size]
+Ok, that's all well and good... and I'd even say that maybe 1/10 times this is my fault.  In order for me to help you, however, I'll need some info that you most likely have.  Use pastebin.com (or a paste service of your choice) to provide your full log file.  If you are using ModLoader, the log file is /.minecraft/ModLoader.txt.  If you are using Forge, the log file is /.minecraft/ForgeModLoader-client-0.log (for client) or /.minecraft/ForgeModLoader-server-0.log (for server).  Some mods have a setting called allowDebugLogging which should be set to true before you post your log file.  [color=#ff0000][b]WITHOUT THIS INFORMATION IT IS VERY DIFFICULT TO PROVIDE ASSISTANCE, AND THE LIKELIHOOD OF GETTING A RESPONSE IS LOW.[/b][/color][/spoiler]
+
+[spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
+
+[b]News:[/b]
+05-Oct-2013 - [b]StatusEffectHUDv1.17[/b] is out and addresses a potential crash.
+
+30-Sep-2013 - I back-ported [b]StatusEffectHUDv1.16[/b] to 1.6.2.
+
+29-Sep-2013 - [b]StatusEffectHUDv1.16[/b] is out.  This release tweaks the blink code so that being around a beacon won't drive you nuts.
+
+[spoiler='Older News']26-Sep-2013 - Please consider helping out a great cause and get some cool perks for it! [url="http://www.extra-life.org/index.cfm?fuseaction=donordrive.participant&participantID=45410"]http://www.extra-lif...icipantID=45410[/url]
+It's for the kids!
+
+[b]StatusEffectHUDv1.15[/b] is out for 1.6.4 (I will backport this to 1.6.2 and 1.5.2 if I have time later)!  This release adds a new feature: the icon and timer start blinking when a potion effect is almost gone! There are two new config options for controlling the behavior; check out the config file for details.
+
+23-Sep-2013 - [b]ArmorStatusHUDv1.13[/b] is out for 1.6.4, 1.6.2, and even 1.5.2.  This update tweaks the item damage code to (hopefully) fix issues with items from mods like Tinker's Construct.
+
+Edit: Something went horribly wrong when I was editing this post last... I'm working on fixing it, but it's slow going. I literally have to redo ALL the links and ALL the images.  Believe it or not, what you see here now is a lot better than how it looked for most of the night...
+
+20-Sep-2013 - 1.6.4 updates are out!
+
+17-Jul-2013 - New releases of ArmorStatusHUD and StatusEffectHUD are now out.  ArmorStatusHUD will now show the correct item display name if it has been renamed, and StatusEffectHUD got a fix for the background covering up the text if it's enabled in the config.
+
+Note: all mods have been tested with and work with ModLoader.
+
+10-Jul-2013 - Everything is updated for 1.6.2! New releases are out to resolve the crashes when using ModLoader.
+
+5-Jul-2013 - Everything is updated for 1.6.1 [b]except for DirectionHUD[/b] (texture issues).
+
+3-May-2013 - 1.5.2 releases are out for bspkrsCore, ArmorStatusHUD, DirectionHUD, and StatusEffectHUD.
+
+25-Apr-2013 - New release for DirectionHUD is out to fix the texture issue (derp).
+
+24-Apr-2013 - New releases are out for all three mods to fix potential issues caused by other mods that do not clean up their texture bindings after rendering.  This update also changes the config handler, so the config files have a new name (mod_&lt;modname&gt;.bsprop.cfg).
+
+12-Apr-2013 - I am apparently having The Worst Luck[sup]TM [/sup]this week with hosting providers.  All links are updated and should be working now... I will add a permanent mirror for all links later today.
+
+9-Apr-2013 - I have released a new version of bspkrsCore for 1.5.1 and 1.4.7 to address the update check timeouts issue.  This release also incorporates a number of other changes including a super secret feature (don't ask, I'm not telling).  You will notice that mod_bspkrsCore.cfg is no longer used; mod_bspkrsCore.bsprop.cfg is used instead.  This is due to features that I've been slowly working on that are partially being released early as part of this defect release.
+
+8-Apr-2013 - I have gotten the file downloads setup on a new VPS, so the links should be working now.  I will update them again once DNS propagates.
+
+7-Apr-2013 - Apparently my VPS is down, and so my download pages as well.  You can try [url="http://dl.dropbox.co.../MC/index.html"]here[/url] for now until DropBox arbitrarily decides to cut me off again.
+
+23-Mar-2013 - 1.5.1 updates are released!Update - I have re-ordered the list of files for bspkrsCore to avoid further confusion.  Also, one of the reasons this release took longer than usual to get out is because I was busy making automated build scripts for all these mods so that anyone can pull the Github repos and run Ant to build the mod zips/jars.  Since I was using a new build process, I couldn't release the mods without fully testing them (believe me, you'd all be very upset if I hadn't).  I'll provide instructions on how to run the build scripts soon (it's really very easy, and requires no coding knowledge as long as the code is up-to-date).
+
+15-Mar-2013 - 1.5 updates are live on the download site!  Change logs will follow tomorrow (I'm tired).
+
+10-Mar-2013 - bspkrsCorev1.02 is out to fix a defect in shared code.  Details are in the changelog.23-Feb-2013 - I've just been notified that my DropBox links are generating too much traffic and are disabled.  [s]I'm looking into another way to provide downloads[/s]. I've been able to work out another way to host the files.  Links are working again.
+
+20-Feb-2013 - New releases are out to support bspkrsCore (shared mod classes).
+
+24-Jan-2013 - New releases are out for compatibility with other HUD mods due to a vanilla bug.
+
+15-Jan-2013 - 1.4.6 releases work with 1.4.7.23-Dec-2012 - 1.4.6 updates are out.  Let me know of any issues.
+
+21-Nov-2012 - 1.4.5 releases are out for all mods!
+
+13-Nov-2012 - Releases for MC 1.4.4 are now available for all mods.
+
+05-Nov-2012 - Be sure to check out [b][url="http://www.minecraftforum.net/topic/1548243-"]WorldStateCheckpoints[/url][/b], my fork of MightyPork's Checkpoints Backup Mod.  It allows you to make save points in your SP worlds!  An essential tool for any Minecrafter!
+
+01-Nov-2012 - [b]ArmorStatusHUDv1.4[/b], [b]DirectionHUDv1.8[/b], and [b]StatusEffectHUDv1.7[/b] are out to address compatibility with Forge/FML.  I also reorganized all my downloads, so let me know what you think of the new system.
+
+29-Oct-2012 - [b]DirectionHUDv1.7[/b] is out.  This release adds two new config options: imageFileName and compassIndex.  There are now 4 compass styles to choose from by default using compassIndex, and you can edit the png to add your own if you want (details below).
+
+26-Oct-2012 - [b]ArmorStatusHUDv1.3[/b], [b]DirectionHUDv1.6[/b], and [b]StatusEffectHUDv1.6[/b] are out for 1.4.2!  These were compiled using Forge, so I may have to do another release when Risugami releases ModLoader for 1.4.2 if there are any changes that break the mods.  Let me know if you see anything strange with the mods.
+
+08-Oct-2012 - I've added just about all the code for all the mods I work on to [url="https://github.com/bspkrs"]github[/url].  Feel free to see how all this stuff works underneath.
+
+06-Oct-2012 - Retrofits! I've taken the latest versions of ArmorStatusHUD, DirectionHUD, and StatusEffectHUD and magically produced [b]ArmorStatusHUD v1.2(1.2.5)[/b], [b]DirectionHUD v1.52(1.2.5)[/b], and [b]StatusEffectHUD v1.52(1.2.5)[/b].  This is the first time ArmorStatusHUD as been released for 1.2.5, so dig in!
+
+05-Oct-2012 - I completely forgot to mention that [b]ArmorStatusHUD v1.2[/b] also fixes the durability values... they were off by 1 before.
+
+04-Oct-2012 - [b]ArmorStatusHUD v1.2[/b] brings a few cool new features.  The damageWarningPercent option has been replaced with damageColorList which provides a way to configure the damage percent thresholds and the associated text colors.  The current equipped item setting now allows blocks and other non-damageable items to be shown.  When a block is selected the item overlay will show the total quantity of that block in your inventory.  When a bow is selected the overlay will show the number of arrows you have.
+
+[b]Update[/b] @4:40PM EDT: There was a mistake in this release of ArmorStatusHUD that would cause the item icons to disappear when resizing the game window with top or right alignments.  This issue is now fixed in the current download, so if you are affected by that issue please download it again.  Before the next release I will be reading up on GL11 Java code...[b]DirectionHUD v1.52[/b] and [b]StatusEffectHUD v1.52[/b] are released to maintain compatibility with this release of ArmorStatusHUD.
+
+19-Sep-2012 - Apparently a fix I put in my mod version checker class to handle not being connected to the internet was full of failure, so I've updated all the downloads that use it with a truly fixed version of the class.  I decided not to bump the version numbers for a fix to the version checking code because I didn't want to totally spam everyone over something small like that.  Nevertheless, if you like to play without an internet connection be sure to download the latest version (again, if you already have) to avoid game crashing fun.
+
+18-Sep-2012 - I'm not sure how I did this, but somehow I deleted a class file when I was putting together the latest version downloads.  The issue should now be resolved... sorry for the issues.[img]http://static.minecr...t/mobsheep.png[/img]
+
+17-Sep-2012 - [b]DirectionHUD v1.51[/b] and [b]StatusEffectHUD v1.51[/b] have been released to maintain compatibility with the latest version of FloatingRuins (they share several class files).
+
+13-Sep-2012 - [b]ArmorStatusHUD v1.1[/b], [b]DirectionHUD v1.5[/b], and [b]StatusEffectHUD v1.5[/b] are out!  Major changes include proper item icon rendering for mod items in ArmorStatusHUD, all mods now have x and y offset config settings, DirectionHUD and StatusEffectHUD have better controls over text colors, ArmorStatusHUD has more/better options for the damage display, and all mods have been refactored using consolidated code for easier future updates.  DirectionHUD also has a fix for a small yOffset defect that I missed when I put out the last version, and the StatusEffectHUD default settings are slightly different now.I recommend deleting your existing config files to try out the new config options.
+
+10-Sep-2012 - I decided to make a TreeCapitator t-shirt design for the [url="http://www.threadles...oves/minecraft"]Threadless loves Minecraft[/url] challenge.  Head on over and [url="http://www.threadles...gle_without_it"]give me a critique[/url]!
+
+08-Sep-2012 - I have some new features in the works for StatusEffectHUD and ArmorStatusHUD such as more control over text colors, additional alignment controls, proper handling of bottomcenter (to avoid the vanilla HUD), a way to define your own damage color ranges, and the ability to display items in a horizontal line instead of the vertical column.  I hope to have them finished by early next week, so stay tuned!06-
+
+Sep-2012 - [b]DirectionHUDv1.41[/b] is now live.  Fixes the silly alignment issues with anything that isn't topcenter.  Also adds a few other options around x and y offsets and the color of the center marker.Similar features will be coming soon to StatusEffectHUD and ArmorStatusHUD.
+
+29-Aug-2012 - I would like to be able to post my mods on PlanetMinecraft to gain more exposure, but in order to do that I need to &quot;level up&quot; my user (you need to be level 2 or higher to post mods).  You can help me get there by commenting on and downloading [url="http://www.planetmin...member/bspkrs/"]my submissions[/url]!
+
+28-Aug-2012 - If you are using Forge and have an issue with a mod not loading properly, delete the mcmod.info file from the zip file or just download the mod again.  It's the first time I tried including it and I wasn't clear on the format.  Should be fixed now.
+
+Consolidated all my original mods here.  First release of [b]ArmorStatusHUD v1.0[/b] and small updates for [b]StatusEffectHUD v1.4[/b] and [b]DirectionHUD v1.4[/b].  Version checking can now be disabled in config (for those times that I screw up the version files and don't notice :S).
+
+19-Aug-2012 - Updated StatusEffectHUD for 1.3.2.
+
+05-Aug-2012 - Updated StatusEffectHUD for 1.3.1.  Also added version checking.Status
+
+29-Mar-2012 (the "YO DAWG..." update):[b]To those seeing errors, please download again.  [/b]I totally made a n00b mistake, but it's fixed now.
+
+That's what happens when you don't run your mod code outside your dev environment before publishing it.[/spoiler]
+
+[b]Ways to contact me[/b]:
+[b]IRC:[/b] I can usually be found in the [b]#risucraft and #treecapitator[/b] channels on [b]irc.esper.net[/b].
+[b]Twitter:[/b] [url="https://twitter.com/bspkrs"]https://twitter.com/bspkrs[/url]
+
+[color=#000080][size=6][b]DISCLAIMER:[/b][/size][/color]
+NO WARRANTY IS GIVEN, EXPRESS OR OTHERWISE. USE AT YOUR OWN RISK.[size=1]In other words, I am not responsible if this mod causes your game to crash, your save to get deleted, or your cat to run away.[/size]
+
+[color=#000080][size=6][b]Videos:[/b][/size][/color]
+Thanks [b][url="http://www.minecraft...-captainsours/"]CaptainSours[/url][/b]![media]http://www.youtube.com/watch?v=bDNMlhbBfjI[/media][spoiler='More Videos']Thanks [b][url="http://www.minecraft...75136-ollixxl/"]Ollixxl[/url][/b]! (German language)[media]http://www.youtube.com/watch?v=G72Uq6_xR94[/media]
+Thanks [b][url="http://www.minecraft...xtr3m3-demon2/"]XTR3M3_Demon2[/url][/b]! (German language)[media]http://www.youtube.com/watch?v=L2Z_EvzRI44[/media][/spoiler][b]FAQ:[/b]Q: How do i move it to another corner?A: Edit the mod_<modnamehere>.bsprop.cfg file in the mincraft config folder.
+
+[color=#000080][size=6][b]bspkrsCore:[/b][/size][/color]
+[b]ATTENTION:[/b] This is a [color=#ff0000][b]REQUIRED[/b][/color] mod in order for any of the other mods to work.  It contains the core shared classes used by all mods I release.  [b]If you don't install it along with any of the other mods here, Minecraft will crash[/b].  You have been warned.
+Drop the downloaded .zip file into the mods folder under .minecraft.
+ModLoader/Forge download: [url="http://bspk.rs/MC/bspkrsCore/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/bspkrsCore/latest/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/bspkrsCore/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/bspkrsCore/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/bspkrsCore/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/bspkrsCore/dev/index.html"]Mirror[/url])
+[url="https://raw.github.com/bspkrs/bspkrsCore/master/change.log"]Change Log[/url]
+If you want to turn off update checking for my mods, you will need to set allowUpdateCheck=false in mod_bspkrsCore.bsprops.cfg.
+ 
+[center][size=5][b]ALL MODS BEYOND THIS POINT REQUIRE bspkrsCore TO BE INSTALLED.[/b][/size][/center]
+[center][size=5][b]You will be ignored if you post about MC crashing because you didn't install bspkrsCore.[/b][/size][/center]
+
+[color=#000080][size=6][b]ArmorStatusHUD[/b] [b](v1.13 for 1.6.4/1.6.2)[/b][/size][/color][spoiler='More Info']ArmorStatusHUD displays your currently equipped armor and held item along with the durability remaining without having to open your inventory!
+
+[b]Features[/b]:
+- shows equipped armor and held items and their remaining durability
+- configurable tiers of damage with associated colors: damage text changes color as items are used
+- see how many arrows are left for your bow
+- configurable alignment on your screen
+- x and y offset config options
+- can display exact damage values or the durability percent remaining
+- option to show/hide text damage values
+- option to show/hide max damage (shown below)
+- option to show/hide item names
+- option to show/hide standard inventory item overlay (damage bar)
+- version update checking (can be turned off)
+[b]Planned[/b]:
+- option for horizontal layout
+- shorthand enchantment display
+- blinking icon/text when damage drops below a certain threshold
+- support for IC2 items' charge levels
+[spoiler='Screenshots'][img]https://raw.github.com/bspkrs/MCF-Assets/master/1114612/img/ArmorStatusHUD1.png[/img]
+
+[img]https://raw.github.com/bspkrs/MCF-Assets/master/1114612/img/ArmorStatusHUD2.png[/img][/spoiler][spoiler='Videos']Thanks [url="http://www.minecraft...89-chronofury/"]ChronoFury[/url]![media]http://www.youtube.com/watch?v=TmMIPsq5EOc[/media][/spoiler]
+
+[b]Downloads[/b]:
+[url="http://bspk.rs/MC/ArmorStatusHUD/latest/index.html"]Latest[/url] (v1.13 for 1.6.4) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/ArmorStatusHUD/latest/index.html"]Mirror[/url])
+[url="http://bspk.rs/MC/ArmorStatusHUD/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/ArmorStatusHUD/index.html"]Mirror[/url])
+[url="https://raw.github.com/bspkrs/ArmorStatusHUD/master/change.log"]Change Log[/url]
+
+[b]Config[/b]:[spoiler='.minecraft/config/mod_ArmorStatusHUD.bsprop.cfg'][code]#alignMode (java.lang.String:bottomleft) -- Valid alignment strings are topleft, topcenter, topright, middleleft, middlecenter, middleright, bottomleft, bottomcenter, bottomright
+#enableItemName (boolean:false) -- Set to true to show item names, false to disable
+#showItemOverlay (boolean:true) -- Set to true to show the standard inventory item overlay (damage bar)
+#damageColorList (java.lang.String:100,f; 80,7; 60,e; 40,6; 25,c; 10,4) -- This is a list of percent damage thresholds and text color codes that will be used when item damage is <= the threshold. Format used: "," separates the threshold and the color code, ";" separates each pair. Valid color values are 0-9, a-f (color values can be found here: http://www.minecraftwiki.net/wiki/File:Colors.png)
+#damageDisplayType (java.lang.String:value) -- Valid damageDisplayType strings are value, percent, or none#showMaxDamage (boolean:false) -- Set to true to show the max damage when damageDisplayType=value
+#showEquippedItem (boolean:true) -- Set to true to show info for your currently equipped item, false to disable
+#xOffset (int:2) -- Horizontal offset from the edge of the screen (when using right alignments the x offset is relative to the right edge of the screen)
+#yOffset (int:2) -- Vertical offset from the edge of the screen (when using bottom alignments the y offset is relative to the bottom edge of the screen)
+#yOffsetBottomCenter (int:41) -- Vertical offset used only for the bottomcenter alignment to avoid the vanilla HUD#applyXOffsetToCenter (boolean:false) -- Set to true if you want the xOffset value to be applied when using a center alignment
+#applyYOffsetToMiddle (boolean:false) -- Set to true if you want the yOffset value to be applied when using a middle alignment#showInChat (boolean:false) -- Set to true to show info when chat is open, false to disable info when chat is open
+#
+#**ONLY EDIT WHAT IS BELOW THIS**
+#
+#Thu Oct 04 02:01:35 EDT 2012
+showInChat=false
+applyXOffsetToCenter=false
+yOffset=2
+showItemOverlay=true
+alignMode=bottomleft
+applyYOffsetToMiddle=false
+damageDisplayType=value
+enableItemName=false
+yOffsetBottomCenter=41
+xOffset=2
+showMaxDamage=false
+showEquippedItem=true
+damageColorList=100,f; 80,7; 60,e; 40,6; 25,c; 10,4[/code][/spoiler]
+
+[b]Thanks[/b]:- ShaRose (for helping me with the item rendering)
+[/spoiler]
+
+[color=#000080][size=6][b]DirectionHUD (v1.14 for 1.6.4/1.6.2)[/b][/size][/color][spoiler='More Info']Want to know what magnetic direction you are facing without installing fancy maps or trying to figure it out from the Debug GUI? [b]DirectionHUD[/b] is for you!
+DirectionHUD displays your magnetic compass heading at the top of your screen.
+
+[b]Features[/b][b]:[/b]
+- just a simple compass display
+- configurable alignment on your screen
+- x and y offset options
+- multiple styles to choose from
+- add your own style to the default png or make a custom png file
+- version update checking (never miss an update)
+[b]Planned[/b][b]:[/b]
+- option to allow custom compass images [b]Done![/b]
+- convert mod to Forge format
+
+[b]Helpful tutorial and spotlight by DonkeyPanic:[/b]
+[media]http://www.youtube.com/watch?v=QjJfhSl_v1Y[/media]
+
+[b]Setting up custom compass styles:[/b]
+By default 4 compass styles are provided (up to 10 will fit in the image file):
+[img]https://raw.github.com/bspkrs/MCF-Assets/master/1114612/img/compass.png[/img]
+
+The indices start at 0 (the top compass is index 0).  In the default image file the second and fourth styles are clear with white lettering (hard to see above).  If you want to edit the PNG file (/gui/compass.png) to add your own styles, just copy one of the existing styles, paste it below the others, and edit it as you see fit.  Each stye is 24 pixels tall (2 rows X 12 pixels) and 192 pixels wide.  Currently the size of the compass HUD is locked to 65x12 (meaning that you will only see 65x12 on your in-game screen), but I plan to add configurable sizing in the future.
+
+[spoiler='Screenshots (see top center)'][img]https://raw.github.com/bspkrs/MCF-Assets/master/1114612/img/DirectionHUD1.png[/img]
+
+[img]https://raw.github.com/bspkrs/MCF-Assets/master/1114612/img/DirectionHUD2.png[/img]
+
+[img]https://raw.github.com/bspkrs/MCF-Assets/master/1114612/img/DirectionHUD3.png[/img]
+[/spoiler]
+[spoiler='Videos']Thanks [url="http://www.minecraft...xxdark-zoidxx/"]XxDark_zoiDxX[/url]![media]http://www.youtube.com/watch?v=EiyqWg38yLs[/media]
+Thanks [url="http://www.minecraft...featheryninja/"]FeatheryNinja[/url]![media]http://www.youtube.com/watch?v=eRuTi_huomU[/media][/spoiler]
+
+[b]Downloads[/b]:
+[url="http://bspk.rs/MC/DirectionHUD/latest/index.html"]Latest[/url] (v1.14 for 1.6.4) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/DirectionHUD/latest/index.html"]Mirror[/url])
+[url="http://bspk.rs/MC/DirectionHUD/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/DirectionHUD/index.html"]Mirror[/url])
+[url="https://raw.github.com/bspkrs/DirectionHUD/master/change.log"]Change Log[/url]
+
+[b]Config[/b]:[spoiler='.minecraft/config/mod_DirectionHUD.bsprop.cfg'][code]#alignMode (java.lang.String:topcenter) -- Valid alignment strings are topleft, topcenter, topright, middleleft, middlecenter, middleright, bottomleft, bottomcenter, bottomright
+#markerColor (java.lang.String:c) -- Valid color values are 0-9, a-f (color values can be found here: http://www.minecraftwiki.net/wiki/File:Colors.png)
+#imageFileName (java.lang.String:compass.png) -- The filename of the compass PNG image file. The file must be located in the /gui/ folder of the DirectionHUD zip file or minecraft.jar.
+#compassIndex (int:0,>=0.0,<=9.0) -- Index of the selected compass in the compass image file starting at 0. Up to 10 compasses can fit in the image (10 would be index 9). Each compass is 24 pixels tall (two lines of height 12).
+#xOffset (int:2) -- Horizontal offset from the edge of the screen (when using right alignments the x offset is relative to the right edge of the screen)
+#yOffset (int:2) -- Vertical offset from the edge of the screen (when using bottom alignments the y offset is relative to the bottom edge of the screen)
+#yOffsetBottomCenter (int:41) -- Vertical offset used only for the bottomcenter alignment to avoid the vanilla HUD
+#applyXOffsetToCenter (boolean:false) -- Set to true if you want the xOffset value to be applied when using a center alignment
+#applyYOffsetToMiddle (boolean:false) -- Set to true if you want the yOffset value to be applied when using a middle alignment
+#showInChat (boolean:true) -- Set to true to show info when chat is open, false to disable info when chat is open
+#
+#**ONLY EDIT WHAT IS BELOW THIS**
+#
+#Mon Oct 29 04:36:30 EDT 2012
+showInChat=true
+yOffset=2
+applyXOffsetToCenter=false
+alignMode=topcenter
+compassIndex=0
+markerColor=c
+applyYOffsetToMiddle=false
+yOffsetBottomCenter=41
+xOffset=2
+imageFileName=compass.png[/code][/spoiler]
+
+[b]Thanks[/b]:- DaftPVF (for letting me work on his mods)[/spoiler]
+
+[color=#000080][size=6][b]StatusEffectHUD[/b] [b](v1.17 for 1.6.4/1.6.2)[/b][/size][/color][spoiler='More Info']Do you hate having to open your inventory to see what potion effects are still active?  In the heat of battle and need to know when to guzzle that next regeneration potion?[b] StatusEffectHUD[/b] is for you!
+
+StatusEffectHUD displays your currently active potions/effects without having to open your inventory! Sweet!
+
+[b]Features[/b]:
+- shows active potions/effects without having your inventory open
+- keeps look and feel of existing inventory effects display
+- configurable alignment on your screen
+- x and y offset config options
+- option to show/hide effect names
+- option to show/hide background box
+- version update checking (can be turned off)
+[b]Planned[/b]:
+- option to enable dynamic box size
+- option for horizontal layout
+
+[spoiler='Screenshots'][img]https://raw.github.com/bspkrs/MCF-Assets/master/1114612/img/StatusEffectHUD1.png[/img]
+
+[img]https://raw.github.com/bspkrs/MCF-Assets/master/1114612/img/StatusEffectHUD3.png[/img]
+
+[img]https://raw.github.com/bspkrs/MCF-Assets/master/1114612/img/StatusEffectHud2.png[/img]
+[/spoiler]
+
+[spoiler='Videos']Thanks [url="http://www.minecraft...78-phobic-bus/"]Phobic_Bus[/url]![media]http://www.youtube.com/watch?v=PWB7Mz_fh74[/media]
+Thanks [url="http://www.minecraft...83959-jeruhmi/"]Jeruhmi[/url]![media]http://www.youtube.com/watch?v=OFZIJQjDD4o[/media]
+Thanks [url="http://www.minecraft...5625-zain2028/"]zain2028[/url]! (yeah, he was confused and says DaftPVF created StatusEffectHUD... just a mixup)[media]http://www.youtube.com/watch?v=JoylGridrlg[/media]
+Thanks [url="http://www.minecraft...02625-tehanon/"]TehAnon[/url]![media]http://www.youtube.com/watch?v=n2jiSdhJ41Y[/media][media]http://www.youtube.com/watch?v=l28XaP8QyrM[/media][/spoiler]
+
+[b]Downloads[/b]:
+[url="http://bspk.rs/MC/StatusEffectHUD/latest/index.html"]Latest[/url] (v1.17 for 1.6.4) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StatusEffectHUD/latest/index.html"]Mirror[/url])
+[url="http://bspk.rs/MC/StatusEffectHUD/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StatusEffectHUD/index.html"]Mirror[/url])
+[url="https://raw.github.com/bspkrs/StatusEffectHUD/master/change.log"]Change Log[/url]
+
+[b]Config[/b]:[spoiler='.minecraft/config/mod_StatusEffectHUD.cfg'][code]# alignMode (java.lang.String:middleright) -- Valid alignment strings are topleft, topcenter, topright, middleleft, middlecenter, middleright, bottomleft, bottomcenter (not recommended), bottomright
+# enableBackground (boolean:false) -- Set to true to see the effect background box, false to disable.
+# enableEffectName (boolean:true) -- Set to true to show effect names, false to disable.
+# enableIconBlink (boolean:true) -- Set to true to enable blinking for the icon when a potion/effect is nearly gone, false to disable.
+# durationBlinkSeconds (int:10) -- When a potion/effect has this many seconds remaining the timer will begin to blink.
+# effectNameColor (java.lang.String:f) -- Valid color values are 0-9, a-f (color values can be found here: http://www.minecraftwiki.net/wiki/File:Colors.png).
+# durationColor (java.lang.String:f) -- Valid color values are 0-9, a-f (color values can be found here: http://www.minecraftwiki.net/wiki/File:Colors.png).
+# xOffset (int:2) -- Horizontal offset from the edge of the screen (when using right alignments the x offset is relative to the right edge of the screen).
+# yOffset (int:2) -- Vertical offset from the edge of the screen (when using bottom alignments the y offset is relative to the bottom edge of the screen).
+# yOffsetBottomCenter (int:41) -- Vertical offset used only for the bottomcenter alignment to avoid the vanilla HUD.
+# applyXOffsetToCenter (boolean:false) -- Set to true if you want the xOffset value to be applied when using a center alignment.
+# applyYOffsetToMiddle (boolean:false) -- Set to true if you want the yOffset value to be applied when using a middle alignment.
+# showInChat (boolean:true) -- Set to true to show info when chat is open, false to disable info when chat is open.
+#
+# **ONLY EDIT WHAT IS BELOW THIS**
+#
+alignMode=middleright
+applyXOffsetToCenter=false
+applyYOffsetToMiddle=false
+durationBlinkSeconds=10
+durationColor=f
+effectNameColor=f
+enableBackground=false
+enableEffectName=true
+enableIconBlink=true
+showInChat=true
+xOffset=2
+yOffset=2
+yOffsetBottomCenter=41[/code][/spoiler]
+[b]Thanks[/b]:- PuddingHuxtable (this was pretty much his idea)[/spoiler]
+
+[color=#000080][size=6][b]Install (all mods):[/b][/size][/color]
+Requires [url="http://www.minecraftforum.net/topic/75440-"]Risugami's ModLoader[/url] or equivalent (such as [url="http://files.minecraftforge.net"]Forge[/url] or [url="http://www.minecraftforum.net/topic/1149336-"]FML[/url]).  
+Do not extract.  
+Drop the downloaded zip file into the mods folder in your .minecraft folder.
+Make sure you have also downloaded [url="http://bspk.rs/MC/bspkrsCore/index.html"]bspkrsCore[/url], a [b]REQUIRED DEPENDENCY[/b] for all my mods.
+
+Thanks to [url="http://www.minecraft...7577-osparkso/"]oSPARKSo[/url] for this helpful installation video![media]http://www.youtube.com/watch?v=BF0GpHTllCg[/media]
+
+[size=4]If you like what I've done here, help me get more storage on [url="http://db.tt/DzTZ6zy"]Dropbox[/url][/size] or [url="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=briefcase%2espeakers%40gmail%2ecom&lc=US&item_name=bspkrs%20mod%20development&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest"][img]https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif[/img][/url][size=4]![/size]
+
+[color=#000080][size=6][b]Reuse / Mod Packs[/b]:[/size][/color]These mods are released under the Creative Commons Share Alike non-commercial License.  They are allowed to be used in mod packs as long as I receive credit and the URL of this forum thread is provided.  No adf.ly links.  Do not post these mods on other sites.[represent]

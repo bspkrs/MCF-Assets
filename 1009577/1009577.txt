@@ -1,0 +1,868 @@
+[size=4][b]Current updates to 1.6.4 for Ingame Info, Crystal Wing, Floating Ruins, Starting Inventory, and TreeCapitator!  DaftPVF approved![/b][/size]
+
+[size=4]DaftPVF went on hiatus in February 2012.  He [url="http://www.minecraftforum.net/topic/124117-100-daftpvfs-mods/page__st__920#entry12634055"]gave me permission[/url] to continue development on his mods, so I'll keep things up to date.[/size]
+
+[size=5][b]READ THE ENTIRE OP [/b][/size][size=5][b]BEFORE ASKING.  Yes, the entire thing.[/b][/size]
+
+[spoiler='Read this before posting about issues'][size=5][b]HELP! MOD X DOESN'T WORK!!! YOU CRASHED MINECRAFT!![/b][/size]
+Ok, that's all well and good... and I'd even say that maybe 1/10 times this is my fault.  In order for me to help you, however, I'll need some info that you most likely have.  Use pastebin.com (or a paste service of your choice) to provide your full log file.  If you are using ModLoader, the log file is /.minecraft/ModLoader.txt.  If you are using Forge, the log file is /.minecraft/ForgeModLoader-client-0.log (for client) or /.minecraft/ForgeModLoader-server-0.log (for server).  Some mods have a setting called allowDebugLogging which should be set to true before you post your log file.  [color=#ff0000][b]WITHOUT THIS INFORMATION IT IS VERY DIFFICULT TO PROVIDE ASSISTANCE, AND THE LIKELIHOOD OF GETTING A RESPONSE IS LOW.[/b][/color][/spoiler]
+
+[spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
+
+[size=4][b]News[/b]:[/size]
+04-Oct-2013 - [b]CrystalWing Forge 1.6.4.r02[/b] is out! This is the first release of CrystalWing for Forge to allow for use on servers!  Let me know of any issues you find.
+
+03-Oct-2013 - [b]IngameInfo 1.6.4.r04[/b] is out and adds a keybinding of ALT + I to toggle the info display. The "I" is configurable on the controls menu. This release also tweaks the /igi command to be more permissive since it's a client command and doesn't affect actual gameplay.
+
+[spoiler='Older News']30-Sep-2013 - [b]IngameInfo 1.6.4.r03[/b] is out to fix the item damage tags not returning 0 when the item is null.  I have also back-ported this fix to [b]IngameInfo 1.6.2.r05[/b].
+
+26-Sep-2013 - Please consider helping out a great cause and get some cool perks for it! [url="http://www.extra-life.org/index.cfm?fuseaction=donordrive.participant&amp;participantID=45410"]http://www.extra-lif...icipantID=45410[/url]
+It's for the kids!
+
+23-Sep-2013 - IngameInfo 1.6.4.r02 is out to (hopefully) fix issues with displaying mod item damage values.  I've also back-ported this release to 1.6.2 and 1.5.2.  The latest bspkrsCore is required (v3.05).
+
+21-Sep-2013 - Just released fixes for BlockBreaker and Treecapitator.  I was rushing to get the updates out and completely skipped the class transformer stuff...
+
+20-Sep-2013 - 1.6.4 updates are out for all mods!
+
+11-Sep-2013 - [b]IngameInfo 1.6.2.r03[/b] is out with two new tags: <itemquantity[id(,metadata)]> and <equippedquantity>.  [b]The new release required changes to bspkrsCore, so be sure to grab the latest release![/b]
+
+9-Sep-2013 - [b]TreeCapitator 1.6.2.r05[/b] is released with two new config options for overriding mod config settings: blockIDBlacklist and itemIDBlacklist.  These settings allow you to easily override config settings defined by mods themselves via IMC that are not present in your config file.  [b]FloatingRuins 1.6.2.r03[/b] is officially released with a fix for derpy charged creeper code and some other tweaks.
+
+29-Aug-2013 - [b]FloatingRuins 1.6.2.r03[/b] is out with a fix for skeletons not having any weapons and with new code to allow wolves to be able to spawn in igloo dungeons.
+
+24-Aug-2013 - [b]TreeCapitator 1.6.2.r04[/b] is out to fix a rare null pointer exception that was reported.  [b]BlockBreaker 1.6.2.r02[/b] is also out and adds several new features: item damage, better mod block drops support, a new option to have items drop in place, a dirty fix that makes redstone work, and support for Forge 830+ (many thanks to stranger1029 for coding some of the new stuff).
+
+19-Aug-2013 - [b]TreeCapitator 1.6.2.r03[/b] is out.  This release resolves the crash issues with the latest Forge builds as well as a derp on my part that was messing up the break speed settings. This is also the first official release of the new Ore Dictionary scanning code to automatically register tree-related blocks that are not already configured.
+
+7-Aug-2013 - [b]TreeCapitator 1.6.2.r02[/b] is out as a dev build.  This release adds a new feature to scan the Forge Ore Dictionary for tree-related blocks that are not registered with TreeCapitator.
+
+17-Jul-2013 - [b]IngameInfo 1.6.2.r02[/b] is out.  This release adds several new tags around what the player is currently looking at, a command that covers various functions, and a fix for the various item tags when used with items that have been renamed.
+
+15-Jul-2013 - [b]CrystalWing 1.6.2.r03[/b] is out and finally works correctly with ModLoader.  [b]FloatingRuings 1.6.2.r02[/b] fixes some structure generation stuff with villages.
+
+10-Jul-2013 - I've uploaded 1.6.2 releases for all mods.  They are found in the Latest release folders.  They are completely untested!
+
+9-Jul-2013 - New releases are out for everything except CrystalWing.  Notable fixes include proper block textures for TreeCapitator ML, better break speed handling in TreeCapitator Forge, and some shared code fixes that affect all mods.  Recent TreeCapitator changes have also been retrofitted to 1.5.2.r014.
+
+Change logs for all mods are now on [url="https://github.com/bspkrs"]GitHub[/url] in each mod's repo.
+
+7-Jul-2013 - The duplicate mod issue is resolved in Forge build 775 for 1.6.1.  All mods now go in the mods folder again (as of Forge build 763). I'm working on the texture issues with several mods.
+
+5-Jul-2013 - Everything is updated for 1.6.1 [b]except CrystalWing[/b] (texture issues).
+
+28-Jun-2013 - [b]TreeCapitator 1.5.2.r13[/b] is now released!  If you haven't been playing with the dev builds here's the gist of what you've been missing:
+- Nearly complete rewrite.
+- Forge config is completely redone (sounds like a lot of people understand it better).
+- Some config elements can be set on a per-tree basis as well as global defaults (see new config).
+- The FML IMC system is now utilized to allow other mods to provide their own tree/item configurations.  You can configure the priority of user (config file) vs. mod (IMC) configs for cases when a mod is configured both in the config file and by the mod itself via IMC.
+- Enchantment mode is now available (yes, it is optional).
+- The break speed of log blocks is determined by the height of the tree it belongs to. If you don't like it, set treeHeightDecidesBreakSpeed=false in your config.
+- Lots of bug fixes for both existing code and new features.
+
+[b]bspkrsCore v2.09(1.5.2)[/b]  is also out to hopefully fix the issue where some people have their config file revert every time they run the game.
+
+15-Jun-2013 - [b]TreeCapitator 1.5.2.r12[/b] dev build is out.  IIRC there are a few new mod configs, but the main change is to fix a null pointer exception when your axe breaks with enableEnchantmentMode=true.
+
+10-Jun-2013 - [b]TreeCapitator 1.5.2.r11[/b] dev build is now available.  [b]NOTE:[/b] this release changes the default logic for calculating the log break speed.  The break speed is now (by default) tied directly to the height of the tree.  Small trees will see a small increase in the time to break the block.  Large trees will have a large increase in the time to break the block.  As an example, in my testing I made a 68 block tall tree.  It took about 51 seconds to chop the log block to make the tree fall.  The config setting to enable/disable this feature is called [b]treeHeightDecidesBreakSpeed[/b].
+
+Update: I totally forgot to release a new bspkrsCore last night to support the new feature... that's fixed now.  [b]bspkrsCorev2.08[/b] is out to support the TreeCapitator development build.
+
+Notes about the [b]TreeCapitator[/b] [i][b]development build:[/b][/i]
+- [b]The config file is completely redone[/b]... you should either delete or rename your existing config.
+- The config file [b][i]should[/i][/b] be easier to figure out (I guess we'll see).
+- If you spent a lot of time configuring trees in the old format, never fear! The new format isn't drastically different as far as the actual values you need to provide, it just lays out the values in a way that makes more sense, so converting your existing config to the new format isn't too hard (I have decided against "supporting" old config formats as it makes the mod code very messy and harder to maintain).  I will provide more details on this.
+- There are now config elements that can be set on a per-tree basis as well as global defaults (see new config).
+- There are new config elements!
+- The FML IMC system is now used to allow other mods to provide their own tree/item configurations.  You can configure the priority of user (config file) vs. mod (IMC) configs for cases when a mod is configured both in the config file and by the mod itself via IMC.
+- Enchantment mode is now available (yes, it is optional).
+- In-game adding of trees is not coded yet.  It may not make this release.
+
+[b]NOTE:[/b] If you have played using a previous development build and want to get the new/updated default mod configs, you'll have to either delete your config file or remove the "tree_and_mod_configs" config section completely to get TreeCapitator to re-populate it!
+
+05-Jun-2013 - TreeCapitator 1.5.2.r10 dev build is now available.  This release fixes the BoP default config and a few other small things.
+
+31-May-2013 - TreeCapitator 1.5.2.r09 dev build is now available.  This release fixes the erroneous client chat message about the .jar file being in the wrong place.
+
+30-May-2013 - TreeCapitator 1.5.2.r07 dev build is now available.  Along with it is an official release of bspkrsCorev2.07 for 1.5.2.  This build fixes the weird issue with Natura trees (actually had nothing to do with spaces in config names and everything to do with the number of trees) and beefs up the Forestry and Natura default configs.  Have at it!  I'm feeling pretty good about this build...
+
+Update: TreeCapitator 1.5.2.r08 dev build is out to resolve the derped Twilight Forest default config as well as beef it up some with more trees.  Also added Railcraft and Applied Energistics configs for axes since someone sent them to me.
+
+28-May-2013 - TreeCapitator 1.5.2.r06 dev build is now available.  This build adds a bunch of updated and new default configs (BoP, DivineRPG, EBXL, Forestry, IC2, MFReloaded, Mekanism, Natura, RP2, Tinkers Construct, Thaumcraft, and TwilightForest), adds comments explaining the config (I need feedback on this), and fixes up the config file ordering.
+
+27-May-2013 - TreeCapitator 1.5.2.r05 dev build is now available to resolve the NPE issues people were having with IC2 rubber trees.  Thanks for all the defect reports!
+
+25-May-2013 - Thanks for using the TreeCapitator dev build and submitting your issues!  Earlier I released 1.5.2.r03 to fix the config reverting, and I'm about to release 1.5.2.r04 to fix several more issues.  Keep the reports coming in!
+
+24-May-2013 - [b]bspkrsCore v2.05(1.5.2)[/b], [b]BlockBreaker 1.5.2.r02[/b], and [b]FloatingRuins 1.5.2.r02[/b] are out!  These releases are necessary due to changes in bspkrsCore for the upcoming TreeCapitator release which required a LOT of changes.  Speaking of which, a preliminary development build of [b]TreeCapitator 1.5.2.r02[/b] is now available!  Check out the Dev download link below.
+
+10-May-2013 - Since it's taking me longer than I'd like to finish up my changes in TreeCapitator, I've gone ahead and recompiled the last 1.5.1 tag for 1.5.2.  Downloads are live.
+
+Update: bspkrsCore v2.04 is out to fix the server crash with the latest TreeCapitator.
+
+3-May-2013 - 1.5.2 updates are out for bspkrsCore, BlockBreaker, CrystalWing, FloatingRuins, IngameInfo, and StartingInventory.  TreeCapitator is in the middle of a major overhaul, but it won't be far behind.
+
+24-Apr-2013 - [b]IngameInfo 1.5.1.r02[/b] is out to address an issue caused by mods that do not clean up their texture bindings.  It also includes a new config file handler, but most people probably don't notice any difference
+
+12-Apr-2013 - I am apparently having The Worst Luck[sup]TM[/sup] this week with hosting providers.  All links are updated and should be working now... I will add a permanent mirror for all links later today.
+
+9-Apr-2013 - I have released a new version of [b]bspkrsCore [/b]for 1.5.1 and 1.4.7 to address the update check timeouts issue.  This release also incorporates a number of other changes including a super secret feature [img]http://static.minecraftforum.net//public/style_emoticons/default/happy.png[/img] (don't ask, I'm not telling).  You will notice that mod_bspkrsCore.cfg is no longer used; mod_bspkrsCore.bsprop.cfg is used instead.  This is due to features that I've been slowly working on that are partially being released early as part of this defect release.
+
+Update: [b]bspkrsCorev2.02[/b] is out for 1.5.1 and 1.4.7 to fix the crash when using it on a server.
+
+8-Apr-2013 - I have gotten the file downloads setup on a new VPS, so the links should be working now.  I will update them again once DNS propagates.
+
+7-Apr-2013 - Apparently my VPS is down, and so my download pages as well.  You can try [url="http://dl.dropbox.com/u/20748481/MC/index.html"]here[/url] for now until DropBox arbitrarily decides to cut me off again.
+
+23-Mar-2013 - 1.5.1 updates are released!
+
+Update - I have re-ordered the list of files for bspkrsCore to avoid further confusion.  Also, one of the reasons this release took longer than usual to get out is because I was busy making automated build scripts for all these mods so that anyone can pull the Github repos and run Ant to build the mod zips/jars.  Since I was using a new build process, I couldn't release the mods without fully testing them (believe me, you'd all be very upset if I hadn't).  I'll provide instructions on how to run the build scripts soon (it's really very easy, and requires no coding knowledge as long as the code is up-to-date).
+
+15-Mar-2013 - 1.5 updates are live on the download site!  In addition to updating to 1.5 I've also included a number of defect fixes.  Details will follow tomorrow (I'm tired).
+
+UPDATE: Looks like I goofed something in the TreeCapitator Forge release (same in BlockBreaker).  I'll get it fixed and rerelease ASAP.
+
+UPDATE 2: Ok, I've resolved the issues with TreeCapitator Forge and BlockBreaker.  The fix required changes to bspkrsCore (which was fudged anyway) as well as the other 2 mods.  You'll have to redownload bspkrsCore as well as TreeCapitator if you ran into this issue.
+
+UPDATE 3: Fixed derp in BlockBreaker version info (was still reporting that the 1.4.7 version is available) and released CrystalWing 1.5.0.r02 to fix derp in burned wing. Phew!
+
+10-Mar-2013 - bspkrsCorev1.02 is out to fix a defect in shared code.  Details are in the changelog.
+
+23-Feb-2013 - I've just been notified that my DropBox links are generating too much traffic and are disabled.  [s]I'm looking into another way to provide downloads.[/s] I've been able to figure out another solution.  Download links should work now.
+
+20-Feb-2013 - All mods now require bspkrsCore to be installed!  This should resolve the issues people were seeing with methods being not found.  [b]NOTE[/b]: if you want to turn off the update checks for my mods, you will now set it in mod_bspkrsCore.cfg, not in the config file for the mods.
+
+13-Feb-2013 - [b]FloatingRuins ML/Forge 1.4.6.r05[/b] is out to fix the infinite loop bug when entering dimensions where the void is exposed.  Also fixes the dimensionIDBlacklist feature, which wasn't working properly.
+
+05-Feb-2013 - Fixed the client-side chat messages for TreeCapitator and BlockBreaker and added some new features/options for FloatingRuins.  Have at it.
+
+31-Jan-2013 - Fixed a few issues and released [b]BlockBreaker Forge 1.4.6.r02[/b]. Also pushed [b]FloatingRuins ML/Forge 1.4.6.r03[/b] and [b]TreeCapitator ML/Forge 1.4.6.r05[/b] to make them compatible with BlockBreaker.  TreeCapitator ML is now all caught up to the Forge version as far as new config settings.
+
+30-Jan-2013 - I've spent a few days rewriting most of ConnectedDestruction and am pleased to present the newly renamed [b]BlockBreaker Forge 1.4.6.r01[/b] for your chain reaction block breaking pleasure.  It contains the basic functionality from the last available version of ConnectedDestruction.  I will be rewriting the config for the next major version, but this should suffice for now.  [b]StartingInventory ML 1.4.6.r03[/b] is also out and finally allows items to be added directly to the player's inventory again.
+
+27-Jan-2013 - I just posted [b]TreeCapitator Forge 1.4.6.r04[/b] under dev downloads.  Fixed a few default configs, added a few new default configs, and added ID Resolver support.  Full change log to come.
+
+24-Jan-2013 - [b]IngameInfo 1.4.6.r02[/b] is out with a minor compatibility fix due to a vanilla bug.  [b]TreeCapitator 1.4.6.r04[/b] and [b]FloatingRuins 1.4.6.r02 [/b]are expected to be out soon.
+
+10-Jan-2013 - Status update: I have tested [b]TreeCapitator Forge 1.4.6.r03[/b] on Forge 6.6.0.497 for 1.4.7 and it appears to be working fine.  At this time I am promoting 1.4.6.r03 from the dev builds folder to latest.  I am working hard on 1.4.6.r04 to add default configs for several more mods and a solution for those that need to use ID Resolver for mods to play nice.
+
+02-Jan-2013 - Happy New Year!  Status update: been working on an update for TreeCapitator.  I've entered the testing phase, so hopefully I can get it out soon.
+
+Also, the 1.4.6 versions [i]should[/i] work with 1.4.7.  Let me know if you find otherwise.
+
+23-Dec-2012 - [b]1.4.6[/b] updates are out.  Let me know of any issues.
+
+Update: [b]I have fixed the issue with TreeCapitator Forge 1.4.6.r01[/b].  Just download it again... I'm too tired of updates to bump the version again.
+
+23-Dec-2012 - [b]TreeCapitator Forge 1.4.5.r05[/b] is out!  This is a major update on top of the previous major update.  I fixed several issues that shipped in 1.4.5.r04 and made the config more flexible, although slightly more complicated.  Basically, now the mod will work [i]without any config changes necessary[/i] for the following mods: ExtrabiomesXL, Forestry, IC2, Thaumcraft, Twilight Forest, and Zap Apples.  You just have to tell TreeCapitator how to find the appropriate properties from other mods' config files.  I will be adding more mods to the default list in the hopes that eventually just about all mods that add trees will just work without the need to edit the block config stuff.
+
+If you don't like the new config, that's just too bad.  I put a TON of work into the default config to make it work with a lot of big-name mods out of the box.  Yes, it is more complicated than it used to be, but the complication comes with benefits: robust default config, ability to define trees however you want, option to use strict log/leaf block pairing, and a lot more examples.  I've also included a debugging option that defaults to true for now to help both you and me figure out what went wrong.
+
+19-Dec-2012 - It's finally ready to go: [b]TreeCapitator Forge 1.4.5.r04[/b] is out!  This is a major update.  The config file has been completely redone.  Block metadata is fully supported.  Several popular mods are configured by default (using default block IDs).  SMP is less glitchy.  Custom remote config lists are configurable.  Basically, it's way better!
+
+FloatingRuins Forge 1.4.5.r03 is also out!  This release brings one new island shape and a lot of improvements to dungeons such as a hardness setting, spawners support more mobs, and a few other surprizes.  Check it out with a fresh config!
+
+12-Dec-2012 - I've been hard at work on new versions of [b]TreeCapitator[/b] and [b]FloatingRuins[/b].  Code is probably about 85% complete for TreeCapitator to add support for block metadata in the config, a proper SMP solution to prevent glitches if you play on a server without TC installed, and a number of other improvements.  FloatingRuins users will see a number of major improvements: at least one new island shape (cone, maybe one other if I can make it look nice), support for additional mob spawner types (charged creepers, pig zombies, wither skeletons, witches, and maybe a few surprises), and a new "harderDungeons" option that will make dungeons harder to conquer (bedrock roof, chest is better protected, harder mobs to fight).
+
+[b]NOTE[/b]: These new features are mostly coded, but not released yet.  I just thought I'd give a status update.  I hope to release them soon.
+
+30-Nov-2012 - [b]TreeCapitator Forge 1.4.5.r03[/b] is out to address the issue with block hardness settings not being applied correctly.
+
+23-Nov-2012 - [b]TreeCapitator Forge 1.4.5.r02[/b] and [b]FloatingRuins Forge 1.4.5.r02[/b] are out to resolve the server-side crashes.
+
+Update: I have retrofitted the latest changes into [b]TreeCapitator Forge 1.3.2.r09[/b] and [b]TreeCapitator Forge 1.4.2.r04[/b].  [b]TreeCapitator Forge 1.4.5.r02[/b] should work for [b]1.4.4[/b] as well.  Remember to remove any TreeCapitator related zip files from your .minecraft/mods folder and put the new .jar file in the [b]coremods[/b] folder.
+
+21-Nov-2012 - [b]1.4.5[/b] releases are out for [b]TreeCapitator ML[/b], [b]FloatingRuins ML/Forge[/b], [b]IngameInfo[/b], [b]StartingInventory[/b], and [b]CrystalWing[/b].
+
+[b]TreeCapitator Forge 1.4.5.r01[/b] is a bit more than just an update to MC 1.4.5... it's an upgrade in the form of a [b]Forge CoreMod[/b].  With this update you will now be able to define a list of [b]any block IDs[/b] you want to be able to TreeCapitate (checkout the [b]logIDList[/b] setting in your config).  This does not require a special axe and it is not specific to some subset of blocks.  You can now enter [i]any[/i] log block ID and [i]any[/i] tool item ID into your config and [i]all[/i] combinations of the two will work.  You can even enter non log blocks, although it will still try to figure out if it's a tree or not... (hmm... idea).  The day has arrived!
+
+20-Nov-2012 - [b]StartingInventory 1.4.4.r02[/b] is out to fix the silly mistake in handling the config file that would cause it to overwrite your custom config every time... *derp*
+
+18-Nov-2012 - [b]TreeCapitator EBXL Addon 1.4.4.r01[/b] is out!  Should fix the issue with trees grown from saplings having their leaves start to decay right away.
+
+Update: there was a mistake in the mcmod.info file for the EBXL Addon for TreeCapitator that is fixed now.  If you are seeing a classNotFound error when you try to run it, you can either remove "[1.4.4]" from the beginning of the filename or redownload the mod to get the fix.
+
+14-Nov-2012 - I completely forgot to mention that the config files for IngameInfo and StartingInventory have been moved from /mods/daftpvf/ to /config/<modname>/.
+
+13-Nov-2012 - Releases for MC 1.4.4 are out for TreeCapitator, FloatingRuins, IngameInfo, StartingInventory, and CrystalWing.
+
+05-Nov-2012 - Be sure to check out [b][url="http://www.minecraftforum.net/topic/1548243-"]WorldStateCheckpoints[/url][/b], my fork of MightyPork's Checkpoints Backup Mod.  It allows you to make save points in your SP worlds!  An essential tool for any Minecrafter!
+
+03-Nov-2012 - Many people have been reporting that the EBXL addon is crashing MC. It turns out if the mods are loaded by Forge in the wrong order it can cause this issue.  I have released [b]TreeCapitator Addon EBXL 1.4.2.r02[/b] to address this.  It now properly identifies itself as being dependent on EBXL and TreeCapitator and so should be loaded after they are both loaded.
+
+02-Nov-2012 - [b]TreeCapitator ML/FML 1.4.2.r03[/b], [b]IngameInfo 1.4.2.r02[/b], [b]FloatingRuins ML 1.4.2.r01a[/b], and [b]CrystalWing 1.4.2.r02[/b] are out to address some tick registration issues with Forge when using the ModLoader version mods.  TreeCapitator 1.4.2.r03 also includes a fix for the shears not taking damage in Forge due to a change they make in the ItemShears class.
+
+I've also reorganized all of my downloads.  Let me know what you think!
+
+29-Oct-2012 - [b]TreeCapitator ML/FML 1.4.2.r02[/b], [b]TreeCapitator ExtraBiomesXL Addon 1.4.2.r01[/b], [b]FloatingRuins ML 1.4.2.r01[/b], [b]CrystalWing 1.4.2.r01[/b], and [b]StartingInventory 1.4.2.r01[/b] are out!  TreeCapitator 1.4.2.r02 has a fix for the issue of crashing the game if your shears break while chopping trees, and I was able to fix the CrystalWing sounds.
+
+I've also decided to discontinue support for SlimeBoots and SlimeChestplate (if that wasn't already obvious).  If anyone wants the source code for those mods, let me know.
+
+26-Oct-2012 - [b]TreeCapitator FML 1.4.2.r01[/b], [b]FloatingRuins FML 1.4.2.r01[/b], and [b]IngameInfo 1.4.2.r01[/b] are out!  TreeCapitator 1.4.2.r01 is functionally the same as 1.3.2.r08.  FloatingRuins 1.4.2.r01 contains new code to handle moving chests when they are picked up in an island.  IngameInfo 1.4.2.r01 contains some code refactoring and small fixes.  Since IngameInfo was compiled using Forge, I may need to put out another release when Risugami releases ModLoader if there are any mod breaking changes.  I haven't added any new content from 1.4.2 into the mods (for instance, new mobs for the ruins spawners), but I will make sure it's in the next release. Let me know if you notice anything weird with these releases.
+
+25-Oct-2012 - I have MCP and Forge all setup for 1.4.2, so I should have some mods released for 1.4.2 later tonight or tomorrow.
+
+16-Oct-2012 - [b]TreeCapitator Addon EBXL 1.3.2.r02[/b] is out to fix the blank item names for the logs.
+
+15-Oct-2012 - [b]TreeCapitator 1.3.2.r08[/b] is a minor update to the TreeBlockBreaker class (the pseudo-API).  However, [b]TreeCapitator Addon IC2 1.3.2.r01[/b] and [b]TreeCapitator Addon EBXL 1.3.2.r01[/b] are brand spanking new!  They mostly work as expected, although I did see some weird issues with the EBXL addon where leaf blocks from other trees would start to decay after chopping down one tree... so you might want to try them out in a test world before deciding that you are comfortable using them in a world you are heavily invested in.  Always take a backup!
+
+I will be releasing [b]TreeCapitator [/b]addon mods to support other mod's trees on a mod-by-mod basis.  You can request support for a mod's trees by [url="https://github.com/bspkrs/bspkrs.treecapitator/issues"]entering an enhancement request[/url].  Be sure to search existing issues first to see if it's already been requested.  If it hasn't, please provide the name of the mod and include a link to the mod's website, MCF thread, or github repo.
+
+13-Oct-2012 - I've just finished putting together [b]TreeCapitator 1.3.2.r07[/b].  This release is heavily refactored to make addons for other mods much easier.  I also changed the way axes receive damage (had to remove the damageMultiplier) so that IC2 items should work properly now.  In the process I found and fixed a number of bugs related to creative mode and the block hardness setting.
+
+08-Oct-2012 - I've added just about all the code for all the mods I work on to [url="https://github.com/bspkrs"]github[/url].  Feel free to see how all this stuff works underneath.
+
+06-Oct-2012 - Retrofits!  I've taken the latest 1.3.2 versions of FloatingRuins, IngameInfo, and TreeCapitator and magically turned out [b]FloatingRuins 1.2.5.r01[/b], [b]IngameInfo 1.2.5.r01[/b], and [b]TreeCapitator 1.2.5.r01[/b]!  The 1.2.5 download links can be found below the current downloads section.
+
+05-Oct-2012 - [b]TreeCapitator 1.3.2.r06[/b] is a minor defect release to prevent a ring of leaves being left behind in the rare case of chopping a bush-style tree that is only 1 wood block surrounded by leaves.  Thanks to RyanFialcowitz for helping me track it down.  Last version bump for TreeCapitator for at least a week, I promise [img]http://static.minecraftforum.net//public/style_emoticons/default/sleep.png[/img]
+
+04-Oct-2012 - Lots of updates and fixes in [b]IngameInfo 1.3.2.r01[/b]!  Notable changes: new tags for <dimension>, <nextrain> (time until rain), <snowing[/]>, <difficulty>, and a bunch for text formatting, added format parameters for <mctime[]> and <rltime[]>, fixed <raining[/]>, fixed a major issue with all middle alignments, added new config options for x and y screen offsets, and refactored a lot of the code.
+
+New releases are out for [b]TreeCapitator 1.3.2.r05[/b] (ML/FML) and [b]FloatingRuins 1.3.2.r03[/b] (ML/FML) to maintain compatibility with IngameInfo.
+
+02-Oct-2012 - [b]StartingInventory 1.3.2.r01[/b] is out!  This release removes the shoddy workaround of using server commands to give the player items.  Instead now the mod will either place a chest and populate it or hijack the bonus chest and repopulate that.  If you set useBonusChest=true in your config, keep in mind that you must also set the bonus chest option to ON when creating a new world.
+
+01-Oct-2012 - Well, after 3 release attempts there were still several small issues that should now be resolved.  [b]TreeCapitator 1.3.2.r04[/b] addresses the issue of a ring of leaf blocks remaining when chopping down smaller trees and item damage not being applied correctly when needItem = false.  Sorry for the rapid re-release... it's hard to find all the issues when you are both developer and QA.
+
+30-Sep-2012 - Ok, third release attempt (kept finding issues).  [b]TreeCapitator 1.3.2.r03[/b] adds options for allowing item damage per log/leaf block, a switch for reversing the action for chopping when sneaking, and a setting for the maximum distance to destroy logs.  More details on the new options are in the TreeCapitator section below.  I recommend reading up on the default settings to avoid surprises with the new features.
+
+[b]NOTE[/b]: the new config setting [b]allowItemDamage[/b] is enabled by default and [b]allowMoreBlocksThanDamage[/b] is disabled by default.  This means that if you use a wooden axe to chop a jungle tree, the tree isn't going to be chopped completely [i]with the default settings[/i].  This is [i]intentional[/i] to provide a default config that is not completely overpowered.
+
+28-Sep-2012 - It's been a busy week... just completed the underlying code for Item Damage in TreeCapitator along with some other compatibility features.  Should get it out by [s]later tonight or tomorrow[/s] (looks like it will be Sunday).
+
+19-Sep-2012 - [b]FloatingRuins 1.3.2.r02[/b] is out.  This release addresses some subtle ruins generation issues, adds in the blockIDBlacklist for FML, and adds code to handle the spawner properly if an island happens to be generated on top of a vanilla dungeon.  I recommend trying it out with rarity set to 44 on one of the following test seeds: 5460896710218081688, 1470679938 (large biomes map type, island with vanilla spawner inside it at 188, 360 if your baseRadius and radiusVariation settings are set to 8).
+
+19-Sep-2012 - Apparently a fix I put in my mod version checker class to handle not being connected to the internet was full of failure, so I've updated all the downloads that use it with a truly fixed version of the class.  I decided not to bump the version numbers for a fix to the version checking code because I didn't want to totally spam everyone over something small like that.  Nevertheless, if you like to play without an internet connection be sure to download the latest version (again, if you already have) to avoid game crashing fun.
+
+18-Sep-2012 - If you are using [b]TreeCapitator FML 1.3.2.r02[/b] and are seeing the update message, you can either 1) download it again, 2) edit mcmod.info to change 1.3.2.r01 to 1.3.2.r02, or 3) delete mcmod.info from the zip file.  I totally forgot to update mcmod.info... should be fixed now.
+
+Edit: I've also noticed that the new ruins generation code can make some ugly boxes underneath the island if it is thin... I will push out a fix for this soon.
+
+17-Sep-2012 - [b]FloatingRuins 1.3.2.r01[/b] is out for ModLoader, ModLoaderMP Server, and Forge universal ([i]tested with Forge 4.1.1.251[/i])!  In addition to being the first Forge release of this mod the update brings a few new features: option to disable in Superflat worlds, options for island radius and island depth (thickness), and a block ID blacklist.  This release also saw a ton of code refactoring and some subtle improvements to the way the ruins are generated.  I recommend using a fresh config file as there are a lot of new config elements.  Details on them will be added soon (out of time ATM).
+
+Edit: I just released new  versions of [b]TreeCapitator 1.3.2.r02[/b] to maintain compatibility with the latest FloatingRuins (they share some common classes).
+
+Edit 2: My dumb ass forgot to add in the block ID blacklist in the config file section for FML... it is only configured to ignore bedrock by default, so I'll be sure to push out a fix for that soon (the blacklist is working, it's just not configurable).
+
+12-Sep-2012 - [b]TreeCapitator 1.3.2.r01[/b] is out for ModLoader, ModLoaderMP Server, and Forge universal ([i]tested with Forge 4.1.1.251[/i])!  There are no significant new features in this release, but the underlying structure of the mod has changed dramatically to make future updates a lot easier to manage from my end.  The actual TreeCapitator code is now exactly the same for all three versions which is why I changed the version numbering scheme.  Upcoming features: configurable tiers of block breaking based on tool material, options to have damage applied to tools based on the number of blocks broken, and a tweak to the leaf breaking code to make the shearVines option independent of the shearLeaves option (for people like me that have no use for sheared leaves but do like vines).[/spoiler]
+
+[size=4][size=3][color=#8B0000][b][size=5]DISCLAIMER[/size]:[/b][/color]
+[size=4]NO WARRANTY IS GIVEN, EXPRESSED, OR IMPLIED.  USE AT YOUR OWN RISK.[/size][/size][/size] (That means take backups!)
+
+[b]Ways to contact me[/b]:
+[b]IRC:[/b] I can usually be found in the IRC channels [b]#risucraft[/b] or[b] [/b][b]#[/b][b]treecapitator[/b] on [b]irc.esper.net[/b].
+[b]Twitter:[/b] [url="https://twitter.com/bspkrs"]https://twitter.com/bspkrs[/url]
+
+[size=4][url="http://www.minecraftforum.net/topic/124117-100-daftpvfs-mods/"]Donate to DaftPVF[/url] if you like his mods!  
+If you like what I've done here, help me get more storage on [url="http://db.tt/DzTZ6zy"]Dropbox[/url][/size] or [url="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=briefcase%2espeakers%40gmail%2ecom&amp;lc=US&amp;item_name=bspkrs%20mod%20development&amp;no_note=0&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest"][img]https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif[/img][/url][size=4]![/size]
+
+[b]Other mods I've released:[/b]
+Be sure to check out [b][url="http://www.minecraftforum.net/topic/1548243-"]WorldStateCheckpoints[/url][/b], my fork of MightyPork's Checkpoints Backup Mod.  It allows you to make save points in your SP worlds!  An essential tool for any Minecrafter!
+
+[size=4]All of my original mods (StatusEffectHUD, DirectionHUD, and now ArmorStatusHUD) can be found [url="http://www.minecraftforum.net/topic/1114612-"]here[/url].[/size]
+
+[b]Video Spotlights:[/b]
+Thanks CaptainSours!
+[media]http://www.youtube.com/watch?v=Ekx-bOTDV4w[/media]
+
+[size=5][b]Downloads:[/b][/size]
+
+[size=5][b]bspkrsCore:[/b][/size]
+[color=#ff0000][b]ATTENTION:[/b][/color] This is a [color=#ff0000][b]REQUIRED[/b][/color] mod in order for any of the other mods to work.  It contains the core shared classes used by all mods I release.  [b]If you don't install it along with any of the other mods here, Minecraft will crash[/b].  You have been warned.
+Drop the downloaded .zip file into the mods folder under .minecraft.
+ModLoader/Forge download: [url="http://bspk.rs/MC/bspkrsCore/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/bspkrsCore/latest/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/bspkrsCore/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/bspkrsCore/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/bspkrsCore/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/bspkrsCore/dev/index.html"]Mirror[/url])
+[url="https://github.com/bspkrs/bspkrsCore/blob/master/change.log"]Change Log[/url]
+This mod contains core classes used in all other mods I release.  If you want to turn off update checking for my mods, you will need to set allowUpdateCheck=false in mod_bspkrsCore.bsprops.cfg.
+
+[size=6][b]ALL MODS BEYOND THIS POINT REQUIRE bspkrsCore TO BE INSTALLED.[/b][/size]
+[b]You will be ignored if you post about MC crashing because you didn't install bspkrsCore.[/b]
+
+[b][size=5]Treecapitator[/size][/b]
+ModLoader (SSP): [url="http://bspk.rs/MC/TreeCapitator_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/TreeCapitator_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/TreeCapitator_ML/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/dev/index.html"]Mirror[/url])
+Forge (SSP/SMP): [url="http://bspk.rs/MC/TreeCapitator_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r02) [url="http://bspk.rs/MC/TreeCapitator_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/TreeCapitator_Forge/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/dev/index.html"]Mirror[/url])  
+[url="https://github.com/bspkrs/TreeCapitator/blob/master/change.log"]Change Log[/url]
+[spoiler='More Info']
+This mod allows you to chop down an entire tree (leaves and all) by harvesting one of its logs. Based on Terraria tree-cutting style.
+
+[b][size=4]Features [/size][/b][b](see .minecraft/config/TreeCapitator.cfg for details)[/b][b][size=4]:[/size][/b]
+- [b]Forge version can break any log out of the box [/b]
+- Sneak while chopping to break logs normally (configurable)
+- Treecapitation Enchantment mode available.
+- The break speed of log blocks is determined by the height of the tree it belongs to. If you don't like it, set treeHeightDecidesBreakSpeed=false in your config.
+- Configurable list of tool IDs to determine what an "axe" is
+- optional item damage based on number of logs broken (defaults to enabled)
+- optional increasing item damage per block broken (off by default)
+- Smart tree-detection (configurable)
+- option to destroy leaves (enabled by default)
+- option to shear leaves (with a shear-type item in hotbar)
+- option to shear vines (with a shear-type item in hotbar)
+- disable drops in creative
+- disable tool requirement
+- The FML IMC system is now utilized to allow other mods to provide their own tree/item configurations.  You can configure the priority of user (config file) vs. mod (IMC) configs for cases when a mod is configured both in the config file and by the mod itself via IMC.
+- mod version checking (never miss a new feature)
+
+[b]Some notes on how it works:[/b][spoiler][b]Tree Detection[/b]
+- Trees are determined by looking at the number of leaf blocks that neighbor the top block of a vertical column of logs.
+- If the top block has 3 or more neighboring leaf blocks the code considers that column of logs to be a tree.
+- If the top block does not have 3 neighboring leaf blocks the code will default to normal block breaking.
+[b]Item Damage[/b]
+- Axes and Shears that have the Unbreaking enchantment will work the way they are supposed to.
+- Damage is applied to the item as each block is broken in the chain.
+- The allowMoreBlocksThanDamage setting should be self-explanitory, but basically it means that if it is set to false and your item breaks in the middle of chopping down a tree, the remaining blocks will not be broken.
+- The code will not search for other axes in your hotbar to apply damage to if your current axe breaks.
+- If you have multiple "shear-type" items in your hotbar, the code will always apply damage to the left-most item.
+[b]Destroying Leaves/Vines[/b]
+- Shearing vines doesn't get [i]every[/i] vine  It seems to favor vines hanging on the Western face of the tree.
+- The destroyLeaves setting MUST be set to true in order for shearLeaves or shearVines to work.
+- The shearLeaves and shearVines settings can be enabled independently of each other.
+- Yes, sometimes a few leaf blocks are left behind after chopping a tree, but they will decay normally.[/spoiler]
+[b]Videos:[/b]
+[media]http://www.youtube.com/watch?v=Ekk5-zNIfVI[/media]
+[media]http://www.youtube.com/watch?v=_2Jd9VmiQxU[/media]
+
+[b]ML/MLMP Configuration File (.minecraft/config/mod_treeCapitator.cfg):[/b][spoiler][code]#axeIDList (java.lang.String:271; 275; 258; 286; 279) -- IDs of items that can chop down trees. Use ',' to split item id from metadata and ';' to split items.
+#needItem (boolean:true) -- Whether you need an item from the IDList to chop down a tree. Disabling will let you chop trees with any item.
+#onlyDestroyUpwards (boolean:true) -- Setting this to false will allow the chopping to move downward as well as upward (and blocks below the one you break will be chopped)
+#destroyLeaves (boolean:true) -- Enabling this will make leaves be destroyed when trees are chopped.
+#shearLeaves (boolean:false) -- Enabling this will cause destroyed leaves to be sheared when a shearing item is in the hotbar (ignored if destroyLeaves is false).
+#shearVines (boolean:false) -- Enabling this will shear /some/ of the vines on a tree when a shearing item is in the hotbar (ignored if destroyLeaves is false).
+#shearIDList (java.lang.String:359) -- IDs of items that when placed in the hotbar will allow leaves to be sheared when shearLeaves is true. Use ',' to split item id from metadata and ';' to split items.
+#logHardnessNormal (float:2.0) -- The hardness of logs for when you are using items that won't chop down the trees.
+#logHardnessModified (float:4.0) -- The hardness of logs for when you are using items that can chop down trees.
+#disableInCreative (boolean:false) -- Flag to disable tree chopping in Creative mode
+#disableCreativeDrops (boolean:false) -- Flag to disable drops in Creative mode
+#allowItemDamage (boolean:true) -- Enable to cause item damage based on number of blocks destroyed
+#allowMoreBlocksThanDamage (boolean:false) -- Enable to allow chopping down the entire tree even if your item does not have enough damage remaining to cover the number of blocks.
+#damageMultiplier (float:1.0) -- The damage your item takes will be multiplied by this decimal number, ie- if you set it to 0.5F, your item will only take half as much damage when chopping an entire tree versus breaking blocks normally, or if you use 2.0F it will cause twice as much damage per block broken.
+#sneakAction (java.lang.String:disable) -- Set sneakAction = "disable" to disable tree chopping while sneaking, set sneakAction = "enable" to only enable tree chopping while sneaking.
+#maxBreakDistance (int:10) -- The maximum horizontal distance that the log breaking algorithm will travel (use -1 for no limit).
+#
+#**ONLY EDIT WHAT IS BELOW THIS**
+#
+#Sun Sep 30 12:32:48 EDT 2012
+shearIDList=359
+needItem=true
+disableCreativeDrops=false
+destroyLeaves=true
+allowItemDamage=true
+checksum=fa1fxu
+shearVines=false
+allowMoreBlocksThanDamage=false
+shearLeaves=false
+onlyDestroyUpwards=true
+damageMultiplier=1.0
+logHardnessModified=4.0
+logHardnessNormal=2.0
+sneakAction=disable
+maxBreakDistance=10
+axeIDList=271; 275; 258; 286; 279
+disableInCreative=false[/code][/spoiler]
+
+[b]Forge Configuration File (.minecraft/config/TreeCapitator.cfg):[/b]
+[url="http://pastebin.com/kKGA4D36"]http://pastebin.com/kKGA4D36[/url] (it's too long to put here, lol)[/spoiler]
+
+[size=5][b]IngameInfo[/b]: [/size]
+[size=4]ModLoader[/size]: [url="http://bspk.rs/MC/IngameInfo/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/IngameInfo/latest/index.html"]Mirror[/url]) (ML 1.6.4.r04) [url="http://bspk.rs/MC/IngameInfo/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/IngameInfo/index.html"]Mirror[/url])
+[url="https://github.com/bspkrs/IngameInfo/blob/master/change.log"]Change Log[/url]
+Lunatrius has released a [url="http://www.minecraftforum.net/topic/1296949-"]forked version of IngameInfo[/url] that offers new functionality as well as a new input file format in XML.  Check it out![spoiler]New Video!
+
+[b]Videos:[/b]
+Thanks [url="http://www.minecraftforum.net/user/715625-zain2028/"]zain2028[/url]! (yeah, he was confused and says DaftPVF created StatusEffectHUD... just a mixup)[media]http://www.youtube.com/watch?v=JoylGridrlg[/media]
+Thanks [url="http://www.minecraftforum.net/user/1823995-xtr3m3-demon2/"]XTR3M3_Demon2[/url]! (German)
+[media]http://www.youtube.com/watch?v=L2Z_EvzRI44[/media]
+
+Want to know how much score you have without having to die?
+In need of real time information like weather, light level or your world size as you explore?
+Then this mod is for you!
+
+Ingame Info adds the ability to add lines of information on the top of your in-game screen.
+All you must do is run the game once, exit out, check for a file named [b]ingameInfo.txt[/b] in the [b].minecraft\config\IngameInfo\[/b] folder ([b].minecraft/mods/daftpvf/[/b] in releases before 1.4.4.r01), and edit it adding whatever you want!
+
+The "igi" command can be used to reload the format file and enable/disable the display of the info text. (new in 1.6.2.r02)
+Usage:
+[code]/igi [reload/enable/disable/toggle][/code]
+
+The useful information is accessed by using tags in the file.
+The format for tags is <tag> for regular tags and <istag[yes no]=""> for dynamically set tags based on true / false states. (e.g.: whether or not the chunk you are in has a chance of spawning slimes)
+
+The color of the text can be changed by using the character '&amp;' or the character '�' and a color code or using the new color tags. The available colors and their respective code is shown in this image:
+[img]http://www.minecraftwiki.net/images/4/4c/Colors.png[/img]
+
+[b]Configuration File (.minecraft/config/mod_ingameinfo.bsprop.cfg):[/b][code]#memoryUnit (java.lang.String:MB) -- Valid memory unit strings are KB, MB, GB
+#xOffsets (java.lang.String:2, 0, 2, 2, 0, 2, 2, 0, 2) -- Horizontal offsets from the edge of the screen (when using right alignments the x offset is relative to the right edge of the screen)
+#yOffsets (java.lang.String:2, 2, 2, 0, 0, 0, 2, 41, 2) -- Vertical offsets for each alignment position starting at top left (when using bottom alignments the y offset is relative to the bottom edge of the screen)
+#showInChat (boolean:false) -- Set to true to show info when chat is open, false to disable info when chat is open
+#
+#**ONLY EDIT WHAT IS BELOW THIS**
+#
+#Wed Oct 03 23:15:49 EDT 2012
+xOffsets=2, 0, 2, 2, 0, 2, 2, 0, 2
+yOffsets=2, 2, 2, 0, 0, 0, 2, 41, 2
+showInChat=false
+checksum=rw73ja
+memoryUnit=MB[/code]
+
+[b]Here is the list of tags in the current version[/b]:[spoiler][b]Alignment tags[/b]:
+[i]~ <left> or <topleft>[/i] - Sets the alignment of the current line to the top left part of the screen
+[i]~ <center> or <topcenter>[/i] - Centers the current line at the top.
+[i]~ <right> or <topright>[/i] - Makes the current line go to the top right part of the screen.
+~ [i]<middleleft> <middlecenter> <middleright> <bottomleft> <bottomcenter> <bottomright>[/i]
+[b]Text Color tags[/b]:
+[i]~ <black>[/i] - same as &amp;0
+[i]~ <darkblue> / <navy>[/i] - same as &amp;1
+[i]~ <darkgreen> / <green>[/i] - same as &amp;2
+[i]~ <darkaqua> / <darkcyan> / <turquoise>[/i] - same as &amp;3
+[i]~ <darkred>[/i] - same as &amp;4
+[i]~ <purple> / <violet>[/i] - same as &amp;5
+[i]~ <gold> / <orange>[/i] - same as &amp;6
+[i]~ <lightgrey> / <grey>[/i] - same as &amp;7 ("lightgray" or "gray" are also accepted)
+[i]~ <darkgrey> / <charcoal>[/i] - same as &amp;8 ("darkgray" is also accepted)
+[i]~ <indigo> / <blue> / <lightblue>[/i] - same as &amp;9
+[i]~ <brightgreen> / <lightgreen> / <lime>[/i] - same as &amp;a
+[i]~ <aqua> / <lightcyan> / <celeste> / <diamond>[/i] - same as &amp;b
+[i]~ <red> / <lightred> / <salmon>[/i] - same as &amp;c
+[i]~ <pink> / <magenta>[/i] - same as &amp;d
+[i]~ <yellow>[/i] - same as &amp;e
+[i]~ <white>[/i] - same as &amp;f
+[b]Text Format tags[/b]:
+[i]~ <random>[/i] - same as &amp;k
+[i]~ <bold> / <b>[/i] - same as &amp;l
+[i]~ <strikethrough> / <strike> / <s>[/i] - same as &amp;m
+[i]~ <underline> / <u>[/i] - same as &amp;n
+[i]~ <italic> / <italics> / <i>[/i] - same as &amp;o
+[i]~ <reset> / <r>[/i] - same as &amp;r
+[b]Player tags[/b]:
+[i]~ <username>[/i] - The player's username.
+[i]~ <score>[/i] - The player's score. (Mojang fixed it in 1.4.4!)
+[i]~ <playerlevel>[/i] - The player level. (Yes, the same number that shows at the middle of your exp bar, but it might be useful for when you're playing in creative mode and the xp bar is hidden)
+[i]~ <xpthislevel>[/i] - The gained xp since you last leveled up.
+[i]~ <xpuntilnext>[/i] - The amount of xp remaining to get to the next level.
+[i]~ <xpcap>[/i] - The total amount of xp needed to level up in this level.
+[b]NOTE:[/b] there is now a better way to display equipped item info... [url="http://www.minecraftforum.net/topic/1114612-"]ArmorStatusHUD[/url]!
+~ [i]<itemquantity[id(,metadata)]>[/i] - gives the inventory count for the item ID given.  Metadata is optional.  Separate id and metadata with a comma. (e.g. <itemquantity[17]> counts all logs of any type and <itemquantity[17,0]> counts only oak logs)
+~ [i]<equippedquantity>[/i] - the inventory count of the currently held item.
+[i]~ <equippedname>[/i] - The name of your current equipped item/block. Doesn't show anything if your hand is empty.
+~ <[i]equippeddamage[/i]> - The damage value of your currently equipped item.  This value increments as an item is damaged.
+~ <[i]equippeddamageleft[/i]> - The amount of damage left relative to the max damage value of your currently equipped item.  This value decrements as an item is damaged.
+~ <[i]equippedmaxdamage[/i]> - The maximum damage value of your currently equipped item.
+[i]~ <helmetname>[/i] - The name of your current equipped helmet. Doesn't show anything if that slot is empty.
+~ <[i]helmetdamage[/i]> - The damage value of your currently equipped helmet.  This value increments as an item is damaged.
+~ <[i]helmetdamageleft[/i]> - The amount of damage left relative to the max damage value of your currently equipped helmet.  This value decrements as an item is damaged.
+~ <[i]helmetmaxdamage[/i]> - The maximum damage value of your currently equipped helmet.
+[i]~ <chestplatename>[/i] - The name of your current equipped chestplate. Doesn't show anything if that slot is empty.
+~ <[i]chestplate[/i][i]damage[/i]> - The damage value of your currently equipped chestplate.  This value increments as an item is damaged.
+~ <[i]chestplate[/i][i]damageleft[/i]> - The amount of damage left relative to the max damage value of your currently equipped chestplate.  This value decrements as an item is damaged.
+~ <[i]chestplate[/i][i]maxdamage[/i]> - The maximum damage value of your currently equipped chestplate.
+[i]~ <leggingsname>[/i] - The name of your current equipped leggings. Doesn't show anything if that slot is empty.
+~ <[i]leggings[/i][i]damage[/i]> - The damage value of your currently equipped leggings.  This value increments as an item is damaged.
+~ <[i]leggings[/i][i]damageleft[/i]> - The amount of damage left relative to the max damage value of your currently equipped leggings.  This value decrements as an item is damaged.
+~ <[i]leggings[/i][i]maxdamage[/i]> - The maximum damage value of your currently equipped leggings.
+[i]~ <bootsname>[/i] - The name of your current equipped boots. Doesn't show anything if that slot is empty.
+~ <[i]boots[/i][i]damage[/i]> - The damage value of your currently equipped boots.  This value increments as an item is damaged.
+~ <[i]boots[/i][i]damageleft[/i]> - The amount of damage left relative to the max damage value of your currently equipped boots.  This value decrements as an item is damaged.
+~ <[i]boots[/i][i]maxdamage[/i]> - The maximum damage value of your currently equipped boots.
+[b]Utility tags ([color=#FF0000]see example 2 below if you are confused[/color])[/b]
+~ <[i]max[value1/value2[value1text/value2text]][/i]> - This tag evaluates which of the two values is greater and displays the text parameter corresponding to it.  Either of the input values can be another tag that returns a numeric value or a hard-coded numeric value.  If the values are equal, the first text parameter is returned.  Nested calls to <max> are not currently supported.
+~ <[i]pct(value,percentage)[/i]> - This tag accepts a numeric value and a percentage and returns the product of the two as an integer.  The percentage input should be an integer (e.g. use 10 if you want 10%). Yes, I realize the syntax for this tag is different than other tags that use parameters, but I'm pretty sure you'll get over it.
+[b]Player/World tags[/b]:
+[i]~ <x> or <xi>[/i] - The integer x coordinate of the player.
+[i]~ <y> or <yi>[/i] - The integer y coordinate of the player.
+~ <yfeet> or <yfeeti> - The integer y coordinate at the player's feet.
+[i]~ <z> or <zi>[/i] - The integer z coordinate of the player.
+[i]~ <decx>[/i] - The decimal x coordinate of the player.
+[i]~ <decy>[/i] - The decimal y coordinate of the player.
+~ <decyfeet> - The decimal y coordinate at the player's feet.
+[i]~ <decz>[/i] - The decimal z coordinate of the player.
+~ <[i]roughdirection[/i]> - Shows your compass heading as North, South, East, or West
+~ <[i]finedirection[/i]> - Shows your compass heading as North, North East, East, South East, South, South West, West, and North West.
+~ <[i]abrroughdirection[/i]> - Shows your abreviated compass heading as N, S, E, or W
+~ <[i]abrfinedirection[/i]> - Shows your abreviated compass heading as N, NE, E, SE, S, SW, W, and NW.
+~ <[i]directionhud[/i]> - I forgot I even wrote this in... sorta works like a dashboard compass in your car, but text based.
+[i]~ <light>[/i] - The light level at the position of the player.
+~ <lightfeet> - The light level at the player's feet.
+[i]~ <lightnosun>[/i] - The light level ignoring sunlight at the position of the player.
+~ <lightnosunfeet> - The light level ignoring sunlight at the player's feet.
+[i]~ <biome>[/i] - The current biome the player is at.
+~ [i]<dimension>[/i] - The dimension the player is in.
+~ [i]<difficulty>[/i] - The current difficulty setting.
+[i]~ <slimes[/]>[/i] - True if the chunk the player is standing on has chances of spawning slimes in it, false if not.
+[i]~ <raining[/]>[/i] - Whether or not it is raining at the location of the player.
+[i]~ <snowing[/]>[/i] - Whether or not it is snowing at the location of the player.
+[i]~ <thundering[/]>[/i] - Whether or not it is thundering at the location of the player.
+~ <[i]mctime[][/i]> - Displays the in-game world time.  Put 12 or 24 in the brackets to show 12 or 24 hour clock formats.
+[b]World tags[/b]:
+[i]~ <worldname>[/i] - The name of the world.
+[i]~ <worldsize>[/i] - The size of the world in bytes.
+[i]~ <worldsizemb>[/i] - The size of the world in megabytes.
+[i]~ <seed>[/i] - The numeric seed of the world.
+[i]~ <gamemode>[/i] - The Game Mode of the world, will return either "Survival" or "Creative"
+[i]~ <day>[/i] - The number of the current day. (first day in the game is day 0)
+[i]~ <hardcore[/]>[/i] - Whether or not this world is a hardcore world. (note that hardcore is not a Game Mode, so it is even possible to have a Creative Hardcore world.)
+[i]~ <daytime[/]>[/i] - Will show the first parameter if it is day time, or the second one if it is night time.
+[b]Miscellaneous tags:[/b]
+[i]~ <fps>[/i] - The current frames per second rate.
+~ [i]<entitiesrendered>[/i] - The number of entites currently rendered in the player's view.
+~ [i]<entitiestotal>[/i] - The total number of entities that are currently loaded in the world.
+~ [i]<memtotal> <memmax> <memfree> <memused>[/i] - memory items from the debug display
+[i]~ <texturepack>[/i] - The name of the selected texture pack. (great for screenshots!)
+~ [i]<irltime[]> or <rltime[]>[/i] - The current local time.  This tag accepts a Java SimpleDateFormat string in the brackets (ex- <rltime[hh:mma]> would show 5:08PM, <rltim[HH:mm]> would show 17:08).  More info on SimpleDateFormat strings can be found [url="http://docs.oracle.com/javase/1.4.2/docs/api/java/text/SimpleDateFormat.html"]here[/url].[/spoiler]
+[b]Example 1[/b]:[spoiler]This text: [code]<left>Day <day>, &amp;2<fps>&amp;f fps
+<right>Light level: <light>
+Biome: <biome>
+<equippedname> equipped.
+<center>&amp;3<username> &amp;f
+<hardcore[hardcore | score &amp;e<score>&amp;f/<gamemode>]>
+<daytime[&amp;esun/&amp;3moon]>[/code]Made this show up:
+[spoiler][img]http://bspk.rs/Minecraft/Ingame%20Info%20Example%20Picture.png[/img][/spoiler][/spoiler][b]Example 2[/b]:[spoiler][code]<topleft>&amp;fDay <day> (<daytime[&amp;eDay time/&amp;8Night time]>&amp;f)
+Light: <max[<light>/6.5[&amp;e/&amp;c]]><light>
+Score: &amp;e<score>
+<equippedname>: <max[<pct(<equippedmaxdamage>,10)>/<equippeddamageleft>[&amp;c/&amp;e]]><equippeddamageleft> &amp;f/ &amp;e<equippedmaxdamage>
+&amp;fEXP: &amp;e<xpthislevel>&amp;f / &amp;e<xpcap>
+x=&amp;e<x> &amp;fz=&amp;e<z>
+z=&amp;e<y>[/code]Images:[spoiler][img]http://bspk.rs/Minecraft/IngameInfo1.png[/img]
+
+[img]http://bspk.rs/Minecraft/IngameInfo2.png[/img]
+
+[img]http://bspk.rs/Minecraft/IngameInfo3.png[/img][/spoiler][/spoiler][/spoiler]
+
+[size=5][b]CrystalWing[/b]: [/size]
+[size=4]ML Client[/size]: [url="http://bspk.rs/MC/CrystalWing/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/CrystalWing/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing/index.html"]Mirror[/url])
+[size=4]Forge Universal[/size]: [url="http://bspk.rs/MC/CrystalWing_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing_Forge/latest/index.html"]Mirror[/url]) (ML 1.6.4.r02) [url="http://bspk.rs/MC/CrystalWing_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing_Forge/index.html"]Mirror[/url])
+[url="https://github.com/bspkrs/CrystalWing/blob/master/change.log"]Change Log[/url][spoiler]
+[media]http://www.youtube.com/watch?v=VAlSaYLriME[/media]
+
+[b]Crystal Wing[/b]
+[img]http://bspk.rs/Minecraft/crystalWing.png[/img]
+With this enchanted wing, you'll be able to teleport back to your spawn point!
+
+[u]recipe:[/u]
+[img]http://bspk.rs/Minecraft/32066.png[/img]
+
+While helpful on the normal world, using it on the nether may burn it...
+
+[b]Burning Wing[/b]
+[img]http://bspk.rs/Minecraft/crystalWingBurning.png[/img]
+This will continuously burn the player that holds it in their inventory, so THROW THIS BIATCH AWAY!
+
+..Or try soaking it!
+
+[b]Burned Wing[/b]
+[img]http://bspk.rs/Minecraft/crystalWingBurned.png[/img]
+This is the broken version of the Crystal Wing. When the player tries to use it, they, eh... get lost.
+[hr]
+[b]Config file[/b]:
+.minecraft/config/mod_crystalWing.bsprop.cfg
+[code]# Configuration file
+general {
+# [default: true]
+B:allowDebugLogging=true
+
+# [range: 1 ~ 2000, default: 1710]
+I:idAchievement=1710
+
+# Maximum distance for the Burned Wing random teleportation. [range: 50 ~ 50000, default: 500]
+I:teleDistance=500
+
+# Number of Crystal Wing uses. Set to 0 for infinite. [range: 0 ~ 5280, default: 8]
+I:uses=8
+}
+
+item {
+I:idBurnedWing=31741
+I:idBurningWing=31742
+I:idCrystalWing=31743
+}[/code]
+[/spoiler]
+
+[size=5][b]FloatingRuins[/b]:[/size]
+[size=4]ModLoader (SSP)[/size]: [url="http://bspk.rs/MC/FloatingRuins_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/FloatingRuins_ML/index.html"]All Releases[/url]([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_ML/index.html"]Mirror[/url])
+Forge (SSP/SMP): [url="http://bspk.rs/MC/FloatingRuins_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r01) [url="http://bspk.rs/MC/FloatingRuins_Forge/index.html"]All Releases[/url]([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_Forge/index.html"]Mirror[/url])
+[url="https://github.com/bspkrs/FloatingRuins/blob/master/change.log"]Change Log[/url][spoiler]Floating islands taken from the ground with mini-ruins on top. The ruins' shape, material and mob spawners' choice of mobs are all biome-based.
+
+Thanks [url="http://www.minecraftforum.net/user/78231-thegreatone5224/"]thegreatone5224[/url]!
+[media]http://www.youtube.com/watch?&amp;v=-mA-pb3K_L8[/media]
+
+Updated video (shows more recent features!) by [url="http://www.youtube.com/user/HappyPotatoProd?feature=watch"]HappyPotatoProd[/url]:
+[media]http://www.youtube.com/watch?v=946JEbsxHLQ[/media]
+
+Video by [url="http://www.youtube.com/user/LobsCast"]LobsCast[/url]:
+[media]http://www.youtube.com/watch?v=F6GtNl5aWuE[/media]
+
+[b]Screenshots[/b]:[spoiler]
+[img]http://bspk.rs/Minecraft/fr_01.png[/img]
+[img]http://bspk.rs/Minecraft/FloatingRuins01.png[/img][img]http://bspk.rs/Minecraft/FR4.png[/img]
+[img]http://bspk.rs/Minecraft/vvBVg.png[/img][/spoiler]
+
+[b]ML Config file[/b] (.minecraft/config/mod_floatingRuins.bsprop.cfg):[spoiler][code]#allowInSuperFlat (boolean:false) -- Set to true to allow generation of floating ruins on superflat maps, false to disable.
+#rarity (int:800) -- The probability is 1 in each 'rarity' number of chunks.
+#baseHeight (int:100) -- The base world height for floating ruins (Min=80, Max=240).
+#heightVariation (int:20) -- The amount of height variation allowed above baseHeight (Min=0, Max=240-baseHeight).
+#baseRadius (int:7) -- The minimum radius of each island. I recommend keeping this at 7 or more (Min=5, Max=50).
+#radiusVariation (int:5) -- The amount of floating island radius variation. Making this value too large will result in very large chunks of your world turning into floating islands (Min=0, Max=50).
+#baseDepth (int:3) -- The minimum depth/thickness of islands (Min=2, Max=50).
+#depthVariation (int:45) -- The amount of variation allowed for the depth/thickness of islands (Min=0, Max=50).
+#numberOfItems (int:4) -- The number of items in a ruin's chest.
+#blockIDBlacklist (java.lang.String:7) -- Add block IDs to this list if you don't want them to be moved when a floating island is generated. Format used: "," separates between id and metadata and ";" separates between each block.
+#stringOfIds (java.lang.String:262, 10; 262, 16; 263, 6; 264, 1; 265, 3; 266, 2; 282, 2; 288, 1; 302, 1; 303, 1; 304, 1; 305, 1; 321, 2; 321, 5; 322, 1; 322, 3; 325, 2; 326, 1; 335, 1; 340, 1; 341, 2; 341, 4; 344, 2; 344, 4; 348, 12; 348, 8; 350, 1; 351, 5, 0; 354, 2; 369, 2; 372, 6; 388, 1; 388, 4; 46, 4; 79, 2) -- The ids for these items. Format used: "," separates between id, number and metadata and ";" separates between each item.
+#spawnerDefault (java.lang.String:Creeper, Skeleton, Zombie) -- Mob spawners can be configured using the mobs' names, each separated by a comma. Using "Default" will make the specified biome use the same settings as 'spawnerDefault'.
+#spawnerDesert (java.lang.String:Skeleton, Spider)
+#spawnerForest (java.lang.String:Default)
+#spawnerPlains (java.lang.String:Spider, Zombie)
+#spawnerSwampland (java.lang.String:Slime, Creeper)
+#spawnerTaiga (java.lang.String:Spider, Zombie)
+#spawnerHills (java.lang.String:Default)
+#spawnerOcean (java.lang.String:Default)
+#spawnerRiver (java.lang.String:Default)
+#spawnerJungle (java.lang.String:Skeleton, Enderman)
+#spawnerIceBiomes (java.lang.String:Zombie, Skeleton)
+#spawnerMushroom (java.lang.String:MushroomCow) --
+#
+#**ONLY EDIT WHAT IS BELOW THIS**
+#
+allowInSuperFlat=false
+rarity=80
+baseHeight=100
+heightVariation=20
+baseRadius=7
+radiusVariation=5
+baseDepth=3
+depthVariation=45
+numberOfItems=4
+blockIDBlacklist=7
+stringOfIds=262, 10; 262, 16; 263, 6; 264, 1; 265, 3; 266, 2; 282, 2; 288, 1; 302, 1; 303, 1; 304, 1; 305, 1; 321, 2; 321, 5; 322, 1; 322, 3; 325, 2; 326, 1; 335, 1; 340, 1; 341, 2; 341, 4; 344, 2; 344, 4; 348, 12; 348, 8; 350, 1; 351, 5, 0; 354, 2; 369, 2; 372, 6; 388, 1; 388, 4; 46, 4; 79, 2
+spawnerOcean=Default
+spawnerJungle=Skeleton, Enderman
+spawnerSwampland=Slime, Creeper
+spawnerHills=Default
+spawnerMushroom=MushroomCow
+spawnerTaiga=Spider, Zombie
+spawnerForest=Default
+spawnerRiver=Default
+spawnerIceBiomes=Zombie, Skeleton
+spawnerDesert=Skeleton, Spider
+spawnerPlains=Spider, Zombie
+spawnerDefault=Creeper, Skeleton, Zombie
+[/code][/spoiler]
+
+[b]Forge Config file [/b](.minecraft/config/FloatingRuins.cfg):[spoiler][code]# Configuration file
+# Generated on 12/19/12 8:28 PM
+
+####################
+# general
+####################
+
+general {
+# Set to true to allow generation of floating ruins on superflat maps, false to disable. [default: false]
+B:allowInSuperFlat=false
+
+# The minimum depth/thickness of islands (Min=2, Max=50). [range: 2 ~ 50, default: 5]
+I:baseDepth=5
+
+# The base world height for floating ruins (Min=80, Max=240). [range: 80 ~ 240, default: 100]
+I:baseHeight=100
+
+# The minimum radius of each island. I recommend keeping this at 7 or more (Min=5, Max=50). [range: 6 ~ 50, default: 9]
+I:baseRadius=9
+
+# Add block IDs to this list if you don't want them to be moved when a floating island is generated. Format used: "," separates between id and metadata and ";" separates between each block. [default: 7]
+S:blockIDBlacklist=7
+
+# The amount of variation allowed for the depth/thickness of islands (Min=0, Max=50). [range: 0 ~ 50, default: 45]
+I:depthVariation=45
+
+# Set to true to generate harder dungeons (roof is bedrock, chest is harder to get to), set to false to generate normal dungeons. [default: false]
+B:harderDungeons=false
+
+# The amount of height variation allowed above baseHeight (Min=0, Max=240-baseHeight). [range: 0 ~ 160, default: 20]
+I:heightVariation=20
+
+# The number of items in a ruin's chest. [range: 1 ~ 27, default: 4]
+I:numberOfItems=4
+
+# The amount of floating island radius variation. Making this value too large will result in very large chunks of your world turning into floating islands (Min=0, Max=50). [range: 0 ~ 50, default: 6]
+I:radiusVariation=6
+
+# The probability of a floating island generating is 1 in each 'rarity' number of chunks. [range: 1 ~ 2147483647, default: 800]
+I:rarity=800
+
+# Mob spawners can be configured using the mobs' names, each separated by a comma. Using "Default" will make the specified biome use the same settings as 'spawnerDefault'. [default: Creeper, Skeleton, Zombie, CaveSpider]
+S:spawnerDefault=Creeper, Skeleton, Zombie, CaveSpider
+
+# [default: WitherSkeleton, PigZombie, Blaze]
+S:spawnerDesert=WitherSkeleton, PigZombie, Blaze
+
+# [default: Wolf, CaveSpider]
+S:spawnerForest=Wolf, CaveSpider
+
+# [default: Default]
+S:spawnerHills=Default
+
+# [default: Zombie, Skeleton]
+S:spawnerIceBiomes=Zombie, Skeleton
+
+# [default: Skeleton, CaveSpider]
+S:spawnerJungle=Skeleton, CaveSpider
+
+# [default: MushroomCow]
+S:spawnerMushroom=MushroomCow
+
+# If the dungeon is close enough to lava, the spawner will use one of these mobs: [default: Blaze, LavaSlime, WitherSkeleton, PigZombie]
+S:spawnerNearLava=Blaze, LavaSlime, WitherSkeleton, PigZombie
+
+# [default: Silverfish]
+S:spawnerOcean=Silverfish
+
+# [default: Spider, Zombie, ChargedCreeper]
+S:spawnerPlains=Spider, Zombie, ChargedCreeper
+
+# [default: Silverfish]
+S:spawnerRiver=Silverfish
+
+# [default: Slime, Creeper, CaveSpider, Witch]
+S:spawnerSwampland=Slime, Creeper, CaveSpider, Witch
+
+# [default: Zombie, ChargedCreeper]
+S:spawnerTaiga=Zombie, ChargedCreeper
+
+# The ids for items found in chests. Format used: "," separates between item id, quantity, and metadata and ";" separates between each item. [default: 262, 10; 262, 16; 263, 6; 264, 1; 265, 3; 266, 2; 282, 2; 288, 1; 302, 1; 303, 1; 304, 1; 305, 1; 321, 2; 321, 5; 322, 1; 322, 3; 325, 2; 326, 1; 335, 1; 340, 1; 341, 2; 341, 4; 344, 2; 344, 4; 348, 12; 348, 8; 350, 1; 351, 5, 0; 354, 2; 369, 2; 372, 6; 388, 1; 388, 4; 46, 4; 79, 2]
+S:stringOfIds=262, 10; 262, 16; 263, 6; 264, 1; 265, 3; 266, 2; 282, 2; 288, 1; 302, 1; 303, 1; 304, 1; 305, 1; 321, 2; 321, 5; 322, 1; 322, 3; 325, 2; 326, 1; 335, 1; 340, 1; 341, 2; 341, 4; 344, 2; 344, 4; 348, 12; 348, 8; 350, 1; 351, 5, 0; 354, 2; 369, 2; 372, 6; 388, 1; 388, 4; 46, 4; 79, 2
+}[/code][/spoiler]
+[/spoiler]
+
+[size=5][b]StartingInventory[/b]: [/size]
+[size=4]ML Client[/size]: [url="http://bspk.rs/MC/StartingInventory_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/StartingInventory_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_ML/index.html"]Mirror[/url])
+[url="https://github.com/bspkrs/StartingInventory/blob/master/change.log"]Change Log[/url]
+[spoiler]This mod gives you items and blocks each time you start a new world, just by editing a .txt file.
+
+[b]NOTE[/b]: Starting in 1.3.2.r01 the mod will place a chest with your items in it or will hijack the bonus chest depending on the config.  When placing a chest it uses similar code as the bonus chest, so in a jungle biome it can end up buried under leaf blocks.  If you find that the chest is not being placed or the bonus chest isn't receiving your items, try increasing the value of tickWindow in the config file.
+
+[b]IMPORTANT[/b]: Since the items are now being added to a single chest, it should be noted that the maximum number of item stacks that can be added is 27.  If you add more than 27 stacks of items to your startingInventory.txt file, the extra items will be ignored.
+
+The file can be found at
+[b].minecraft/config/StartingInventory/startingInventory.txt[/b] ([b].minecraft/mods/daftpvf/startingInventory.txt[/b] in releases before 1.4.4.r01).
+
+You can add items in 3 ways:
+1. Using only the id:
+[code]260[/code]
+= a single apple.
+2. Using the id and the quantity, separated with a ',':
+[code]4, 128[/code]
+= [b]1[/b] stack of cobblestone (the code that adds items to a chest truncates it to the max stack size)
+3. Using the id, the quantity and the damage value:
+[code]351, 10, 4[/code]
+= 10 lapis-lazuli dyes.
+You can use more lines for more items:
+[code]1, 20
+257[/code]
+= 20 stone blocks and 1 iron pickaxe.
+
+Ids for downloaded items and blocks are also accepted.
+
+All the ids can be found [url="http://www.minecraftwiki.net/wiki/Data_values"]here[/url].
+
+[b]Config file[/b] (.minecraft/config/mod_startingInventory.bsprop.cfg):
+[code]#tickWindow (int:100) -- The length of time in game time ticks (1/20th of a second) that items are allowed to spawn in a fresh world. If you are on a slower machine and are having trouble with items not spawning, try setting this a little higher
+#useBonusChest (boolean:false) -- Items will be added to the bonus chest when true (meaning you must set bonus chest to ON). If false, a separate chest will be placed
+#
+#**ONLY EDIT WHAT IS BELOW THIS**
+#
+#Tue Oct 02 16:51:09 EDT 2012
+useBonusChest=false
+checksum=1zc
+tickWindow=100[/code][/spoiler]
+
+[size=4][size=5][b]BlockBreaker / ConnectedDestruction[/b][/size] [/size]
+[color=#ff0000]Requires [/color][url="http://files.minecraftforge.net"][color=#ff0000]Forge[/color][/url][color=#ff0000] [/color]
+Forge Universal: [url="http://bspk.rs/MC/BlockBreaker/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/BlockBreaker/latest/index.html"]Mirror[/url]) (1.6.4.r02)  [url="http://bspk.rs/MC/BlockBreaker/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/BlockBreaker/index.html"]Mirror[/url])
+[url="https://github.com/bspkrs/BlockBreaker/blob/master/change.log"]Change Log[/url]
+[spoiler]BlockBreaker allows you to define a list of blocks that will break in a chain reaction when an adjacent block of the same type is broken.
+
+[b]MultiMine users[/b]: you [b][i]MUST[/i][/b] add the log block IDs you are using in BlockBreaker to the MultiMine block exclusion list found in AS_MultiMine.cfg.  Otherwise BlockBreaker will not work.
+
+[b]Videos:[/b]
+Thanks [url="http://www.minecraftforum.net/user/995918-d4lminecraftger/"]D4LMinecraftGER[/url] (German Language)!
+[media]http://www.youtube.com/watch?v=sQd6w3HK1jo[/media]
+
+[b]Forge Config file for 1.5[/b] (.minecraft/config/BlockBreaker.cfg):[code]# Configuration file
+# Generated on 1/30/13 2:59 PM
+
+####################
+# general
+####################
+
+general {
+# Limit of blocks to be destroyed at once. Use -1 for infinite. [range: -1 ~ 2147483647, default: 800]
+I:blockLimit=800
+
+# Block List, ";" splits blocks and "," splits block ID and metadata. [default: 17;]
+S:blockList=17;
+
+# Maximum number of blocks to be removed per game tick (1/20 seconds). Using a low number will keep the game from getting hugeperformance drops but also decreases the speed at which blocks are destroyed. [range: 1 ~ 1000, default: 50]
+I:blocksPerTick=50
+
+# Item drops values: 0-No drops. 1-Drops in Survival. 2-Drops in Survival &amp; Creative. 3-Drops in Survival, Creative, &amp; Adventure [range: 0 ~ 3, default: 1]
+I:itemDropMode=1
+
+# Maximum distance from the first block to search for blocks to destroy. Use -1 for infinite. [range: -1 ~ 1000, default: 6]
+I:maxDistance=6
+
+# Set sneakAction = "disable" to disable the block breaker effect while sneaking,
+# set sneakAction = "enable" to only enable the block breaker effect while sneaking,
+# set sneakAction = "none" to have the block breaker effect enabled regardless of sneaking. [default: disable]
+S:sneakAction=disable
+}[/code]
+[/spoiler]
+
+[size=5][b]Install (all mods)[/b][/size]:
+Requires [url="http://www.minecraftforum.net/topic/75440-"]Risugami's ModLoader[/url] or [url="http://www.minecraftforum.net/topic/1149336-"]FML[/url]; if the word Forge is in the filename, it requires [url="http://files.minecraftforge.net"]Forge[/url].
+- [b]ModLoader:[/b] follow Risugami's instructions for installing ModLoader.  Put the mod's zip file in the mods folder according to Risu's directions.
+- [b]Forge Build 762 and below:[/b] For TreeCapitator or BlockBreaker, put the mod's CoreMod jar file in the coremods folder under .minecraft and put the bspkrsCore zip file in the mods folder.  For other mods put the zip file in the mods folder with bspkrsCore.
+- [b]Forge Build 763 and above:[/b] Put the downloaded zip / jar file in the mods folder under .minecraft along with the bspkrsCore zip file.
+
+
+[b]Known Mod Conflicts as of 1.6.4[/b]:[list]
+[*][b]CJB's QuickCraft mod[/b] [b]and/or Cheat mod[/b] breaks [b]TreeCapitator[/b] amongst other things.
+[*][b]Better Blocks &amp; Items[/b] / [b]Rotation Key[/b] and [b]Forgotten Nature / LCTrees[/b] are incompatible with [b]TreeCapitator ML[/b] by default; Forgotten Nature / LCTrees can be made compatible by changing the config option lumberJack to false.
+[*][b]MultiMine[/b] is incompatible with [b]TreeCapitator[/b] [i]unless[/i] you add the log block IDs you are using in TreeCapitator to the MultiMine block exclusion list found in AS_MultiMine.cfg.  If you do that then they will play nice.
+[/list]
+
+[anchor='KnownIssues'][b]Known Issues in 1.6.4:[/b][/anchor][list]
+[*][b]TreeCapitator[/b]: sometimes chopping one tree will also chop down a neighboring tree.  This typically happens in jungle biomes or when two big trees are next to each other.  This can be mitigated by lowering the value of maxBreakDistance.
+[*][b]IngameInfo[/b]: Nested calls to <max> can cause an infinite loop when loading a world.  The use of <max> within <max> is not currently supported.
+[*][b]IngameInfo[/b]: It is possible to crash the game if your IngameInfo config file is screwed up.  I need to put in better error handling.  The good news is that most likely it will fail right away upon loading a world.
+[/list]
+
+[anchor='PlannedFeatures'][b]Planned Features (read before asking for stuff):[/b][/anchor][spoiler]
+[b]IngameInfo[/b][list]
+[*]tag for average FPS over X seconds
+[*]make biome tag customizable with colors for each biome
+[*]more utility tags like <add>, <subtract>, <multiply>, <divide>
+[*]support for nesting of utility tags
+[*]multiple configs
+[*]keybinding/command to swap between different configs or disabled
+[/list]
+[b]StartingInventory[/b][list]
+[*]allow up to 54 item stacks by using a double chest[/spoiler]
+[/list]
+
+[b]Previous releases[/b]:
+All previous release links can now be found in the main downloads section above, except for the following discontinued mods:[spoiler][size=4][b]1.2.5 Downloads[/b][/size][list]
+[*][size=4]SlimeBoots+ (requires [url="http://www.minecraftforum.net/topic/738498-123api-player-api/"]PlayerAPI[/url]): [/size][size=4][url="http://adf.ly/7qeZH"]Direct[/url] (1.2.5.a)[spoiler] [/size][size=4][b]Slime Boots+[/b] scales back the armor properties of regular Slime Boots and adds new shapeless recipes to create Leather Slime Boots, Chain Slime Boots, Iron Slime Boots, Diamond Slime Boots, and Gold Slime Boots.  The new slime boot flavors are crafted by combining regular slime boots with vanilla boots.  They have the same damage protection as their vanilla counterparts with the added benefit of Slime Boots' fall damage reduction and added jump height.[/size][/spoiler]
+[/list]
+[size=4][b]1.2.4 Downloads[/b][/size][list]
+[*][size=4]SlimeBoots+ (requires [url="http://www.minecraftforum.net/topic/738498-123api-player-api/"]PlayerAPI[/url]): [url="http://adf.ly/1599906/bspk.rs/Minecraft/1.2.4/Slime%20Boots%2B%201.2.4.a.zip"]Direct[/url][/size]
+[/list]
+[size=4][b]1.2.3 Downloads[/b][/size][list]
+[*][size=4]SlimeChestplate (thanks Coupon22!): [url="http://bspk.rs/Minecraft/1.2.3/SlimeChestplate-1.2.3.zip"]Direct[/url][/size]
+[*][size=4]SlimeBoots+ (requires [url="http://www.minecraftforum.net/topic/738498-123api-player-api/"]PlayerAPI[/url]): [url="http://adf.ly/1599906/bspk.rs/Minecraft/1.2.3/Slime%20Boots%2B%201.2.3.a.zip"]Direct[/url][/size]
+[/list]
+[size=4][b]1.1.0 Downloads[/b][/size][list]
+[*][size=4]SlimeBoots (requires [url="http://www.minecraftforum.net/topic/738498-123api-player-api/"]PlayerAPI[/url]): [url="http://adf.ly/1599906/bspk.rs/Minecraft/Slime%20Boots.zip"]Direct[/url][/size]
+[*][size=4]SlimeBoots+ (requires [url="http://www.minecraftforum.net/topic/738498-123api-player-api/"]PlayerAPI[/url]): [url="http://adf.ly/1599906/bspk.rs/Minecraft/Slime%20Boots%200.1.b.zip"]Direct[/url][/size]
+[/spoiler]
+[/list]
+[size=5][b]Reuse/Modpacks[/b][/size]
+[url="http://creativecommons.org/licenses/by-nc-sa/3.0/"][img]http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png[/img][/url]
+These mods are released under the Creative Commons Share Alike non-commercial License.  They are allowed to be used in mod packs as long as credit is given to DaftPVF and myself and the URL of this forum thread is provided.  No adf.ly links.  Do not post these mods on other sites.
+
+[represent]

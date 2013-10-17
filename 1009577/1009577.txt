@@ -1,8 +1,8 @@
-[size=4][b]Current updates to 1.6.4 for Ingame Info, Crystal Wing, Floating Ruins, Starting Inventory, and TreeCapitator!  DaftPVF approved![/b][/size]
+[size=4][b]Current updates to 1.6.4 for Ingame Info, Crystal Wing, Floating Ruins, [/b][/size][size=4][b]Starting Inventory, and TreeCapitator[/b][/size][size=4][b]!  DaftPVF approved![/b][/size]
 
 [size=4]DaftPVF went on hiatus in February 2012.  He [url="http://www.minecraftforum.net/topic/124117-100-daftpvfs-mods/page__st__920#entry12634055"]gave me permission[/url] to continue development on his mods, so I'll keep things up to date.[/size]
 
-[size=5][b]READ THE ENTIRE OP BEFORE ASKING.  Yes, the entire thing.[/b][/size]
+[size=5][b]READ THE ENTIRE OP [/b][/size][size=5][b]BEFORE ASKING.  Yes, the entire thing.[/b][/size]
 
 [spoiler='Read this before posting about issues'][size=5][b]HELP! MOD X DOESN'T WORK!!! YOU CRASHED MINECRAFT!![/b][/size]
 Ok, that's all well and good... and I'd even say that maybe 1/10 times this is my fault.  In order for me to help you, however, I'll need some info that you most likely have.  Use pastebin.com (or a paste service of your choice) to provide your full log file.  If you are using ModLoader, the log file is /.minecraft/ModLoader.txt.  If you are using Forge, the log file is /.minecraft/ForgeModLoader-client-0.log (for client) or /.minecraft/ForgeModLoader-server-0.log (for server).  Some mods have a setting called allowDebugLogging which should be set to true before you post your log file.  [color=#ff0000][b]WITHOUT THIS INFORMATION IT IS VERY DIFFICULT TO PROVIDE ASSISTANCE, AND THE LIKELIHOOD OF GETTING A RESPONSE IS LOW.[/b][/color][/spoiler]
@@ -10,13 +10,17 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
 
 [size=4][b]News[/b]:[/size]
-08-Oct-2013 - [b]CrystalWing Forge 1.6.4.r03[/b] is out to fix the duplicate stat ID crash, add a bunch of localizations, and include items in potential chest loot!
+17-Oct-2013 - [b]StartingInventory Forge 1.6.4.r02[/b] is released! Aside from being the first Forge native release of StartingInventory, this release adds SMP compatibility and a new command /startinginv [save/load] to allow you to save your current inventory to the config file for easy setup of the items you want to receive upon starting a new world! Details on the /startinginv command can be found below in the More Info spoiler section for StartingInventory.
+
+16-Oct-2013 - [b]CrystalWing Forge 1.6.4.r04[/b] is released to add a short cooldown that prevents double item use and new localizations. Have at it!
+
+[spoiler='Older News']08-Oct-2013 - [b]CrystalWing Forge 1.6.4.r03[/b] is out to fix the duplicate stat ID crash, add a bunch of localizations, and include items in potential chest loot!
 
 04-Oct-2013 - [b]CrystalWing Forge 1.6.4.r02[/b] is out! This is the first release of CrystalWing for Forge to allow for use on servers!  Let me know of any issues you find.
 
 03-Oct-2013 - [b]IngameInfo 1.6.4.r04[/b] is out and adds a keybinding of ALT + I to toggle the info display. The "I" is configurable on the controls menu. This release also tweaks the /igi command to be more permissive since it's a client command and doesn't affect actual gameplay.
 
-[spoiler='Older News']30-Sep-2013 - [b]IngameInfo 1.6.4.r03[/b] is out to fix the item damage tags not returning 0 when the item is null.  I have also back-ported this fix to [b]IngameInfo 1.6.2.r05[/b].
+30-Sep-2013 - [b]IngameInfo 1.6.4.r03[/b] is out to fix the item damage tags not returning 0 when the item is null.  I have also back-ported this fix to [b]IngameInfo 1.6.2.r05[/b].
 
 26-Sep-2013 - Please consider helping out a great cause and get some cool perks for it! [url="http://www.extra-life.org/index.cfm?fuseaction=donordrive.participant&participantID=45410"]http://www.extra-lif...icipantID=45410[/url]
 It's for the kids!
@@ -529,7 +533,7 @@ z=&e<y>[/code]Images:[spoiler][img]http://bspk.rs/Minecraft/IngameInfo1.png[/img
 
 [size=5][b]CrystalWing[/b]: [/size]
 [size=4]ML Client[/size]: [url="http://bspk.rs/MC/CrystalWing/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/CrystalWing/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing/index.html"]Mirror[/url])
-[size=4]Forge Universal[/size]: [url="http://bspk.rs/MC/CrystalWing_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing_Forge/latest/index.html"]Mirror[/url]) (ML 1.6.4.r03) [url="http://bspk.rs/MC/CrystalWing_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing_Forge/index.html"]Mirror[/url])
+[size=4]Forge Universal[/size]: [url="http://bspk.rs/MC/CrystalWing_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r04) [url="http://bspk.rs/MC/CrystalWing_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing_Forge/index.html"]Mirror[/url])
 [url="https://github.com/bspkrs/CrystalWing/blob/master/change.log"]Change Log[/url][spoiler]
 [media]http://www.youtube.com/watch?v=VAlSaYLriME[/media]
 
@@ -735,18 +739,27 @@ S:stringOfIds=262, 10; 262, 16; 263, 6; 264, 1; 265, 3; 266, 2; 282, 2; 288, 1; 
 [/spoiler]
 
 [size=5][b]StartingInventory[/b]: [/size]
-[size=4]ML Client[/size]: [url="http://bspk.rs/MC/StartingInventory_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/StartingInventory_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_ML/index.html"]Mirror[/url])
+[size=4]ModLoader (SSP)[/size]: [url="http://bspk.rs/MC/StartingInventory_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/StartingInventory_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_ML/index.html"]Mirror[/url])
+[size=4]Forge (SSP/SMP)[/size]: [url="http://bspk.rs/MC/StartingInventory_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r02) [url="http://bspk.rs/MC/StartingInventory_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_Forge/index.html"]Mirror[/url])
 [url="https://github.com/bspkrs/StartingInventory/blob/master/change.log"]Change Log[/url]
 [spoiler]This mod gives you items and blocks each time you start a new world, just by editing a .txt file.
-
-[b]NOTE[/b]: Starting in 1.3.2.r01 the mod will place a chest with your items in it or will hijack the bonus chest depending on the config.  When placing a chest it uses similar code as the bonus chest, so in a jungle biome it can end up buried under leaf blocks.  If you find that the chest is not being placed or the bonus chest isn't receiving your items, try increasing the value of tickWindow in the config file.
-
-[b]IMPORTANT[/b]: Since the items are now being added to a single chest, it should be noted that the maximum number of item stacks that can be added is 27.  If you add more than 27 stacks of items to your startingInventory.txt file, the extra items will be ignored.
 
 The file can be found at
 [b].minecraft/config/StartingInventory/startingInventory.txt[/b] ([b].minecraft/mods/daftpvf/startingInventory.txt[/b] in releases before 1.4.4.r01).
 
-You can add items in 3 ways:
+[b]How to configure the items you start with:[/b]
+
+[b]The Easy Method:[/b]
+1. Start a new world in Creative mode.
+2. Using the Creative Inventory (or NEI) add the items you want to start new worlds with to your player's inventory (only the 36 main inventory slots are supported, armor slots are ignored).
+3. Once you have populated your inventory with the items you want, close your inventory and execute this command: /startinginv save
+4. You will receive a message confirming that your current items have been saved to the config file.
+5. To test that your file is saved correctly, clear your inventory and execute this command: /startinginv load
+6. The items you saved using /startinginv save will be placed in your inventory.
+
+[b]NOTE:[/b] The command [b]/startinginv load[/b] [i]will[/i][b][i] clear your current inventory[/i][/b] before adding the configured items.
+
+[b]The Older/Harder Method:[/b][spoiler]You can manually add items in 3 ways:
 1. Using only the id:
 [code]260[/code]
 = a single apple.
@@ -759,22 +772,11 @@ You can add items in 3 ways:
 You can use more lines for more items:
 [code]1, 20
 257[/code]
-= 20 stone blocks and 1 iron pickaxe.
+= 20 stone blocks and 1 iron pickaxe.[/spoiler]
 
-Ids for downloaded items and blocks are also accepted.
+IDs for mod items and blocks are also accepted.
 
-All the ids can be found [url="http://www.minecraftwiki.net/wiki/Data_values"]here[/url].
-
-[b]Config file[/b] (.minecraft/config/mod_startingInventory.bsprop.cfg):
-[code]#tickWindow (int:100) -- The length of time in game time ticks (1/20th of a second) that items are allowed to spawn in a fresh world. If you are on a slower machine and are having trouble with items not spawning, try setting this a little higher
-#useBonusChest (boolean:false) -- Items will be added to the bonus chest when true (meaning you must set bonus chest to ON). If false, a separate chest will be placed
-#
-#**ONLY EDIT WHAT IS BELOW THIS**
-#
-#Tue Oct 02 16:51:09 EDT 2012
-useBonusChest=false
-checksum=1zc
-tickWindow=100[/code][/spoiler]
+All the ids can be found [url="http://www.minecraftwiki.net/wiki/Data_values"]here[/url].[/spoiler]
 
 [size=4][size=5][b]BlockBreaker / ConnectedDestruction[/b][/size] [/size]
 [color=#ff0000]Requires [/color][url="http://files.minecraftforge.net"][color=#ff0000]Forge[/color][/url][color=#ff0000] [/color]

@@ -10,11 +10,15 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
 
 [size=4][b]News[/b]:[/size]
+21-Oct-2013 - [b]bspkrsCorev4.2[/b] is out and brings improvements to the ModVersionChecker class to prevent nagging when new versions come out (you'll only get a chat notification once when a new version is released).
+
+18-Oct-2013 - [b]Treecapitator Forge 1.6.4.r03[/b] is out as a development build to help test an experimental Forge block break event! [b]This release requires a specific build of Forge that can be downloaded [url="http://files.minecraftforge.net/minecraftforge/breakevent/"]here[/url][/b]. The dev build WILL crash your game if you do not use the special build of Forge! Get the Treecapitator dev build [url="http://bspk.rs/MC/TreeCapitator_Forge/dev/index.html"]here[/url]!
+
 17-Oct-2013 - [b]StartingInventory Forge 1.6.4.r02[/b] is released! Aside from being the first Forge native release of StartingInventory, this release adds SMP compatibility and a new command /startinginv [save/load] to allow you to save your current inventory to the config file for easy setup of the items you want to receive upon starting a new world! Details on the /startinginv command can be found below in the More Info spoiler section for StartingInventory.
 
-16-Oct-2013 - [b]CrystalWing Forge 1.6.4.r04[/b] is released to add a short cooldown that prevents double item use and new localizations. Have at it!
+[spoiler='Older News']16-Oct-2013 - [b]CrystalWing Forge 1.6.4.r04[/b] is released to add a short cooldown that prevents double item use and new localizations. Have at it!
 
-[spoiler='Older News']08-Oct-2013 - [b]CrystalWing Forge 1.6.4.r03[/b] is out to fix the duplicate stat ID crash, add a bunch of localizations, and include items in potential chest loot!
+08-Oct-2013 - [b]CrystalWing Forge 1.6.4.r03[/b] is out to fix the duplicate stat ID crash, add a bunch of localizations, and include items in potential chest loot!
 
 04-Oct-2013 - [b]CrystalWing Forge 1.6.4.r02[/b] is out! This is the first release of CrystalWing for Forge to allow for use on servers!  Let me know of any issues you find.
 

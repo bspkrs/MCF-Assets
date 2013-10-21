@@ -8,6 +8,8 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 [b]News:[/b]
 21-Oct-2013 - [b]ArmorStatusHUDv1.15[/b], [b]DirectionHUDv1.16[/b] and [b]StatusEffectHUDv1.19[/b] are out to resolve the issue with not being able to use negative values in the x/y offset config settings. There is also a new config option damageThresholdType in ArmorStatusHUD that allows you to use damage values in the damageColorList instead of just percents.
 
+Update: [b]bspkrsCorev4.2[/b] is out and brings improvements to the ModVersionChecker class to prevent nagging when new versions come out (you'll only get a chat notification once when a new version is released).
+
 17-Oct-2013 - [b]ArmorStatusHUDv1.14[/b], [b]DirectionHUDv1.15[/b] and [b]StatusEffectHUDv1.18[/b] are out as Forge mods. If you don't know what that means, don't worry about it!
 
 [spoiler='Older News']05-Oct-2013 - [b]StatusEffectHUDv1.17[/b] is out and addresses a potential crash.

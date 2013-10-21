@@ -1,1 +1,1 @@
-[url="http://bspk.rs/MC/index.html"][img]http://bspk.rs/Minecraft/mca_banner.png[/img][/url]
+[url="http://bspk.rs/MC/index.html"][img]https://raw.github.com/bspkrs/MCF-Assets/master/img/mca_banner.png[/img][/url]

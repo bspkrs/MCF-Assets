@@ -377,16 +377,17 @@ disableInCreative=false[/code][/spoiler]
 Lunatrius has released a [url="http://www.minecraftforum.net/topic/1296949-"]forked version of IngameInfo[/url] that offers new functionality as well as a new input file format in XML.  Check it out![spoiler]New Video!
 
 [b]Videos:[/b]
+Thanks DonkeyPanic![media]http://www.youtube.com/watch?v=HovaqV-uzhQ[/media][spoiler='More Videos']
 Thanks [url="http://www.minecraftforum.net/user/715625-zain2028/"]zain2028[/url]! (yeah, he was confused and says DaftPVF created StatusEffectHUD... just a mixup)[media]http://www.youtube.com/watch?v=JoylGridrlg[/media]
 Thanks [url="http://www.minecraftforum.net/user/1823995-xtr3m3-demon2/"]XTR3M3_Demon2[/url]! (German)
-[media]http://www.youtube.com/watch?v=L2Z_EvzRI44[/media]
+[media]http://www.youtube.com/watch?v=L2Z_EvzRI44[/media][/spoiler]
 
 Want to know how much score you have without having to die?
 In need of real time information like weather, light level or your world size as you explore?
 Then this mod is for you!
 
-Ingame Info adds the ability to add lines of information on the top of your in-game screen.
-All you must do is run the game once, exit out, check for a file named [b]ingameInfo.txt[/b] in the [b].minecraft\config\IngameInfo\[/b] folder ([b].minecraft/mods/daftpvf/[/b] in releases before 1.4.4.r01), and edit it adding whatever you want!
+Ingame Info adds the ability to add lines of information to your in-game screen.
+All you must do is run the game once, exit out, check for a file named [b]ingameInfo.txt[/b] in the [b].minecraft/config/IngameInfo/[/b] folder ([b].minecraft/mods/daftpvf/[/b] in releases before 1.4.4.r01), and edit it adding whatever you want!
 
 The "igi" command can be used to reload the format file and enable/disable the display of the info text. (new in 1.6.2.r02)
 Usage:

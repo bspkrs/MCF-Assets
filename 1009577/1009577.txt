@@ -10,6 +10,8 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
 
 [size=4][b]News[/b]:[/size]
+23-Oct-2013 - I've backported the new [b]CrystalWing[/b] and [b]StartingInventory[/b] Forge releases to 1.6.2 (use the All Releases download link) and released [b]bspkrsCorev4.3[/b] for 1.6.4 and 1.6.2 (fixes a potential mod ordering issue).  If you plan to use the new CrystalWing or StartingInventory Forge releases for 1.6.2, be sure to update your 1.6.2 version of bspkrsCore to v4.3 as well!
+
 21-Oct-2013 - [b]bspkrsCorev4.2[/b] is out and brings improvements to the ModVersionChecker class to prevent nagging when new versions come out (you'll only get a chat notification once when a new version is released).
 
 18-Oct-2013 - [b]Treecapitator Forge 1.6.4.r03[/b] is out as a development build to help test an experimental Forge block break event! [b]This release requires a specific build of Forge that can be downloaded [url="http://files.minecraftforge.net/minecraftforge/breakevent/"]here[/url][/b]. The dev build WILL crash your game if you do not use the special build of Forge! Get the Treecapitator dev build [url="http://bspk.rs/MC/TreeCapitator_Forge/dev/index.html"]here[/url]!

@@ -10,17 +10,19 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
 
 [size=4][b]News[/b]:[/size]
+25-Oct-2013 - [b]TreeCapitator 1.6.4.r05[/b] is out. This release adds a new per-tree config setting that allows you to use the older top log logic if the new logic is failing to identify a tree that worked in previous versions.  Add useAdvancedTopLogLogic=false to config tree sections that you're having trouble with (this will only fix the issue if the tree was working in a previous version of the mod and stopped working in 1.6.4.r04).
+
 24-Oct-2013 - [b]TreeCapitator 1.6.4.r04[/b] is out (and tested). This release fixes an "exploit" that allows you to bypass the break speed settings on 2x2 jungle trees.  The exact same code coincidentally also means Treecapitator is ready to take on the new tree structures in 1.7 whenever Forge is finally ready.
 
 23-Oct-2013 - I've backported the new [b]CrystalWing[/b] and [b]StartingInventory[/b] Forge releases to 1.6.2 (use the All Releases download link) and released [b]bspkrsCorev4.3[/b] for 1.6.4 and 1.6.2 (fixes a potential mod ordering issue).  If you plan to use the new CrystalWing or StartingInventory Forge releases for 1.6.2, be sure to update your 1.6.2 version of bspkrsCore to v4.3 as well!
 
-21-Oct-2013 - [b]bspkrsCorev4.2[/b] is out and brings improvements to the ModVersionChecker class to prevent nagging when new versions come out (you'll only get a chat notification once when a new version is released).
+[spoiler='Older News']21-Oct-2013 - [b]bspkrsCorev4.2[/b] is out and brings improvements to the ModVersionChecker class to prevent nagging when new versions come out (you'll only get a chat notification once when a new version is released).
 
 18-Oct-2013 - [b]Treecapitator Forge 1.6.4.r03[/b] is out as a development build to help test an experimental Forge block break event! [b]This release requires a specific build of Forge that can be downloaded [url="http://files.minecraftforge.net/minecraftforge/breakevent/"]here[/url][/b]. The dev build WILL crash your game if you do not use the special build of Forge! Get the Treecapitator dev build [url="http://bspk.rs/MC/TreeCapitator_Forge/dev/index.html"]here[/url]!
 
 17-Oct-2013 - [b]StartingInventory Forge 1.6.4.r02[/b] is released! Aside from being the first Forge native release of StartingInventory, this release adds SMP compatibility and a new command /startinginv [save/load] to allow you to save your current inventory to the config file for easy setup of the items you want to receive upon starting a new world! Details on the /startinginv command can be found below in the More Info spoiler section for StartingInventory.
 
-[spoiler='Older News']16-Oct-2013 - [b]CrystalWing Forge 1.6.4.r04[/b] is released to add a short cooldown that prevents double item use and new localizations. Have at it!
+16-Oct-2013 - [b]CrystalWing Forge 1.6.4.r04[/b] is released to add a short cooldown that prevents double item use and new localizations. Have at it!
 
 08-Oct-2013 - [b]CrystalWing Forge 1.6.4.r03[/b] is out to fix the duplicate stat ID crash, add a bunch of localizations, and include items in potential chest loot!
 
@@ -293,7 +295,7 @@ This mod contains core classes used in all other mods I release.  If you want to
 
 [b][size=5]Treecapitator[/size][/b]
 ModLoader (SSP): [url="http://bspk.rs/MC/TreeCapitator_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/TreeCapitator_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/TreeCapitator_ML/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/dev/index.html"]Mirror[/url])
-Forge (SSP/SMP): [url="http://bspk.rs/MC/TreeCapitator_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r04) [url="http://bspk.rs/MC/TreeCapitator_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/TreeCapitator_Forge/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/dev/index.html"]Mirror[/url])  
+Forge (SSP/SMP): [url="http://bspk.rs/MC/TreeCapitator_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r05) [url="http://bspk.rs/MC/TreeCapitator_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/TreeCapitator_Forge/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/dev/index.html"]Mirror[/url])  
 [url="https://github.com/bspkrs/TreeCapitator/blob/master/change.log"]Change Log[/url]
 [spoiler='More Info']
 This mod allows you to chop down an entire tree (leaves and all) by harvesting one of its logs. Based on Terraria tree-cutting style.

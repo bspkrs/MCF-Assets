@@ -10,6 +10,8 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
 
 [size=4][b]News[/b]:[/size]
+27-Oct-2013 - [b]TreeCapitator 1.6.4.r06[/b] is out and fixes the issues with certain trees not working.
+
 25-Oct-2013 - [b]TreeCapitator 1.6.4.r05[/b] is out. This release adds a new per-tree config setting that allows you to use the older top log logic if the new logic is failing to identify a tree that worked in previous versions.  Add useAdvancedTopLogLogic=false to config tree sections that you're having trouble with (this will only fix the issue if the tree was working in a previous version of the mod and stopped working in 1.6.4.r04).
 
 24-Oct-2013 - [b]TreeCapitator 1.6.4.r04[/b] is out (and tested). This release fixes an "exploit" that allows you to bypass the break speed settings on 2x2 jungle trees.  The exact same code coincidentally also means Treecapitator is ready to take on the new tree structures in 1.7 whenever Forge is finally ready.
@@ -295,7 +297,7 @@ This mod contains core classes used in all other mods I release.  If you want to
 
 [b][size=5]Treecapitator[/size][/b]
 ModLoader (SSP): [url="http://bspk.rs/MC/TreeCapitator_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/TreeCapitator_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/TreeCapitator_ML/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/dev/index.html"]Mirror[/url])
-Forge (SSP/SMP): [url="http://bspk.rs/MC/TreeCapitator_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r05) [url="http://bspk.rs/MC/TreeCapitator_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/TreeCapitator_Forge/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/dev/index.html"]Mirror[/url])  
+Forge (SSP/SMP): [url="http://bspk.rs/MC/TreeCapitator_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r06) [url="http://bspk.rs/MC/TreeCapitator_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/TreeCapitator_Forge/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/dev/index.html"]Mirror[/url])  
 [url="https://github.com/bspkrs/TreeCapitator/blob/master/change.log"]Change Log[/url]
 [spoiler='More Info']
 This mod allows you to chop down an entire tree (leaves and all) by harvesting one of its logs. Based on Terraria tree-cutting style.

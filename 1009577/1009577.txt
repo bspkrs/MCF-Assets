@@ -757,6 +757,8 @@ S:stringOfIds=262, 10; 262, 16; 263, 6; 264, 1; 265, 3; 266, 2; 282, 2; 288, 1; 
 [url="https://github.com/bspkrs/StartingInventory/blob/master/change.log"]Change Log[/url]
 [spoiler]This mod gives you items and blocks each time you start a new world, just by editing a .txt file.
 
+[media]http://www.youtube.com/watch?v=ukxYBvGeuzo&[/media]
+
 The file can be found at
 [b].minecraft/config/StartingInventory/startingInventory.txt[/b] ([b].minecraft/mods/daftpvf/startingInventory.txt[/b] in releases before 1.4.4.r01).
 

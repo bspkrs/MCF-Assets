@@ -10,15 +10,17 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
 
 [size=4][b]News[/b]:[/size]
+05-Nov-2013 - [b]StartingInventory Forge 1.6.4.r03[/b] is now available. This release fixes a bug with how the config file gets generated and hopefully resolves some reported timeout issues when players join a server with it installed.
+
 27-Oct-2013 - [b]TreeCapitator 1.6.4.r06[/b] is out and fixes the issues with certain trees not working.
 
 25-Oct-2013 - [b]TreeCapitator 1.6.4.r05[/b] is out. This release adds a new per-tree config setting that allows you to use the older top log logic if the new logic is failing to identify a tree that worked in previous versions.  Add useAdvancedTopLogLogic=false to config tree sections that you're having trouble with (this will only fix the issue if the tree was working in a previous version of the mod and stopped working in 1.6.4.r04).
 
-24-Oct-2013 - [b]TreeCapitator 1.6.4.r04[/b] is out (and tested). This release fixes an "exploit" that allows you to bypass the break speed settings on 2x2 jungle trees.  The exact same code coincidentally also means Treecapitator is ready to take on the new tree structures in 1.7 whenever Forge is finally ready.
+[spoiler='Older News']24-Oct-2013 - [b]TreeCapitator 1.6.4.r04[/b] is out (and tested). This release fixes an "exploit" that allows you to bypass the break speed settings on 2x2 jungle trees.  The exact same code coincidentally also means Treecapitator is ready to take on the new tree structures in 1.7 whenever Forge is finally ready.
 
 23-Oct-2013 - I've backported the new [b]CrystalWing[/b] and [b]StartingInventory[/b] Forge releases to 1.6.2 (use the All Releases download link) and released [b]bspkrsCorev4.3[/b] for 1.6.4 and 1.6.2 (fixes a potential mod ordering issue).  If you plan to use the new CrystalWing or StartingInventory Forge releases for 1.6.2, be sure to update your 1.6.2 version of bspkrsCore to v4.3 as well!
 
-[spoiler='Older News']21-Oct-2013 - [b]bspkrsCorev4.2[/b] is out and brings improvements to the ModVersionChecker class to prevent nagging when new versions come out (you'll only get a chat notification once when a new version is released).
+21-Oct-2013 - [b]bspkrsCorev4.2[/b] is out and brings improvements to the ModVersionChecker class to prevent nagging when new versions come out (you'll only get a chat notification once when a new version is released).
 
 18-Oct-2013 - [b]Treecapitator Forge 1.6.4.r03[/b] is out as a development build to help test an experimental Forge block break event! [b]This release requires a specific build of Forge that can be downloaded [url="http://files.minecraftforge.net/minecraftforge/breakevent/"]here[/url][/b]. The dev build WILL crash your game if you do not use the special build of Forge! Get the Treecapitator dev build [url="http://bspk.rs/MC/TreeCapitator_Forge/dev/index.html"]here[/url]!
 
@@ -615,57 +617,6 @@ Video by [url="http://www.youtube.com/user/LobsCast"]LobsCast[/url]:
 [img]http://bspk.rs/Minecraft/FloatingRuins01.png[/img][img]http://bspk.rs/Minecraft/FR4.png[/img]
 [img]http://bspk.rs/Minecraft/vvBVg.png[/img][/spoiler]
 
-[b]ML Config file[/b] (.minecraft/config/mod_floatingRuins.bsprop.cfg):[spoiler][code]#allowInSuperFlat (boolean:false) -- Set to true to allow generation of floating ruins on superflat maps, false to disable.
-#rarity (int:800) -- The probability is 1 in each 'rarity' number of chunks.
-#baseHeight (int:100) -- The base world height for floating ruins (Min=80, Max=240).
-#heightVariation (int:20) -- The amount of height variation allowed above baseHeight (Min=0, Max=240-baseHeight).
-#baseRadius (int:7) -- The minimum radius of each island. I recommend keeping this at 7 or more (Min=5, Max=50).
-#radiusVariation (int:5) -- The amount of floating island radius variation. Making this value too large will result in very large chunks of your world turning into floating islands (Min=0, Max=50).
-#baseDepth (int:3) -- The minimum depth/thickness of islands (Min=2, Max=50).
-#depthVariation (int:45) -- The amount of variation allowed for the depth/thickness of islands (Min=0, Max=50).
-#numberOfItems (int:4) -- The number of items in a ruin's chest.
-#blockIDBlacklist (java.lang.String:7) -- Add block IDs to this list if you don't want them to be moved when a floating island is generated. Format used: "," separates between id and metadata and ";" separates between each block.
-#stringOfIds (java.lang.String:262, 10; 262, 16; 263, 6; 264, 1; 265, 3; 266, 2; 282, 2; 288, 1; 302, 1; 303, 1; 304, 1; 305, 1; 321, 2; 321, 5; 322, 1; 322, 3; 325, 2; 326, 1; 335, 1; 340, 1; 341, 2; 341, 4; 344, 2; 344, 4; 348, 12; 348, 8; 350, 1; 351, 5, 0; 354, 2; 369, 2; 372, 6; 388, 1; 388, 4; 46, 4; 79, 2) -- The ids for these items. Format used: "," separates between id, number and metadata and ";" separates between each item.
-#spawnerDefault (java.lang.String:Creeper, Skeleton, Zombie) -- Mob spawners can be configured using the mobs' names, each separated by a comma. Using "Default" will make the specified biome use the same settings as 'spawnerDefault'.
-#spawnerDesert (java.lang.String:Skeleton, Spider)
-#spawnerForest (java.lang.String:Default)
-#spawnerPlains (java.lang.String:Spider, Zombie)
-#spawnerSwampland (java.lang.String:Slime, Creeper)
-#spawnerTaiga (java.lang.String:Spider, Zombie)
-#spawnerHills (java.lang.String:Default)
-#spawnerOcean (java.lang.String:Default)
-#spawnerRiver (java.lang.String:Default)
-#spawnerJungle (java.lang.String:Skeleton, Enderman)
-#spawnerIceBiomes (java.lang.String:Zombie, Skeleton)
-#spawnerMushroom (java.lang.String:MushroomCow) --
-#
-#**ONLY EDIT WHAT IS BELOW THIS**
-#
-allowInSuperFlat=false
-rarity=80
-baseHeight=100
-heightVariation=20
-baseRadius=7
-radiusVariation=5
-baseDepth=3
-depthVariation=45
-numberOfItems=4
-blockIDBlacklist=7
-stringOfIds=262, 10; 262, 16; 263, 6; 264, 1; 265, 3; 266, 2; 282, 2; 288, 1; 302, 1; 303, 1; 304, 1; 305, 1; 321, 2; 321, 5; 322, 1; 322, 3; 325, 2; 326, 1; 335, 1; 340, 1; 341, 2; 341, 4; 344, 2; 344, 4; 348, 12; 348, 8; 350, 1; 351, 5, 0; 354, 2; 369, 2; 372, 6; 388, 1; 388, 4; 46, 4; 79, 2
-spawnerOcean=Default
-spawnerJungle=Skeleton, Enderman
-spawnerSwampland=Slime, Creeper
-spawnerHills=Default
-spawnerMushroom=MushroomCow
-spawnerTaiga=Spider, Zombie
-spawnerForest=Default
-spawnerRiver=Default
-spawnerIceBiomes=Zombie, Skeleton
-spawnerDesert=Skeleton, Spider
-spawnerPlains=Spider, Zombie
-spawnerDefault=Creeper, Skeleton, Zombie
-[/code][/spoiler]
-
 [b]Forge Config file [/b](.minecraft/config/FloatingRuins.cfg):[spoiler][code]# Configuration file
 # Generated on 12/19/12 8:28 PM
 
@@ -753,7 +704,7 @@ S:stringOfIds=262, 10; 262, 16; 263, 6; 264, 1; 265, 3; 266, 2; 282, 2; 288, 1; 
 
 [size=5][b]StartingInventory[/b]: [/size]
 [size=4]ModLoader (SSP)[/size]: [url="http://bspk.rs/MC/StartingInventory_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/StartingInventory_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_ML/index.html"]Mirror[/url])
-[size=4]Forge (SSP/SMP)[/size]: [url="http://bspk.rs/MC/StartingInventory_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r02) [url="http://bspk.rs/MC/StartingInventory_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_Forge/index.html"]Mirror[/url])
+[size=4]Forge (SSP/SMP)[/size]: [url="http://bspk.rs/MC/StartingInventory_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r03) [url="http://bspk.rs/MC/StartingInventory_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_Forge/index.html"]Mirror[/url])
 [url="https://github.com/bspkrs/StartingInventory/blob/master/change.log"]Change Log[/url]
 [spoiler]This mod gives you items and blocks each time you start a new world, just by editing a .txt file.
 

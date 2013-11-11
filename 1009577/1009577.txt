@@ -549,8 +549,8 @@ z=&e<y>[/code]Images:[spoiler][img]http://bspk.rs/Minecraft/IngameInfo1.png[/img
 [size=5][b]CrystalWing[/b]: [/size]
 [size=4]ML Client[/size]: [url="http://bspk.rs/MC/CrystalWing/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/CrystalWing/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing/index.html"]Mirror[/url])
 [size=4]Forge Universal[/size]: [url="http://bspk.rs/MC/CrystalWing_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r04) [url="http://bspk.rs/MC/CrystalWing_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing_Forge/index.html"]Mirror[/url])
-[url="https://github.com/bspkrs/CrystalWing/blob/master/change.log"]Change Log[/url][spoiler]
-[media]http://www.youtube.com/watch?v=VAlSaYLriME[/media]
+[url="https://github.com/bspkrs/CrystalWing/blob/master/change.log"]Change Log[/url][spoiler]Thanks DonkeyPanic!
+[media]http://www.youtube.com/watch?v=ywM5crVJdxQ[/media]
 
 [b]Crystal Wing[/b]
 [img]http://bspk.rs/Minecraft/crystalWing.png[/img]

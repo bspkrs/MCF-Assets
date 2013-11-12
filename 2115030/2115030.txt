@@ -1,7 +1,7 @@
 [size=5][b]MCP Mapping Viewer[/b][/size]
 After quite a bit of on and off working on this, I'm pleased to present MCP Mapping Viewer!  MCP Mapping Viewer is a Java application that allows you to easily navigate through the MCP obfuscation data used during the decompilation process. The only requirement to use it is an MCP folder.
 
-[img]https://dl.dropboxusercontent.com/u/20748481/Minecraft/2013-11-12_14-42-54.png[/img]
+[img]https://raw.github.com/bspkrs/MCF-Assets/master/2115030/img/MMV_screenshot.png[/img]
 
 [b]Code[/b]: [url="https://github.com/bspkrs/MCPMappingViewer"]https://github.com/b...CPMappingViewer[/url]
 [b]Downloads[/b]: [url="http://bspk.rs/MC/MCPMappingViewer/index.html"]http://bspk.rs/MC/MC...ewer/index.html[/url]

@@ -2,7 +2,7 @@
 After quite a bit of on and off working on this, I'm pleased to present MCP Mapping Viewer!  MCP Mapping Viewer is a Java GUI application that allows you to easily navigate through the MCP obfuscation data used during the decompilation process. The only requirement to use it is an MCP folder.
 
 [spoiler='FAQ'][b]Why do I need this? [/b]
-Generally this application is useful for modders who are implementing Forge coremod features like access transformers or bytecode injection. It is also useful for quickly looking up the MCP names of obfuscated classes/methods/fields referenced in stacktraces posted by players.
+Generally this application is useful for modders who are implementing Forge coremod features like access transformers or ASM bytecode injection. It is also useful for quickly looking up the MCP names of obfuscated classes/methods/fields referenced in stacktraces posted by players.
 
 [b]Doesn't the IRC MCPBot already do this?[/b]
 Advantages over MCPBot:
@@ -10,6 +10,9 @@ Advantages over MCPBot:
 - the bot is locked to a specific version of the mappings
 - this application is guaranteed to give you data that matches the code used in your local MCP instances
 - this application lets you view more data than the output from the bot provides[/spoiler]
+
+[spoiler='A note about MCP Class Map Helper'][b]Isn't there already an application to do this called [i]MCP Class Map Helper[/i]?[/b]
+When I coded [i]MCP Mapping Viewer[/i] I was unaware of any other applications to allow you to do easy obfuscation map look-ups. I started working on my implementation on June 12, 2013.  On November 19, 2013, however, I decided to run a Google search on "MCP Mapping Viewer" to see what came up and I found a simpler implementation [url="http://www.minecraftforum.net/topic/1950475-162-mcp-class-map-helper/"]here[/url]. In the spirit of good will, I encourage you to take a look and decide which one best meets your particular needs.[/spoiler]
 
 [b]Features:[/b]
 - simple UI

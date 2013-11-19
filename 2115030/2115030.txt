@@ -1,12 +1,32 @@
 [size=5][b]MCP Mapping Viewer[/b][/size]
-After quite a bit of on and off working on this, I'm pleased to present MCP Mapping Viewer!  MCP Mapping Viewer is a Java application that allows you to easily navigate through the MCP obfuscation data used during the decompilation process. The only requirement to use it is an MCP folder.
+After quite a bit of on and off working on this, I'm pleased to present MCP Mapping Viewer!  MCP Mapping Viewer is a Java GUI application that allows you to easily navigate through the MCP obfuscation data used during the decompilation process. The only requirement to use it is an MCP folder.
+
+[spoiler='FAQ'][b]Why do I need this? [/b]
+Generally this application is useful for modders who are implementing Forge coremod features like access transformers or bytecode injection. It is also useful for quickly looking up the MCP names of obfuscated classes/methods/fields referenced in stacktraces posted by players.
+
+[b]Doesn't the IRC MCPBot already do this?[/b]
+Advantages over MCPBot:
+- the bot is not always available
+- the bot is locked to a specific version of the mappings
+- this application is guaranteed to give you data that matches the code used in your local MCP instances
+- this application lets you view more data than the output from the bot provides[/spoiler]
+
+[b]Features:[/b]
+- simple UI
+- easily switch between MCP instances (and thus MC versions)
+- search through the mappings
+- supports both Forge and base MCP mapping configurations
+- new version update checking
+
+[b]Note:[/b] Per the MCF rules on code that "phones home", I hereby notify you that this application includes a version checker that will notify you of updates to the application. No data is collected during this process; the code retrieves the latest version number from a URL that I cannot track (old style dropbox public link) and compares it to your local version number. You will only be notified of a new release once per new version.
 
 [b]Current release:[/b] 0.2.2 (14-Nov-2013)
 
 [img]https://raw.github.com/bspkrs/MCF-Assets/master/2115030/img/MMV_screenshot.png[/img]
 
-[b]Code[/b]: [url="https://github.com/bspkrs/MCPMappingViewer"]https://github.com/b...CPMappingViewer[/url]
+[b]Code[/b]: [url="https://github.com/bspkrs/MCPMappingViewer"]Github Repo[/url]  [url="https://github.com/bspkrs/MCPMappingViewer/issues"]Issue Tracker[/url]
 [b]Downloads[/b]: [url="http://bspk.rs/MC/MCPMappingViewer/index.html"]Main[/url]  [url="http://dl.dropboxusercontent.com/u/20748481/MC/MCPMappingViewer/index.html"]Mirror[/url]  [url="https://github.com/bspkrs/MCPMappingViewer/blob/master/change.log"]Change Log[/url]
+[i]By downloading this software you agree to the terms of the license (below).[/i]
 
 [spoiler='License']Copyright © 2013 bspkrs
 Portions Copyright © 2013 Alex "immibis" Campbell
@@ -16,4 +36,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.[/spoiler]
+
+[spoiler='Credits'][b]immibis[/b] - for making BON and giving it a non-restrictive license that allowed me to reuse some of the code
+[b]Searge and the MCP team[/b] - for making MCP, the best and only tool for making Minecraft mods easy to develop and package[/spoiler]
 [represent]

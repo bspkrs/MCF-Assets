@@ -323,7 +323,7 @@ yOffsetBottomCenter=41[/code][/spoiler]
 [b]Thanks[/b]:- PuddingHuxtable (this was pretty much his idea)[/spoiler]
 
 [color=#000080][size=6][b]Install (all mods):[/b][/size][/color]
-Requires [url="http://www.minecraftforum.net/topic/75440-"]Risugami's ModLoader[/url] or equivalent (such as [url="http://files.minecraftforge.net"]Forge[/url] or [url="http://www.minecraftforum.net/topic/1149336-"]FML[/url]).  
+Requires [url="http://files.minecraftforge.net"]Forge[/url].  
 Do not extract.  
 Drop the downloaded zip file into the mods folder in your .minecraft folder.
 Make sure you have also downloaded [url="http://bspk.rs/MC/bspkrsCore/index.html"]bspkrsCore[/url], a [b]REQUIRED DEPENDENCY[/b] for all my mods.
@@ -332,4 +332,5 @@ Thanks to [url="http://www.minecraft...7577-osparkso/"]oSPARKSo[/url] for this h
 
 [size=4]If you like what I've done here, help me get more storage on [url="http://db.tt/DzTZ6zy"]Dropbox[/url][/size] or [url="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=briefcase%2espeakers%40gmail%2ecom&lc=US&item_name=bspkrs%20mod%20development&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest"][img]https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif[/img][/url][size=4]![/size]
 
-[color=#000080][size=6][b]Reuse / Mod Packs[/b]:[/size][/color]These mods are released under the Creative Commons Share Alike non-commercial License.  They are allowed to be used in mod packs as long as I receive credit and the URL of this forum thread is provided.  No adf.ly links.  Do not post these mods on other sites.[represent]
+[color=#000080][size=6][b]Reuse / Mod Packs[/b]:[/size][/color]These mods are released under the Creative Commons Share Alike non-commercial License.  They are allowed to be used in mod packs as long as I receive credit and the URL of this forum thread is provided.  No adf.ly links.  Do not post these mods on other sites.
+[represent]

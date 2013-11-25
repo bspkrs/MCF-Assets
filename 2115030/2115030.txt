@@ -18,12 +18,13 @@ When I coded [i]MCP Mapping Viewer[/i] I was unaware of any other applications t
 - simple UI
 - easily switch between MCP instances (and thus MC versions)
 - search through the mappings
+- allows editing of MCP names/comments for export in the form of MCPBot commands
 - supports both Forge and base MCP mapping configurations
 - new version update checking
 
 [b]Note:[/b] Per the MCF rules on code that "phones home", I hereby notify you that this application includes a version checker that will notify you of updates to the application. No data is collected during this process; the code retrieves the latest version number from a URL that I cannot track (old style dropbox public link) and compares it to your local version number. You will only be notified of a new release once per new version.
 
-[b]Current release:[/b] 0.2.2 (14-Nov-2013)
+[b]Current release:[/b] 0.5.0 (25-Nov-2013)
 
 [img]https://raw.github.com/bspkrs/MCF-Assets/master/2115030/img/MMV_screenshot.png[/img]
 

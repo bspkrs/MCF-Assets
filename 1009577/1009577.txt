@@ -10,6 +10,10 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
 
 [size=4][b]News[/b]:[/size]
+19-Dec-2013 - [b]Treecapitator 1.6.4.r09[/b] is now available. This release fixes NPEs when using MultiMine and also adds automatic MultiMine compatibility. Also, I am aware that the latest releases of BlockBreaker and FloatingRuins are not working with bspkrsCorev5.1.
+
+Update: I have released [b]FloatingRuins 1.6.4.r02[/b], [b]BlockBreaker 1.6.4.r03[/b], and [b]bspkrsCorev5.2[/b]. FloatingRuins got a lot of bug fixes and improvements (see change.log), BlockBreaker is switched over to the new Forge BreakEvent, and bspkrsCore has a new command /bs that shows the version check info for my mods.
+
 18-Dec-2013 - [b]Treecapitator 1.6.4.r08[/b] is out to fix the crashes that people have been seeing (I just removed the new code instead of fixing it for now). I also fixed the bspkrsCore issue causing update notifications to spam incessantly during the one game session that they show. Be sure to grab [b]bspkrsCorev5.1[/b].
 
 17-Dec-2013 - [b]Treecapitator 1.6.4.r07[/b] is out. This release adds a new config option treeHeightModifier to allow customization of the treeHeightDecidesBreakSpeed handling. I have also switched to using the new BreakEvent in Forge, so Treecapitator is no longer a coremod!

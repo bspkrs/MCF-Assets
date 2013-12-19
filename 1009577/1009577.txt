@@ -309,7 +309,7 @@ This mod contains core classes used in all other mods I release.  If you want to
 
 [b][size=5]Treecapitator[/size][/b]
 ModLoader (SSP): [url="http://bspk.rs/MC/TreeCapitator_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/TreeCapitator_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/TreeCapitator_ML/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/dev/index.html"]Mirror[/url])
-Forge (SSP/SMP): [url="http://bspk.rs/MC/TreeCapitator_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r08) [url="http://bspk.rs/MC/TreeCapitator_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/TreeCapitator_Forge/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/dev/index.html"]Mirror[/url])  
+Forge (SSP/SMP): [url="http://bspk.rs/MC/TreeCapitator_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r09) [url="http://bspk.rs/MC/TreeCapitator_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/TreeCapitator_Forge/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/dev/index.html"]Mirror[/url])  
 [url="https://github.com/bspkrs/TreeCapitator/blob/master/change.log"]Change Log[/url]
 [spoiler='More Info']
 This mod allows you to chop down an entire tree (leaves and all) by harvesting one of its logs. Based on Terraria tree-cutting style.
@@ -608,7 +608,7 @@ I:idCrystalWing=31743
 
 [size=5][b]FloatingRuins[/b]:[/size]
 [size=4]ModLoader (SSP)[/size]: [url="http://bspk.rs/MC/FloatingRuins_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/FloatingRuins_ML/index.html"]All Releases[/url]([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_ML/index.html"]Mirror[/url])
-Forge (SSP/SMP): [url="http://bspk.rs/MC/FloatingRuins_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r01) [url="http://bspk.rs/MC/FloatingRuins_Forge/index.html"]All Releases[/url]([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_Forge/index.html"]Mirror[/url])
+Forge (SSP/SMP): [url="http://bspk.rs/MC/FloatingRuins_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r02) [url="http://bspk.rs/MC/FloatingRuins_Forge/index.html"]All Releases[/url]([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_Forge/index.html"]Mirror[/url])
 [url="https://github.com/bspkrs/FloatingRuins/blob/master/change.log"]Change Log[/url][spoiler]Floating islands taken from the ground with mini-ruins on top. The ruins' shape, material and mob spawners' choice of mobs are all biome-based.
 
 Thanks [url="http://www.minecraftforum.net/user/2339605-thelucror/"]theLucror[/url]!
@@ -757,7 +757,7 @@ All the ids can be found [url="http://www.minecraftwiki.net/wiki/Data_values"]he
 
 [size=4][size=5][b]BlockBreaker / ConnectedDestruction[/b][/size] [/size]
 [color=#ff0000]Requires [/color][url="http://files.minecraftforge.net"][color=#ff0000]Forge[/color][/url][color=#ff0000] [/color]
-Forge Universal: [url="http://bspk.rs/MC/BlockBreaker/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/BlockBreaker/latest/index.html"]Mirror[/url]) (1.6.4.r02)  [url="http://bspk.rs/MC/BlockBreaker/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/BlockBreaker/index.html"]Mirror[/url])
+Forge Universal: [url="http://bspk.rs/MC/BlockBreaker/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/BlockBreaker/latest/index.html"]Mirror[/url]) (1.6.4.r03)  [url="http://bspk.rs/MC/BlockBreaker/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/BlockBreaker/index.html"]Mirror[/url])
 [url="https://github.com/bspkrs/BlockBreaker/blob/master/change.log"]Change Log[/url]
 [spoiler]BlockBreaker allows you to define a list of blocks that will break in a chain reaction when an adjacent block of the same type is broken.
 

@@ -1,4 +1,4 @@
-[size=4][b]Current updates to 1.6.4 for Ingame Info, Crystal Wing, Floating Ruins, [/b][/size][size=4][b]Starting Inventory, and TreeCapitator[/b][/size][size=4][b]!  DaftPVF approved![/b][/size]
+[size=4][b]Current updates to 1.7.2 for Crystal Wing, Floating Ruins, [/b][/size][size=4][b]Starting Inventory, and Treecapitator[/b][/size][size=4][b]!  DaftPVF approved![/b][/size]
 
 [size=4]DaftPVF went on hiatus in February 2012.  He [url="http://www.minecraftforum.net/topic/124117-100-daftpvfs-mods/page__st__920#entry12634055"]gave me permission[/url] to continue development on his mods, so I'll keep things up to date.[/size]
 
@@ -10,7 +10,9 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
 
 [size=4][b]News[/b]:[/size]
-19-Dec-2013 - [b]Treecapitator 1.6.4.r09[/b] is now available. This release fixes NPEs when using MultiMine and also adds automatic MultiMine compatibility. Also, I am aware that the latest releases of BlockBreaker and FloatingRuins are not working with bspkrsCorev5.1.
+19-Jan-2014 - 1.7.2 updates are out for [b]Treecapitator[/b], [b]CrystalWing[/b], and [b]StartingInventory[/b].  A working version of [b]FloatingRuins[/b] is available, but I'm still tweaking some recently added code. As I mentioned in a previous news item I am no longer developing IngameInfo; I'm sure that Lunatrius will have his release out soon enough. [b]BlockBreaker[/b] is most likely going to be dropped as there is a better implementation called Vein Miner by portablejim.
+
+[spoiler='Older News']19-Dec-2013 - [b]Treecapitator 1.6.4.r09[/b] is now available. This release fixes NPEs when using MultiMine and also adds automatic MultiMine compatibility. Also, I am aware that the latest releases of BlockBreaker and FloatingRuins are not working with bspkrsCorev5.1.
 
 Update: I have released [b]FloatingRuins 1.6.4.r02[/b], [b]BlockBreaker 1.6.4.r03[/b], and [b]bspkrsCorev5.2[/b]. FloatingRuins got a lot of bug fixes and improvements (see change.log), BlockBreaker is switched over to the new Forge BreakEvent, and bspkrsCore has a new command /bs that shows the version check info for my mods.
 
@@ -20,7 +22,7 @@ Update: I have released [b]FloatingRuins 1.6.4.r02[/b], [b]BlockBreaker 1.6.4.r0
 
 11-Dec-2013 - [member='Lunatrius'] is taking over development of IngameInfo for me ([url="http://www.minecraftforum.net/topic/1296949-"]his version[/url] is waaaay better anyway). He has graciously agreed to support both his proper XML format as well as the texty XMLish format that DaftPVF and I used. There are a few small differences in his text format handling vs mine, but it's for the better. Thusly, 1.6.4 will be the last MC version that I will release IngameInfo for.  The existing downloads will still be available.
 
-[spoiler='Older News']05-Nov-2013 - [b]StartingInventory Forge 1.6.4.r03[/b] is now available. This release fixes a bug with how the config file gets generated and hopefully resolves some reported timeout issues when players join a server with it installed.
+05-Nov-2013 - [b]StartingInventory Forge 1.6.4.r03[/b] is now available. This release fixes a bug with how the config file gets generated and hopefully resolves some reported timeout issues when players join a server with it installed.
 
 27-Oct-2013 - [b]TreeCapitator 1.6.4.r06[/b] is out and fixes the issues with certain trees not working.
 
@@ -308,8 +310,8 @@ This mod contains core classes used in all other mods I release.  If you want to
 [b]You will be ignored if you post about MC crashing because you didn't install bspkrsCore.[/b]
 
 [b][size=5]Treecapitator[/size][/b]
-ModLoader (SSP): [url="http://bspk.rs/MC/TreeCapitator_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/TreeCapitator_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/TreeCapitator_ML/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/dev/index.html"]Mirror[/url])
-Forge (SSP/SMP): [url="http://bspk.rs/MC/TreeCapitator_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r09) [url="http://bspk.rs/MC/TreeCapitator_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/TreeCapitator_Forge/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/dev/index.html"]Mirror[/url])  
+Forge (SSP/SMP): [url="http://bspk.rs/MC/TreeCapitator_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r01) [url="http://bspk.rs/MC/TreeCapitator_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/TreeCapitator_Forge/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/dev/index.html"]Mirror[/url])
+[size=2]ModLoader (SSP): [url="http://bspk.rs/MC/TreeCapitator_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/TreeCapitator_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/TreeCapitator_ML/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/dev/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/TreeCapitator/blob/master/change.log"]Change Log[/url]
 [spoiler='More Info']
 This mod allows you to chop down an entire tree (leaves and all) by harvesting one of its logs. Based on Terraria tree-cutting style.
@@ -349,44 +351,6 @@ This mod allows you to chop down an entire tree (leaves and all) by harvesting o
 [b]Videos:[/b]
 [media]http://www.youtube.com/watch?v=Ekk5-zNIfVI[/media]
 [media]http://www.youtube.com/watch?v=_2Jd9VmiQxU[/media]
-
-[b]ML/MLMP Configuration File (.minecraft/config/mod_treeCapitator.cfg):[/b][spoiler][code]#axeIDList (java.lang.String:271; 275; 258; 286; 279) -- IDs of items that can chop down trees. Use ',' to split item id from metadata and ';' to split items.
-#needItem (boolean:true) -- Whether you need an item from the IDList to chop down a tree. Disabling will let you chop trees with any item.
-#onlyDestroyUpwards (boolean:true) -- Setting this to false will allow the chopping to move downward as well as upward (and blocks below the one you break will be chopped)
-#destroyLeaves (boolean:true) -- Enabling this will make leaves be destroyed when trees are chopped.
-#shearLeaves (boolean:false) -- Enabling this will cause destroyed leaves to be sheared when a shearing item is in the hotbar (ignored if destroyLeaves is false).
-#shearVines (boolean:false) -- Enabling this will shear /some/ of the vines on a tree when a shearing item is in the hotbar (ignored if destroyLeaves is false).
-#shearIDList (java.lang.String:359) -- IDs of items that when placed in the hotbar will allow leaves to be sheared when shearLeaves is true. Use ',' to split item id from metadata and ';' to split items.
-#logHardnessNormal (float:2.0) -- The hardness of logs for when you are using items that won't chop down the trees.
-#logHardnessModified (float:4.0) -- The hardness of logs for when you are using items that can chop down trees.
-#disableInCreative (boolean:false) -- Flag to disable tree chopping in Creative mode
-#disableCreativeDrops (boolean:false) -- Flag to disable drops in Creative mode
-#allowItemDamage (boolean:true) -- Enable to cause item damage based on number of blocks destroyed
-#allowMoreBlocksThanDamage (boolean:false) -- Enable to allow chopping down the entire tree even if your item does not have enough damage remaining to cover the number of blocks.
-#damageMultiplier (float:1.0) -- The damage your item takes will be multiplied by this decimal number, ie- if you set it to 0.5F, your item will only take half as much damage when chopping an entire tree versus breaking blocks normally, or if you use 2.0F it will cause twice as much damage per block broken.
-#sneakAction (java.lang.String:disable) -- Set sneakAction = "disable" to disable tree chopping while sneaking, set sneakAction = "enable" to only enable tree chopping while sneaking.
-#maxBreakDistance (int:10) -- The maximum horizontal distance that the log breaking algorithm will travel (use -1 for no limit).
-#
-#**ONLY EDIT WHAT IS BELOW THIS**
-#
-#Sun Sep 30 12:32:48 EDT 2012
-shearIDList=359
-needItem=true
-disableCreativeDrops=false
-destroyLeaves=true
-allowItemDamage=true
-checksum=fa1fxu
-shearVines=false
-allowMoreBlocksThanDamage=false
-shearLeaves=false
-onlyDestroyUpwards=true
-damageMultiplier=1.0
-logHardnessModified=4.0
-logHardnessNormal=2.0
-sneakAction=disable
-maxBreakDistance=10
-axeIDList=271; 275; 258; 286; 279
-disableInCreative=false[/code][/spoiler]
 
 [b]Forge Configuration File (.minecraft/config/TreeCapitator.cfg):[/b]
 [url="http://pastebin.com/kKGA4D36"]http://pastebin.com/kKGA4D36[/url] (it's too long to put here, lol)[/spoiler]
@@ -558,8 +522,8 @@ z=&e<y>[/code]Images:[spoiler][img]http://bspk.rs/Minecraft/IngameInfo1.png[/img
 [img]http://bspk.rs/Minecraft/IngameInfo3.png[/img][/spoiler][/spoiler][/spoiler]
 
 [size=5][b]CrystalWing[/b]: [/size]
-[size=4]ML Client[/size]: [url="http://bspk.rs/MC/CrystalWing/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/CrystalWing/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing/index.html"]Mirror[/url])
-[size=4]Forge Universal[/size]: [url="http://bspk.rs/MC/CrystalWing_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r04) [url="http://bspk.rs/MC/CrystalWing_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing_Forge/index.html"]Mirror[/url])
+[size=4]Forge Universal[/size]: [url="http://bspk.rs/MC/CrystalWing_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing_Forge/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r01) [url="http://bspk.rs/MC/CrystalWing_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing_Forge/index.html"]Mirror[/url])
+[size=2]ML Client: [url="http://bspk.rs/MC/CrystalWing/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/CrystalWing/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/CrystalWing/blob/master/change.log"]Change Log[/url][spoiler]Thanks DonkeyPanic!
 [media]http://www.youtube.com/watch?v=ywM5crVJdxQ[/media]
 
@@ -583,32 +547,28 @@ This will continuously burn the player that holds it in their inventory, so THRO
 This is the broken version of the Crystal Wing. When the player tries to use it, they, eh... get lost.
 [hr]
 [b]Config file[/b]:
-.minecraft/config/mod_crystalWing.bsprop.cfg
+.minecraft/config/CrystalWing.cfg
 [code]# Configuration file
+
+####################
+# general
+####################
+
 general {
 # [default: true]
 B:allowDebugLogging=true
 
-# [range: 1 ~ 2000, default: 1710]
-I:idAchievement=1710
-
-# Maximum distance for the Burned Wing random teleportation. [range: 50 ~ 50000, default: 500]
+# Maximum distance for the Burned Wing random teleportation. [range: 100 ~ 50000, default: 500]
 I:teleDistance=500
 
 # Number of Crystal Wing uses. Set to 0 for infinite. [range: 0 ~ 5280, default: 8]
 I:uses=8
-}
-
-item {
-I:idBurnedWing=31741
-I:idBurningWing=31742
-I:idCrystalWing=31743
 }[/code]
 [/spoiler]
 
 [size=5][b]FloatingRuins[/b]:[/size]
-[size=4]ModLoader (SSP)[/size]: [url="http://bspk.rs/MC/FloatingRuins_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/FloatingRuins_ML/index.html"]All Releases[/url]([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_ML/index.html"]Mirror[/url])
-Forge (SSP/SMP): [url="http://bspk.rs/MC/FloatingRuins_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r02) [url="http://bspk.rs/MC/FloatingRuins_Forge/index.html"]All Releases[/url]([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_Forge/index.html"]Mirror[/url])
+Forge (SSP/SMP): [url="http://bspk.rs/MC/FloatingRuins_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_Forge/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r01) [url="http://bspk.rs/MC/FloatingRuins_Forge/index.html"]All Releases[/url]([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_Forge/index.html"]Mirror[/url])
+[size=2]ModLoader (SSP): [url="http://bspk.rs/MC/FloatingRuins_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/FloatingRuins_ML/index.html"]All Releases[/url]([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_ML/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/FloatingRuins/blob/master/change.log"]Change Log[/url][spoiler]Floating islands taken from the ground with mini-ruins on top. The ruins' shape, material and mob spawners' choice of mobs are all biome-based.
 
 Thanks [url="http://www.minecraftforum.net/user/2339605-thelucror/"]theLucror[/url]!
@@ -629,45 +589,87 @@ Video by [url="http://www.youtube.com/user/LobsCast"]LobsCast[/url]:
 [img]http://bspk.rs/Minecraft/vvBVg.png[/img][/spoiler]
 
 [b]Forge Config file [/b](.minecraft/config/FloatingRuins.cfg):[spoiler][code]# Configuration file
-# Generated on 12/19/12 8:28 PM
 
 ####################
 # general
 ####################
 
 general {
+# Set to true if you want FloatingRuins to log info about what it's doing, false to disable [default: false]
+B:allowDebugLogging=false
+
 # Set to true to allow generation of floating ruins on superflat maps, false to disable. [default: false]
 B:allowInSuperFlat=false
 
-# The minimum depth/thickness of islands (Min=2, Max=50). [range: 2 ~ 50, default: 5]
-I:baseDepth=5
+# When set to true spawners will be able to spawn any of the mobs for the biome the floating island generated in, set to false to use the old logic of randomly picking just one mob. [default: true]
+B:allowMultiMobSpawners=true
 
-# The base world height for floating ruins (Min=80, Max=240). [range: 80 ~ 240, default: 100]
-I:baseHeight=100
+# Add biome IDs where you do not want Floating Ruins to generate. Format used: ";" separates between each biome ID. [default: 7;8;9;11;15;16;]
+S:biomeIDBlacklist=7;8;9;11;15;16;
 
-# The minimum radius of each island. I recommend keeping this at 7 or more (Min=5, Max=50). [range: 6 ~ 50, default: 9]
-I:baseRadius=9
+# Add block IDs to this list if you don't want them to be moved when a floating island is generated. Format used: "," separates between id and metadata and ";" separates between each block. [default: minecraft:bedrock;]
+S:blockIDBlacklist=minecraft:bedrock;
 
-# Add block IDs to this list if you don't want them to be moved when a floating island is generated. Format used: "," separates between id and metadata and ";" separates between each block. [default: 7]
-S:blockIDBlacklist=7
+# The maximum depth/thickness of islands (Min=depthMean, Max=50). [range: 9 ~ 45, default: 45]
+I:depthMax=45
 
-# The amount of variation allowed for the depth/thickness of islands (Min=0, Max=50). [range: 0 ~ 50, default: 45]
-I:depthVariation=45
+# The average island depth. Half of the islands will be shallower than depthMean, half of the islands will be deeper than depthMean. (Min=depthMin, Max=depthMax). [range: 5 ~ 45, default: 9]
+I:depthMean=9
 
-# Set to true to generate harder dungeons (roof is bedrock, chest is harder to get to), set to false to generate normal dungeons. [default: false]
+# The minimum depth/thickness of islands (Min=2, Max=depthMean). [range: 5 ~ 9, default: 5]
+I:depthMin=5
+
+# How strongly island depth should tend to lie around depthMean. (Min=1, Max=10). [range: 1 ~ 10, default: 3]
+I:depthNorm=3
+
+# Add dimension IDs where you do not want Floating Ruins to generate. Format used: ";" separates between each dimension ID. [default: -1;1]
+S:dimensionIDBlacklist=-1;1
+
+# Set to true to generate harder dungeons (roof is bedrock, chest is harder to get to, mobs spawn more aggressively), set to false to generate normal dungeons. [default: false]
 B:harderDungeons=false
 
-# The amount of height variation allowed above baseHeight (Min=0, Max=240-baseHeight). [range: 0 ~ 160, default: 20]
-I:heightVariation=20
+# The maximum world height for floating ruins (Min=heightMean, Max=240). [range: 100 ~ 240, default: 240]
+I:heightMax=240
+
+# The average island height. Half of the islands will be below heightMean, half of the islands will be above heightMean. (Min=heightMin, Max=heightMax). [range: 80 ~ 240, default: 100]
+I:heightMean=100
+
+# The minimum world height for floating ruins (Min=80, Max=heightMax). [range: 80 ~ 100, default: 80]
+I:heightMin=80
+
+# How strongly island height should tend to lie around heightMean. (Min=1, Max=10). [range: 1 ~ 10, default: 3]
+I:heightNorm=3
 
 # The number of items in a ruin's chest. [range: 1 ~ 27, default: 4]
 I:numberOfItems=4
 
-# The amount of floating island radius variation. Making this value too large will result in very large chunks of your world turning into floating islands (Min=0, Max=50). [range: 0 ~ 50, default: 6]
-I:radiusVariation=6
+# The maximum radius of each island. Making this value too large will result in very large chunks of your world turning into floating islands (Min=radiusMean, Max=50). [range: 10 ~ 50, default: 50]
+I:radiusMax=50
+
+# The average island radius. Half of the islands will be smaller than radiusMean, half of the islands will be larger than radiusMean. (Min=radiusMin, Max=radiusMax). [range: 7 ~ 50, default: 10]
+I:radiusMean=9
+
+# The minimum radius of each island. I recommend keeping this at 7 or more (Min=5, Max=radiusMean). [range: 5 ~ 9, default: 7]
+I:radiusMin=5
+
+# How strongly island radius should tend to lie around radiusMean. (Min=1, Max=10). [range: 1 ~ 10, default: 3]
+I:radiusNorm=3
 
 # The probability of a floating island generating is 1 in each 'rarity' number of chunks. [range: 1 ~ 2147483647, default: 800]
-I:rarity=800
+I:rarity=80
+
+# The probability of a floating island having a dungeon on it is 1 in each 'dungeonRarity' number of islands. [range: 1 ~ 2147483647, default: 1]
+I:rarityDungeon=1
+
+# The relative chance of an island having the cone shape. [range: 0 ~ 2147483647, default: 14]
+I:shapeConeWeight=14
+
+# The relative chance of an island having the jetsons shape. [range: 0 ~ 2147483647, default: 1]
+I:shapeJetsonsWeight=1
+
+# The relative chance of an island having the spheroid shape. [range: 0 ~ 2147483647, default: 21]
+I:shapeSpheroidWeight=21
+I:shapeStalactiteWeight=0
 
 # Mob spawners can be configured using the mobs' names, each separated by a comma. Using "Default" will make the specified biome use the same settings as 'spawnerDefault'. [default: Creeper, Skeleton, Zombie, CaveSpider]
 S:spawnerDefault=Creeper, Skeleton, Zombie, CaveSpider
@@ -675,14 +677,14 @@ S:spawnerDefault=Creeper, Skeleton, Zombie, CaveSpider
 # [default: WitherSkeleton, PigZombie, Blaze]
 S:spawnerDesert=WitherSkeleton, PigZombie, Blaze
 
-# [default: Wolf, CaveSpider]
-S:spawnerForest=Wolf, CaveSpider
+# [default: Witch, CaveSpider]
+S:spawnerForest=Witch, CaveSpider
 
 # [default: Default]
 S:spawnerHills=Default
 
-# [default: Zombie, Skeleton]
-S:spawnerIceBiomes=Zombie, Skeleton
+# [default: Zombie, Skeleton, Wolf]
+S:spawnerIceBiomes=Zombie, Skeleton, Wolf
 
 # [default: Skeleton, CaveSpider]
 S:spawnerJungle=Skeleton, CaveSpider
@@ -690,32 +692,32 @@ S:spawnerJungle=Skeleton, CaveSpider
 # [default: MushroomCow]
 S:spawnerMushroom=MushroomCow
 
-# If the dungeon is close enough to lava, the spawner will use one of these mobs: [default: Blaze, LavaSlime, WitherSkeleton, PigZombie]
+# If the dungeon is close enough to lava, the spawner will use these mobs: [default: Blaze, LavaSlime, WitherSkeleton, PigZombie]
 S:spawnerNearLava=Blaze, LavaSlime, WitherSkeleton, PigZombie
 
-# [default: Silverfish]
-S:spawnerOcean=Silverfish
+# [default: Silverfish, ChargedCreeper]
+S:spawnerOcean=Silverfish, ChargedCreeper
 
-# [default: Spider, Zombie, ChargedCreeper]
-S:spawnerPlains=Spider, Zombie, ChargedCreeper
+# [default: Spider, Zombie, Creeper]
+S:spawnerPlains=Spider, Zombie, Creeper
 
-# [default: Silverfish]
-S:spawnerRiver=Silverfish
+# [default: Silverfish, Creeper]
+S:spawnerRiver=Silverfish, Creeper
 
-# [default: Slime, Creeper, CaveSpider, Witch]
-S:spawnerSwampland=Slime, Creeper, CaveSpider, Witch
+# [default: Creeper, CaveSpider, Witch]
+S:spawnerSwampland=Creeper, CaveSpider, Witch
 
-# [default: Zombie, ChargedCreeper]
-S:spawnerTaiga=Zombie, ChargedCreeper
+# [default: Zombie, Creeper, Wolf]
+S:spawnerTaiga=Zombie, Creeper, Wolf
 
-# The ids for items found in chests. Format used: "," separates between item id, quantity, and metadata and ";" separates between each item. [default: 262, 10; 262, 16; 263, 6; 264, 1; 265, 3; 266, 2; 282, 2; 288, 1; 302, 1; 303, 1; 304, 1; 305, 1; 321, 2; 321, 5; 322, 1; 322, 3; 325, 2; 326, 1; 335, 1; 340, 1; 341, 2; 341, 4; 344, 2; 344, 4; 348, 12; 348, 8; 350, 1; 351, 5, 0; 354, 2; 369, 2; 372, 6; 388, 1; 388, 4; 46, 4; 79, 2]
-S:stringOfIds=262, 10; 262, 16; 263, 6; 264, 1; 265, 3; 266, 2; 282, 2; 288, 1; 302, 1; 303, 1; 304, 1; 305, 1; 321, 2; 321, 5; 322, 1; 322, 3; 325, 2; 326, 1; 335, 1; 340, 1; 341, 2; 341, 4; 344, 2; 344, 4; 348, 12; 348, 8; 350, 1; 351, 5, 0; 354, 2; 369, 2; 372, 6; 388, 1; 388, 4; 46, 4; 79, 2
+# The ids for items found in chests. Format used: "," separates between item id, quantity, and metadata and ";" separates between each item. [default: minecraft:arrow, 10; minecraft:arrow, 16; minecraft:coal, 6; minecraft:diamond, 1; minecraft:iron_ingot, 3; minecraft:gold_ingot, 2; minecraft:mushroom_stew, 2; minecraft:feather, 1; minecraft:chainmail_helmet, 1; minecraft:chainmail_chestplate, 1; minecraft:chainmail_leggings, 1; minecraft:chainmail_boots, 1; minecraft:painting, 2; minecraft:painting, 5; minecraft:golden_apple, 1; minecraft:golden_apple, 3; minecraft:bucket, 2; minecraft:lava_bucket, 1; minecraft:milk_bucket, 1; minecraft:book, 4; minecraft:slime_ball, 6; minecraft:egg, 4; minecraft:egg, 8; minecraft:glowstone_dust, 12; minecraft:glowstone_dust, 8; minecraft:cooked_fished, 3; minecraft:dye, 5, 0; minecraft:cake, 2; minecraft:blaze_rod, 2; minecraft:nether_wart, 6; minecraft:emerald, 4; minecraft:emerald, 6; minecraft:quartz, 6; minecraft:map, 1; minecraft:obsidian, 4; minecraft:ice, 3; ]
+S:stringOfIds=minecraft:arrow, 10;minecraft:arrow, 16;minecraft:coal, 6;minecraft:diamond, 1;minecraft:iron_ingot, 3;minecraft:gold_ingot, 2;minecraft:mushroom_stew, 2;minecraft:feather, 1;minecraft:chainmail_helmet, 1;minecraft:chainmail_chestplate, 1;minecraft:chainmail_leggings, 1;minecraft:chainmail_boots, 1;minecraft:painting, 2;minecraft:painting, 5;minecraft:golden_apple, 1;minecraft:golden_apple, 3;minecraft:bucket, 2;minecraft:lava_bucket, 1;minecraft:milk_bucket, 1;minecraft:book, 4;minecraft:slime_ball, 6;minecraft:egg, 4;minecraft:egg, 8;minecraft:glowstone_dust, 12;minecraft:glowstone_dust, 8;minecraft:cooked_fished, 3;minecraft:dye, 5, 0;minecraft:cake, 2;minecraft:blaze_rod, 2;minecraft:nether_wart, 6;minecraft:emerald, 4;minecraft:emerald, 6;minecraft:quartz, 6;minecraft:map, 1;minecraft:obsidian, 4;minecraft:ice, 3;
 }[/code][/spoiler]
 [/spoiler]
 
 [size=5][b]StartingInventory[/b]: [/size]
-[size=4]ModLoader (SSP)[/size]: [url="http://bspk.rs/MC/StartingInventory_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/StartingInventory_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_ML/index.html"]Mirror[/url])
-[size=4]Forge (SSP/SMP)[/size]: [url="http://bspk.rs/MC/StartingInventory_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_Forge/latest/index.html"]Mirror[/url]) (Forge 1.6.4.r03) [url="http://bspk.rs/MC/StartingInventory_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_Forge/index.html"]Mirror[/url])
+[size=4]Forge (SSP/SMP)[/size]: [url="http://bspk.rs/MC/StartingInventory_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_Forge/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r01) [url="http://bspk.rs/MC/StartingInventory_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_Forge/index.html"]Mirror[/url])
+[size=2]ModLoader (SSP): [url="http://bspk.rs/MC/StartingInventory_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/StartingInventory_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_ML/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/StartingInventory/blob/master/change.log"]Change Log[/url]
 [spoiler]This mod gives you items and blocks each time you start a new world, just by editing a .txt file.
 
@@ -738,7 +740,7 @@ The file can be found at
 
 [b]The Older/Harder Method:[/b][spoiler]You can manually add items in 3 ways:
 1. Using only the id:
-[code]260[/code]
+[code]minecraft:apple[/code]
 = a single apple.
 2. Using the id and the quantity, separated with a ',':
 [code]4, 128[/code]
@@ -756,7 +758,6 @@ IDs for mod items and blocks are also accepted.
 All the ids can be found [url="http://www.minecraftwiki.net/wiki/Data_values"]here[/url].[/spoiler]
 
 [size=4][size=5][b]BlockBreaker / ConnectedDestruction[/b][/size] [/size]
-[color=#ff0000]Requires [/color][url="http://files.minecraftforge.net"][color=#ff0000]Forge[/color][/url][color=#ff0000] [/color]
 Forge Universal: [url="http://bspk.rs/MC/BlockBreaker/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/BlockBreaker/latest/index.html"]Mirror[/url]) (1.6.4.r03)  [url="http://bspk.rs/MC/BlockBreaker/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/BlockBreaker/index.html"]Mirror[/url])
 [url="https://github.com/bspkrs/BlockBreaker/blob/master/change.log"]Change Log[/url]
 [spoiler]BlockBreaker allows you to define a list of blocks that will break in a chain reaction when an adjacent block of the same type is broken.
@@ -804,27 +805,13 @@ Requires [url="http://www.minecraftforum.net/topic/75440-"]Risugami's ModLoader[
 - [b]Forge Build 763 and above:[/b] Put the downloaded zip / jar file in the mods folder under .minecraft along with the bspkrsCore zip file.
 
 
-[b]Known Mod Conflicts as of 1.6.4[/b]:[list]
+[b]Known Mod Conflicts as of 1.7.2[/b]:[list]
 [*][b]CJB's QuickCraft mod[/b] [b]and/or Cheat mod[/b] breaks [b]TreeCapitator[/b] amongst other things.
 [*][b]Better Blocks & Items[/b] / [b]Rotation Key[/b] and [b]Forgotten Nature / LCTrees[/b] are incompatible with [b]TreeCapitator ML[/b] by default; Forgotten Nature / LCTrees can be made compatible by changing the config option lumberJack to false.
-[*][b]MultiMine[/b] is incompatible with [b]TreeCapitator[/b] [i]unless[/i] you add the log block IDs you are using in TreeCapitator to the MultiMine block exclusion list found in AS_MultiMine.cfg.  If you do that then they will play nice.
+[*][s][b]MultiMine[/b] is incompatible with [b]TreeCapitator[/b] [i]unless[/i] you add the log block IDs you are using in TreeCapitator to the MultiMine block exclusion list found in AS_MultiMine.cfg.  If you do that then they will play nice.[/s]
 [/list]
-[anchor='KnownIssues'][b]Known Issues in 1.6.4:[/b][/anchor][list]
+[anchor='KnownIssues'][b]Known Issues in 1.7.2:[/b][/anchor][list]
 [*][b]TreeCapitator[/b]: sometimes chopping one tree will also chop down a neighboring tree.  This typically happens in jungle biomes or when two big trees are next to each other.  This can be mitigated by lowering the value of maxBreakDistance.
-[*][b]IngameInfo[/b]: Nested calls to <max> can cause an infinite loop when loading a world.  The use of <max> within <max> is not currently supported.
-[*][b]IngameInfo[/b]: It is possible to crash the game if your IngameInfo config file is screwed up.  I need to put in better error handling.  The good news is that most likely it will fail right away upon loading a world.
-[/list]
-[anchor='PlannedFeatures'][b]Planned Features (read before asking for stuff):[/b][/anchor][spoiler]
-[b]IngameInfo[/b][list]
-[*]tag for average FPS over X seconds
-[*]make biome tag customizable with colors for each biome
-[*]more utility tags like <add>, <subtract>, <multiply>, <divide>
-[*]support for nesting of utility tags
-[*]multiple configs
-[*]keybinding/command to swap between different configs or disabled
-[/list]
-[b]StartingInventory[/b][list]
-[*]allow up to 54 item stacks by using a double chest[/spoiler]
 [/list]
 [b]Previous releases[/b]:
 All previous release links can now be found in the main downloads section above, except for the following discontinued mods:[spoiler][size=4][b]1.2.5 Downloads[/b][/size][list]

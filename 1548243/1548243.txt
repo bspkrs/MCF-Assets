@@ -1,4 +1,4 @@
-[b][color=#000080][size=6]WorldStateCheckpoints[/size][/color][/b][color=#000080][size=6][b] 1.6.4.r04[/b][/size][/color]
+[b][color=#000080][size=6]WorldStateCheckpoints[/size][/color][/b][color=#000080][size=6][b] 1.7.2.r01[/b][/size][/color]
 (forked with [url="https://docs.google.com/document/d/1NP2XVVptKrr35qJOqCFyzN6PqY75EFI7DtGSZpS_Ij8/edit"]permission[/url] from [url="http://www.minecraftforum.net/topic/1208573-142-checkpoints-backup-mod-save-points/"]Checkpoints Backup Mod by MightyPork[/url])
 
 WorldStateCheckpoints gives you a way to take snapshots of your SP worlds!  MightyPork [url="http://www.minecraftforum.net/topic/1208573-142-checkpoints-backup-mod-save-points/page__st__40#entry18463847"]indicated that he most likely won't be continuing to support[/url] his awesome mod, so I got his permission to update it.
@@ -11,13 +11,15 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
 
 [b][size=5]News:[/size][/b]
-17-Oct-2013 - [b]WorldStateCheckpoints Forge 1.6.4.r04[/b] is out and adds some new localizations.
+19-Oct-2014 - 1.7.2 update is out! Let me know of any issues you find!
+
+[spoiler='Older News']17-Oct-2013 - [b]WorldStateCheckpoints Forge 1.6.4.r04[/b] is out and adds some new localizations.
 
 08-Oct-2013 - [b]WorldStateCheckpoints Forge 1.6.4.r03[/b] is now released! This is the first version for Forge, so let me know if you find any issues.
 
 Also: I need your help! I'm looking for more localizations for non-English languages: [url="https://github.com/bspkrs/WorldStateCheckpoints/tree/master/resources/assets/worldstatecheckpoints/lang."]https://github.com/b...eckpoints/lang.[/url] Any help is much appreciated!
 
-[spoiler='Older News']03-Oct-2013 - 1.6.4.r02 is out and changes the keybindings slightly so that there is only one now.  F6 opens the checkpoints menu and ALT + F6 triggers a quick save.
+03-Oct-2013 - 1.6.4.r02 is out and changes the keybindings slightly so that there is only one now.  F6 opens the checkpoints menu and ALT + F6 triggers a quick save.
 
 20-Sep-2013 - 1.6.4.r01 is released!
 
@@ -124,8 +126,8 @@ Thanks [url="http://www.minecraftforum.net/user/1717049-aschoff/"]Aschoff[/url]!
 [media]http://www.youtube.com/watch?v=AQptDeQvZAk[/media][/spoiler]
 
 [size=5][b]Downloads[/b][/size]:
-ModLoader releases: [size=5][url="http://bspk.rs/MC/WorldStateCheckpoints/latest/index.html"]Latest[/url] [/size]([url="http://dl.dropboxusercontent.com/u/20748481/MC/WorldStateCheckpoints/latest/index.html"]Mirror[/url]) [size=5](1.6.4.r02)[/size] [url="http://bspk.rs/MC/WorldStateCheckpoints/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/WorldStateCheckpoints/index.html"]Mirror[/url])
-Forge releases: [size=5][url="http://bspk.rs/MC/WorldStateCheckpoints_Forge/latest/index.html"]Latest[/url][/size] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/WorldStateCheckpoints_Forge/latest/index.html"]Mirror[/url]) [size=5](1.6.4.r04)[/size] [url="http://bspk.rs/MC/WorldStateCheckpoints_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/WorldStateCheckpoints_Forge/index.html"]Mirror[/url])
+Forge releases: [size=5][url="http://bspk.rs/MC/WorldStateCheckpoints_Forge/latest/index.html"]Latest[/url][/size] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/WorldStateCheckpoints_Forge/latest/index.html"]Mirror[/url]) [size=5](1.7.2.r01)[/size] [url="http://bspk.rs/MC/WorldStateCheckpoints_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/WorldStateCheckpoints_Forge/index.html"]Mirror[/url])
+[size=2]ModLoader releases: [url="http://bspk.rs/MC/WorldStateCheckpoints/latest/index.html"]Latest[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/WorldStateCheckpoints/latest/index.html"]Mirror[/url]) (1.6.4.r02) [url="http://bspk.rs/MC/WorldStateCheckpoints/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/WorldStateCheckpoints/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/WorldStateCheckpoints/blob/master/change.log"]Change Log[/url]
 
 [size=5][b]Installation[/b][/size]:

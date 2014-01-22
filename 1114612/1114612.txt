@@ -6,6 +6,8 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
 
 [b]News:[/b]
+20-Jan-2014 - There is an FML defect that causes mods that depend on another mod to not load properly. Remove mcmod.info from the jar file as a temporary workaround.
+
 19-Jan-2014 - 1.7.2 updates are out! Let me know of any issues you find!
 
 [spoiler='Older News']21-Oct-2013 - [b]ArmorStatusHUDv1.15[/b], [b]DirectionHUDv1.16[/b] and [b]StatusEffectHUDv1.19[/b] are out to resolve the issue with not being able to use negative values in the x/y offset config settings. There is also a new config option damageThresholdType in ArmorStatusHUD that allows you to use damage values in the damageColorList instead of just percents.

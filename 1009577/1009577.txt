@@ -299,6 +299,9 @@ Be sure to check out [b][url="http://www.minecraftforum.net/topic/1548243-"]Worl
 
 [size=4]All of my original mods (StatusEffectHUD, DirectionHUD, and now ArmorStatusHUD) can be found [url="http://www.minecraftforum.net/topic/1114612-"]here[/url].[/size]
 
+[b]Test Server:[/b]
+I had an extra server sitting around, so I decided to make it a test/demo server for my mods. The IP address is [b]192.210.150.163[/b]. [b]bspkrsCore[/b] and [b]CrystalWing[/b] are [b]required to join[/b]; I also [b]recommend Treecapitator[/b] for the full experience. This is a server for trying out the mods, so it will be reset periodically and arbitrarily. It is also a WIP, so there are likely to be unfinished products and possible annoyances. All are welcome.
+
 [b]Video Spotlights:[/b]
 Thanks CaptainSours!
 [media]http://www.youtube.com/watch?v=Ekx-bOTDV4w[/media]

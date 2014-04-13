@@ -6,13 +6,15 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
 
 [b]News:[/b]
-24-Jan-2014 - New releases are out for all three HUD mods. These releases fix a problem with the mod versioning and introduce a hook for enabling/disabling the HUDs. A future release of bspkrsCore will use these hooks to provide a keybinding for toggling them.
+13-Apr-2014 - I just spent about a week writing decent code for in-game config GUIs, and now all three HUD mods are using it! New releases are out for [b]ArmorStatusHUD[/b], [b]DirectionHUD[/b], and [b]StatusEffectHUD[/b]. [b]NOTE: You [i]need[/i] to update bspkrsCore as well!  [/b]That's where most of the new code is![b] [/b]Minecraft will crash if you only update the HUD mod and not bspkrsCore!
+
+[spoiler='Older News']24-Jan-2014 - New releases are out for all three HUD mods. These releases fix a problem with the mod versioning and introduce a hook for enabling/disabling the HUDs. A future release of bspkrsCore will use these hooks to provide a keybinding for toggling them.
 
 20-Jan-2014 - There is an FML defect that causes mods that depend on another mod to not load properly. Remove mcmod.info from the jar file as a temporary workaround.
 
 19-Jan-2014 - 1.7.2 updates are out! Let me know of any issues you find!
 
-[spoiler='Older News']21-Oct-2013 - [b]ArmorStatusHUDv1.15[/b], [b]DirectionHUDv1.16[/b] and [b]StatusEffectHUDv1.19[/b] are out to resolve the issue with not being able to use negative values in the x/y offset config settings. There is also a new config option damageThresholdType in ArmorStatusHUD that allows you to use damage values in the damageColorList instead of just percents.
+21-Oct-2013 - [b]ArmorStatusHUDv1.15[/b], [b]DirectionHUDv1.16[/b] and [b]StatusEffectHUDv1.19[/b] are out to resolve the issue with not being able to use negative values in the x/y offset config settings. There is also a new config option damageThresholdType in ArmorStatusHUD that allows you to use damage values in the damageColorList instead of just percents.
 
 Update: [b]bspkrsCorev4.2[/b] is out and brings improvements to the ModVersionChecker class to prevent nagging when new versions come out (you'll only get a chat notification once when a new version is released).
 
@@ -129,7 +131,11 @@ NO WARRANTY IS GIVEN, EXPRESS OR OTHERWISE. USE AT YOUR OWN RISK.
 
 [color=#000080][size=6][b]Videos:[/b][/size][/color]
 Thanks [b][url="http://www.minecraft...-captainsours/"]CaptainSours[/url][/b]![media]http://www.youtube.com/watch?v=bDNMlhbBfjI[/media][spoiler='More Videos']Thanks [b][url="http://www.minecraft...75136-ollixxl/"]Ollixxl[/url][/b]! (German language)[media]http://www.youtube.com/watch?v=G72Uq6_xR94[/media]
-Thanks [b][url="http://www.minecraft...xtr3m3-demon2/"]XTR3M3_Demon2[/url][/b]! (German language)[media]http://www.youtube.com/watch?v=L2Z_EvzRI44[/media][/spoiler][b]FAQ:[/b]Q: How do i move it to another corner?A: Edit the mod_<modnamehere>.bsprop.cfg file in the mincraft config folder.
+Thanks [b][url="http://www.minecraft...xtr3m3-demon2/"]XTR3M3_Demon2[/url][/b]! (German language)[media]http://www.youtube.com/watch?v=L2Z_EvzRI44[/media][/spoiler][b][size=5][color=#000080]FAQ[/color][/size]:[/b]
+[b]Q[/b]: How do i move the HUD to another corner (or change any other settings)?
+[b]A[/b]: For ArmorStatusHUD, use the command [b]/armorstatus config[/b].
+For DirectionHUD, use the command [b]/directionhud config[/b].
+For StatusEffectHUD, use the command [b]/statuseffect config[/b].
 
 [color=#000080][size=6][b]bspkrsCore:[/b][/size][/color]
 [b]ATTENTION:[/b] This is a [color=#ff0000][b]REQUIRED[/b][/color] mod in order for any of the other mods to work.  It contains the core shared classes used by all mods I release.  [b]If you don't install it along with any of the other mods here, Minecraft will crash[/b].  You have been warned.
@@ -141,13 +147,14 @@ If you want to turn off update checking for my mods, you will need to set allowU
 [center][size=5][b]ALL MODS BEYOND THIS POINT REQUIRE bspkrsCore TO BE INSTALLED.[/b][/size][/center]
 [center][size=5][b]You will be ignored if you post about MC crashing because you didn't install bspkrsCore.[/b][/size][/center]
 
-[color=#000080][size=6][b]ArmorStatusHUD[/b] [b](v1.18 for 1.7.2)[/b][/size][/color][spoiler='More Info']ArmorStatusHUD displays your currently equipped armor and held item along with the durability remaining without having to open your inventory!
+[color=#000080][size=6][b]ArmorStatusHUD[/b] [b](v1.20 for 1.7.2)[/b][/size][/color][spoiler='More Info']ArmorStatusHUD displays your currently equipped armor and held item along with the durability remaining without having to open your inventory!
 
 [b]Features[/b]:
+- [b]NEW[/b]: use the command [b]/armorstatus config[/b] to open the in-game config GUI!
 - shows equipped armor and held items and their remaining durability
 - configurable tiers of damage with associated colors: damage text changes color as items are used
 - see how many arrows are left for your bow
-- configurable alignment on your screen
+- configurable alignment/orientation on your screen
 - x and y offset config options
 - can display exact damage values or the durability percent remaining
 - option to show/hide text damage values
@@ -156,7 +163,7 @@ If you want to turn off update checking for my mods, you will need to set allowU
 - option to show/hide standard inventory item overlay (damage bar)
 - version update checking (can be turned off)
 [b]Planned[/b]:
-- option for horizontal layout
+- [s]option for horizontal layout[/s] Done!
 - shorthand enchantment display
 - blinking icon/text when damage drops below a certain threshold
 - support for IC2 items' charge levels
@@ -165,67 +172,18 @@ If you want to turn off update checking for my mods, you will need to set allowU
 [img]https://raw.github.com/bspkrs/MCF-Assets/master/1114612/img/ArmorStatusHUD2.png[/img][/spoiler][spoiler='Videos']Thanks [url="http://www.minecraft...89-chronofury/"]ChronoFury[/url]![media]http://www.youtube.com/watch?v=TmMIPsq5EOc[/media][/spoiler]
 
 [b]Downloads[/b]:
-[url="http://bspk.rs/MC/ArmorStatusHUD/latest/index.html"]Latest[/url] (v1.18 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/ArmorStatusHUD/latest/index.html"]Mirror[/url])
+[url="http://bspk.rs/MC/ArmorStatusHUD/latest/index.html"]Latest[/url] (v1.20 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/ArmorStatusHUD/latest/index.html"]Mirror[/url])
 [url="http://bspk.rs/MC/ArmorStatusHUD/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/ArmorStatusHUD/index.html"]Mirror[/url])
 [url="https://raw.github.com/bspkrs/ArmorStatusHUD/master/change.log"]Change Log[/url]
-
-[b]Config[/b]:[spoiler='.minecraft/config/ArmorStatusHUD.cfg'][code]# Configuration file
-
-####################
-# general
-####################
-
-general {
-# Valid alignment strings are topleft, topcenter, topright, middleleft, middlecenter, middleright, bottomleft, bottomcenter, bottomright [default: bottomleft]
-S:alignMode=bottomleft
-
-# Set to true if you want the xOffset value to be applied when using a center alignment [default: false]
-B:applyXOffsetToCenter=false
-
-# Set to true if you want the yOffset value to be applied when using a middle alignment [default: false]
-B:applyYOffsetToMiddle=false
-
-# This is a list of percent damage thresholds and text color codes that will be used when item damage is <= the threshold. Format used: "," separates the threshold and the color code, ";" separates each pair. Valid color values are 0-9, a-f (color values can be found here: http://www.minecraftwiki.net/wiki/File:Colors.png) [default: 100,f; 80,7; 60,e; 40,6; 25,c; 10,4]
-S:damageColorList=100,f; 80,7; 60,e; 40,6; 25,c; 10,4
-
-# Valid damageDisplayType strings are value, percent, or none [default: value]
-S:damageDisplayType=value
-
-# The type of threshold to use when applying the damageColorList thresholds. Valid values are "percent" and "value". [default: percent]
-S:damageThresholdType=percent
-
-# Set to true to show item names, false to disable [default: false]
-B:enableItemName=false
-
-# Set to true to show info for your currently equipped item, false to disable [default: true]
-B:showEquippedItem=true
-
-# Set to true to show info when chat is open, false to disable info when chat is open [default: false]
-B:showInChat=false
-
-# Set to true to show the standard inventory item overlay (damage bar) [default: true]
-B:showItemOverlay=true
-
-# Set to true to show the max damage when damageDisplayType=value [default: false]
-B:showMaxDamage=false
-
-# Horizontal offset from the edge of the screen (when using right alignments the x offset is relative to the right edge of the screen) [range: -2147483648 ~ 2147483647, default: 2]
-I:xOffset=2
-
-# Vertical offset from the edge of the screen (when using bottom alignments the y offset is relative to the bottom edge of the screen) [range: -2147483648 ~ 2147483647, default: 2]
-I:yOffset=2
-
-# Vertical offset used only for the bottomcenter alignment to avoid the vanilla HUD [range: -2147483648 ~ 2147483647, default: 41]
-I:yOffsetBottomCenter=41
-}[/code][/spoiler]
 
 [b]Thanks[/b]:- ShaRose (for helping me with the item rendering)
 [/spoiler]
 
-[color=#000080][size=6][b]DirectionHUD (v1.18 for 1.7.2)[/b][/size][/color][spoiler='More Info']Want to know what magnetic direction you are facing without installing fancy maps or trying to figure it out from the Debug GUI? [b]DirectionHUD[/b] is for you!
+[color=#000080][size=6][b]DirectionHUD (v1.19 for 1.7.2)[/b][/size][/color][spoiler='More Info']Want to know what magnetic direction you are facing without installing fancy maps or trying to figure it out from the Debug GUI? [b]DirectionHUD[/b] is for you!
 DirectionHUD displays your magnetic compass heading at the top of your screen.
 
 [b]Features[/b][b]:[/b]
+- [b]NEW[/b]: use the command [b]/directionhud config[/b] to open the in-game config GUI!
 - just a simple compass display
 - configurable alignment on your screen
 - x and y offset options
@@ -255,52 +213,18 @@ The indices start at 0 (the top compass is index 0).  In the default image file 
 Thanks [url="http://www.minecraft...featheryninja/"]FeatheryNinja[/url]![media]http://www.youtube.com/watch?v=eRuTi_huomU[/media][/spoiler]
 
 [b]Downloads[/b]:
-[url="http://bspk.rs/MC/DirectionHUD/latest/index.html"]Latest[/url] (v1.18 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/DirectionHUD/latest/index.html"]Mirror[/url])
+[url="http://bspk.rs/MC/DirectionHUD/latest/index.html"]Latest[/url] (v1.19 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/DirectionHUD/latest/index.html"]Mirror[/url])
 [url="http://bspk.rs/MC/DirectionHUD/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/DirectionHUD/index.html"]Mirror[/url])
 [url="https://raw.github.com/bspkrs/DirectionHUD/master/change.log"]Change Log[/url]
 
-[b]Config[/b]:[spoiler='.minecraft/config/DirectionHUD.cfg'][code]# Configuration file
-
-####################
-# general
-####################
-
-general {
-# Valid alignment strings are topleft, topcenter, topright, middleleft, middlecenter, middleright, bottomleft, bottomcenter, bottomright [default: topcenter]
-S:alignMode=topcenter
-
-# Set to true if you want the xOffset value to be applied when using a center alignment [default: false]
-B:applyXOffsetToCenter=false
-
-# Set to true if you want the yOffset value to be applied when using a middle alignment [default: false]
-B:applyYOffsetToMiddle=false
-
-# Index of the selected compass in the compass image file starting at 0. Up to 10 compasses can fit in the image (10 would be index 9). Each compass is 24 pixels tall (two lines of height 12). [range: 0 ~ 9, default: 0]
-I:compassIndex=0
-
-# Valid color values are 0-9, a-f (color values can be found here: http://www.minecraftwiki.net/wiki/File:Colors.png) [default: c]
-S:markerColor=c
-
-# Set to true to show info when chat is open, false to disable info when chat is open [default: true]
-B:showInChat=true
-
-# Horizontal offset from the edge of the screen (when using right alignments the x offset is relative to the right edge of the screen) [range: -2147483648 ~ 2147483647, default: 2]
-I:xOffset=2
-
-# Vertical offset from the edge of the screen (when using bottom alignments the y offset is relative to the bottom edge of the screen) [range: -2147483648 ~ 2147483647, default: 2]
-I:yOffset=2
-
-# Vertical offset used only for the bottomcenter alignment to avoid the vanilla HUD [range: 0 ~ 2147483647, default: 41]
-I:yOffsetBottomCenter=41
-}[/code][/spoiler]
-
 [b]Thanks[/b]:- DaftPVF (for letting me work on his mods)[/spoiler]
 
-[color=#000080][size=6][b]StatusEffectHUD[/b] [b](v1.21 for 1.7.2)[/b][/size][/color][spoiler='More Info']Do you hate having to open your inventory to see what potion effects are still active?  In the heat of battle and need to know when to guzzle that next regeneration potion?[b] StatusEffectHUD[/b] is for you!
+[color=#000080][size=6][b]StatusEffectHUD[/b] [b](v1.22 for 1.7.2)[/b][/size][/color][spoiler='More Info']Do you hate having to open your inventory to see what potion effects are still active?  In the heat of battle and need to know when to guzzle that next regeneration potion?[b] StatusEffectHUD[/b] is for you!
 
 StatusEffectHUD displays your currently active potions/effects without having to open your inventory! Sweet!
 
 [b]Features[/b]:
+- [b]NEW[/b]: use the command [b]/statuseffect config[/b] to open the in-game config GUI!
 - shows active potions/effects without having your inventory open
 - keeps look and feel of existing inventory effects display
 - configurable alignment on your screen
@@ -325,62 +249,16 @@ Thanks [url="http://www.minecraft...5625-zain2028/"]zain2028[/url]! (yeah, he wa
 Thanks [url="http://www.minecraft...02625-tehanon/"]TehAnon[/url]![media]http://www.youtube.com/watch?v=n2jiSdhJ41Y[/media][media]http://www.youtube.com/watch?v=l28XaP8QyrM[/media][/spoiler]
 
 [b]Downloads[/b]:
-[url="http://bspk.rs/MC/StatusEffectHUD/latest/index.html"]Latest[/url] (v1.21 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StatusEffectHUD/latest/index.html"]Mirror[/url])
+[url="http://bspk.rs/MC/StatusEffectHUD/latest/index.html"]Latest[/url] (v1.22 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StatusEffectHUD/latest/index.html"]Mirror[/url])
 [url="http://bspk.rs/MC/StatusEffectHUD/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StatusEffectHUD/index.html"]Mirror[/url])
 [url="https://raw.github.com/bspkrs/StatusEffectHUD/master/change.log"]Change Log[/url]
 
-[b]Config[/b]:[spoiler='.minecraft/config/StatusEffectHUD.cfg'][code]# Configuration file
-
-####################
-# general
-####################
-
-general {
-# Valid alignment strings are topleft, topcenter, topright, middleleft, middlecenter, middleright, bottomleft, bottomcenter, bottomright [default: middleright]
-S:alignMode=middleright
-
-# Set to true if you want the xOffset value to be applied when using a center alignment [default: false]
-B:applyXOffsetToCenter=false
-
-# Set to true if you want the yOffset value to be applied when using a middle alignment [default: false]
-B:applyYOffsetToMiddle=false
-
-# When a potion/effect has this many seconds remaining the timer will begin to blink. Set to -1 to disable blinking. [range: -1 ~ 60, default: 10]
-I:durationBlinkSeconds=10
-
-# Valid color values are 0-9, a-f (color values can be found here: http://www.minecraftwiki.net/wiki/File:Colors.png). [default: f]
-S:durationColor=f
-
-# Valid color values are 0-9, a-f (color values can be found here: http://www.minecraftwiki.net/wiki/File:Colors.png). [default: f]
-S:effectNameColor=f
-
-# Set to true to see the effect background box, false to disable. [default: false]
-B:enableBackground=false
-
-# Set to true to show effect names, false to disable. [default: true]
-B:enableEffectName=true
-
-# Set to true to enable blinking for the icon when a potion/effect is nearly gone, false to disable. [default: true]
-B:enableIconBlink=true
-
-# Set to true to show info when chat is open, false to disable info when chat is open [default: true]
-B:showInChat=true
-
-# Horizontal offset from the edge of the screen (when using right alignments the x offset is relative to the right edge of the screen) [range: -2147483648 ~ 2147483647, default: 2]
-I:xOffset=2
-
-# Vertical offset from the edge of the screen (when using bottom alignments the y offset is relative to the bottom edge of the screen) [range: -2147483648 ~ 2147483647, default: 2]
-I:yOffset=2
-
-# Vertical offset used only for the bottomcenter alignment to avoid the vanilla HUD [range: 0 ~ 2147483647, default: 41]
-I:yOffsetBottomCenter=41
-}[/code][/spoiler]
 [b]Thanks[/b]:- PuddingHuxtable (this was pretty much his idea)[/spoiler]
 
 [color=#000080][size=6][b]Install (all mods):[/b][/size][/color]
 Requires [url="http://files.minecraftforge.net"]Forge[/url].  
 Do not extract.  
-Drop the downloaded zip file into the mods folder in your .minecraft folder.
+Drop the downloaded zip/jar file into the mods folder in your .minecraft folder.
 Make sure you have also downloaded [url="http://bspk.rs/MC/bspkrsCore/index.html"]bspkrsCore[/url], a [b]REQUIRED DEPENDENCY[/b] for all my mods.
 
 Thanks to [url="http://www.minecraft...7577-osparkso/"]oSPARKSo[/url] for this helpful installation video![media]http://www.youtube.com/watch?v=BF0GpHTllCg[/media]

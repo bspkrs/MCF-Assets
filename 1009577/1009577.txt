@@ -10,13 +10,15 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
 
 [size=4][b]News[/b]:[/size]
-28-Jan-2014 - [b]FloatingRuins 1.7.2.r02[/b] is now available. This release fixes the new shape code to generate the same shapes as before, and also fixes igloos having full snow blocks on their floors instead of the snow layer blocks.
+13-Apr-2014 - There is a new version of bspkrsCore out that supports the creation of in-game config GUIs.  I have updated my HUD mods to support this, and will do the same for these mods soon. There were also a bunch of other changes, so let me know if you see any weird crashes with these mods and the new bspkrsCore.
+
+[spoiler='Older News']28-Jan-2014 - [b]FloatingRuins 1.7.2.r02[/b] is now available. This release fixes the new shape code to generate the same shapes as before, and also fixes igloos having full snow blocks on their floors instead of the snow layer blocks.
 
 20-Jan-2014 - Couple of things regarding the 1.7.2 releases:
 1. There is an FML defect that causes mods that depend on other mods to not work. Delete mcmod.info from the .jar file using 7zip or a similar program as a temporary workaround.
 2. [b]Treecapitator WILL NOT WORK with your old config file[/b]. Block IDs do not exist in the same sense that they did in previous versions of Minecraft, so the config file is very different. Delete Treecapitator.cfg if it was generated under a previous version of Minecraft.
 
-[spoiler='Older News']19-Jan-2014 - 1.7.2 updates are out for [b]Treecapitator[/b], [b]CrystalWing[/b], and [b]StartingInventory[/b].  A working version of [b]FloatingRuins[/b] is available, but I'm still tweaking some recently added code. As I mentioned in a previous news item I am no longer developing IngameInfo; I'm sure that Lunatrius will have his release out soon enough. [b]BlockBreaker[/b] is most likely going to be dropped as there is a better implementation called Vein Miner by portablejim.
+19-Jan-2014 - 1.7.2 updates are out for [b]Treecapitator[/b], [b]CrystalWing[/b], and [b]StartingInventory[/b].  A working version of [b]FloatingRuins[/b] is available, but I'm still tweaking some recently added code. As I mentioned in a previous news item I am no longer developing IngameInfo; I'm sure that Lunatrius will have his release out soon enough. [b]BlockBreaker[/b] is most likely going to be dropped as there is a better implementation called Vein Miner by portablejim.
 
 19-Dec-2013 - [b]Treecapitator 1.6.4.r09[/b] is now available. This release fixes NPEs when using MultiMine and also adds automatic MultiMine compatibility. Also, I am aware that the latest releases of BlockBreaker and FloatingRuins are not working with bspkrsCorev5.1.
 
@@ -319,8 +321,8 @@ This mod contains core classes used in all other mods I release.  If you want to
 [b]You will be ignored if you post about MC crashing because you didn't install bspkrsCore.[/b]
 
 [b][size=5]Treecapitator[/size][/b]
-Forge (SSP/SMP): [url="http://bspk.rs/MC/TreeCapitator_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r01) [url="http://bspk.rs/MC/TreeCapitator_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/TreeCapitator_Forge/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_Forge/dev/index.html"]Mirror[/url])
-[size=2]ModLoader (SSP): [url="http://bspk.rs/MC/TreeCapitator_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/TreeCapitator_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/TreeCapitator_ML/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/dev/index.html"]Mirror[/url])[/size]
+Forge (SSP/SMP): [url="http://bspk.rs/MC/Treecapitator/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r01) [url="http://bspk.rs/MC/Treecapitator/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/Treecapitator/dev/index.html"]Betas[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/dev/index.html"]Mirror[/url])
+[size=2]ModLoader (SSP): [url="http://bspk.rs/MC/TreeCapitator_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/TreeCapitator/blob/master/change.log"]Change Log[/url]
 [spoiler='More Info']
 This mod allows you to chop down an entire tree (leaves and all) by harvesting one of its logs. Based on Terraria tree-cutting style.

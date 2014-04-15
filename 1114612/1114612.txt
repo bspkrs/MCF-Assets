@@ -6,7 +6,7 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
 
 [b]News:[/b]
-15-Apr-2014 - [b]ArmorStatusHUDv1.21[/b] and [b]bspkrsCorev6.3[/b] are out! ArmorStatusHUD got a little refinement with the item overlay options and bspkrsCore got a fix for the config GUI scroll bar not working once you've clicked an option.
+15-Apr-2014 - [b]ArmorStatusHUDv1.22[/b] and [b]bspkrsCorev6.3[/b] are out! ArmorStatusHUD got a little refinement with the item overlay and item damage options and bspkrsCore got a fix for the config GUI scroll bar not working once you've clicked an option.
 
 13-Apr-2014 - I just spent about a week writing decent code for in-game config GUIs, and now all three HUD mods are using it! New releases are out for [b]ArmorStatusHUD[/b], [b]DirectionHUD[/b], and [b]StatusEffectHUD[/b]. [b]NOTE: You [i]need[/i] to update bspkrsCore as well!  [/b]That's where most of the new code is![b] [/b]Minecraft will crash if you only update the HUD mod and not bspkrsCore!
 
@@ -149,7 +149,7 @@ If you want to turn off update checking for my mods, you will need to set allowU
 [center][size=5][b]ALL MODS BEYOND THIS POINT REQUIRE bspkrsCore TO BE INSTALLED.[/b][/size][/center]
 [center][size=5][b]You will be ignored if you post about MC crashing because you didn't install bspkrsCore.[/b][/size][/center]
 
-[color=#000080][size=6][b]ArmorStatusHUD[/b] [b](v1.21 for 1.7.2)[/b][/size][/color][spoiler='More Info']ArmorStatusHUD displays your currently equipped armor and held item along with the durability remaining without having to open your inventory!
+[color=#000080][size=6][b]ArmorStatusHUD[/b] [b](v1.22 for 1.7.2)[/b][/size][/color][spoiler='More Info']ArmorStatusHUD displays your currently equipped armor and held item along with the durability remaining without having to open your inventory!
 
 [b]Features[/b]:
 - [b]NEW[/b]: use the command [b]/armorstatus config[/b] to open the in-game config GUI!
@@ -174,7 +174,7 @@ If you want to turn off update checking for my mods, you will need to set allowU
 [img]https://raw.github.com/bspkrs/MCF-Assets/master/1114612/img/ArmorStatusHUD2.png[/img][/spoiler][spoiler='Videos']Thanks [url="http://www.minecraft...89-chronofury/"]ChronoFury[/url]![media]http://www.youtube.com/watch?v=TmMIPsq5EOc[/media][/spoiler]
 
 [b]Downloads[/b]:
-[url="http://bspk.rs/MC/ArmorStatusHUD/latest/index.html"]Latest[/url] (v1.21 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/ArmorStatusHUD/latest/index.html"]Mirror[/url])
+[url="http://bspk.rs/MC/ArmorStatusHUD/latest/index.html"]Latest[/url] (v1.22 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/ArmorStatusHUD/latest/index.html"]Mirror[/url])
 [url="http://bspk.rs/MC/ArmorStatusHUD/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/ArmorStatusHUD/index.html"]Mirror[/url])
 [url="https://raw.github.com/bspkrs/ArmorStatusHUD/master/change.log"]Change Log[/url]
 

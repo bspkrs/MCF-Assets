@@ -6,6 +6,8 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
 
 [b]News:[/b]
+18-Apr-2014 - New releases are out for all mods including bspkrsCore. There are now tooltips for the config settings to give a little more info than just a name. Hover your mouse over the config setting name to see the tooltips.
+
 15-Apr-2014 - [b]ArmorStatusHUDv1.22[/b] and [b]bspkrsCorev6.3[/b] are out! ArmorStatusHUD got a little refinement with the item overlay and item damage options and bspkrsCore got a fix for the config GUI scroll bar not working once you've clicked an option.
 
 13-Apr-2014 - I just spent about a week writing decent code for in-game config GUIs, and now all three HUD mods are using it! New releases are out for [b]ArmorStatusHUD[/b], [b]DirectionHUD[/b], and [b]StatusEffectHUD[/b]. [b]NOTE: You [i]need[/i] to update bspkrsCore as well!  [/b]That's where most of the new code is![b] [/b]Minecraft will crash if you only update the HUD mod and not bspkrsCore!
@@ -149,7 +151,7 @@ If you want to turn off update checking for my mods, you will need to set allowU
 [center][size=5][b]ALL MODS BEYOND THIS POINT REQUIRE bspkrsCore TO BE INSTALLED.[/b][/size][/center]
 [center][size=5][b]You will be ignored if you post about MC crashing because you didn't install bspkrsCore.[/b][/size][/center]
 
-[color=#000080][size=6][b]ArmorStatusHUD[/b] [b](v1.22 for 1.7.2)[/b][/size][/color][spoiler='More Info']ArmorStatusHUD displays your currently equipped armor and held item along with the durability remaining without having to open your inventory!
+[color=#000080][size=6][b]ArmorStatusHUD[/b] [b](v1.23 for 1.7.2)[/b][/size][/color][spoiler='More Info']ArmorStatusHUD displays your currently equipped armor and held item along with the durability remaining without having to open your inventory!
 
 [b]Features[/b]:
 - [b]NEW[/b]: use the command [b]/armorstatus config[/b] to open the in-game config GUI!
@@ -174,14 +176,14 @@ If you want to turn off update checking for my mods, you will need to set allowU
 [img]https://raw.github.com/bspkrs/MCF-Assets/master/1114612/img/ArmorStatusHUD2.png[/img][/spoiler][spoiler='Videos']Thanks [url="http://www.minecraft...89-chronofury/"]ChronoFury[/url]![media]http://www.youtube.com/watch?v=TmMIPsq5EOc[/media][/spoiler]
 
 [b]Downloads[/b]:
-[url="http://bspk.rs/MC/ArmorStatusHUD/latest/index.html"]Latest[/url] (v1.22 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/ArmorStatusHUD/latest/index.html"]Mirror[/url])
+[url="http://bspk.rs/MC/ArmorStatusHUD/latest/index.html"]Latest[/url] (v1.23 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/ArmorStatusHUD/latest/index.html"]Mirror[/url])
 [url="http://bspk.rs/MC/ArmorStatusHUD/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/ArmorStatusHUD/index.html"]Mirror[/url])
 [url="https://raw.github.com/bspkrs/ArmorStatusHUD/master/change.log"]Change Log[/url]
 
 [b]Thanks[/b]:- ShaRose (for helping me with the item rendering)
 [/spoiler]
 
-[color=#000080][size=6][b]DirectionHUD (v1.19 for 1.7.2)[/b][/size][/color][spoiler='More Info']Want to know what magnetic direction you are facing without installing fancy maps or trying to figure it out from the Debug GUI? [b]DirectionHUD[/b] is for you!
+[color=#000080][size=6][b]DirectionHUD (v1.20 for 1.7.2)[/b][/size][/color][spoiler='More Info']Want to know what magnetic direction you are facing without installing fancy maps or trying to figure it out from the Debug GUI? [b]DirectionHUD[/b] is for you!
 DirectionHUD displays your magnetic compass heading at the top of your screen.
 
 [b]Features[/b][b]:[/b]
@@ -215,13 +217,13 @@ The indices start at 0 (the top compass is index 0).  In the default image file 
 Thanks [url="http://www.minecraft...featheryninja/"]FeatheryNinja[/url]![media]http://www.youtube.com/watch?v=eRuTi_huomU[/media][/spoiler]
 
 [b]Downloads[/b]:
-[url="http://bspk.rs/MC/DirectionHUD/latest/index.html"]Latest[/url] (v1.19 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/DirectionHUD/latest/index.html"]Mirror[/url])
+[url="http://bspk.rs/MC/DirectionHUD/latest/index.html"]Latest[/url] (v1.20 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/DirectionHUD/latest/index.html"]Mirror[/url])
 [url="http://bspk.rs/MC/DirectionHUD/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/DirectionHUD/index.html"]Mirror[/url])
 [url="https://raw.github.com/bspkrs/DirectionHUD/master/change.log"]Change Log[/url]
 
 [b]Thanks[/b]:- DaftPVF (for letting me work on his mods)[/spoiler]
 
-[color=#000080][size=6][b]StatusEffectHUD[/b] [b](v1.22 for 1.7.2)[/b][/size][/color][spoiler='More Info']Do you hate having to open your inventory to see what potion effects are still active?  In the heat of battle and need to know when to guzzle that next regeneration potion?[b] StatusEffectHUD[/b] is for you!
+[color=#000080][size=6][b]StatusEffectHUD[/b] [b](v1.23 for 1.7.2)[/b][/size][/color][spoiler='More Info']Do you hate having to open your inventory to see what potion effects are still active?  In the heat of battle and need to know when to guzzle that next regeneration potion?[b] StatusEffectHUD[/b] is for you!
 
 StatusEffectHUD displays your currently active potions/effects without having to open your inventory! Sweet!
 
@@ -251,7 +253,7 @@ Thanks [url="http://www.minecraft...5625-zain2028/"]zain2028[/url]! (yeah, he wa
 Thanks [url="http://www.minecraft...02625-tehanon/"]TehAnon[/url]![media]http://www.youtube.com/watch?v=n2jiSdhJ41Y[/media][media]http://www.youtube.com/watch?v=l28XaP8QyrM[/media][/spoiler]
 
 [b]Downloads[/b]:
-[url="http://bspk.rs/MC/StatusEffectHUD/latest/index.html"]Latest[/url] (v1.22 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StatusEffectHUD/latest/index.html"]Mirror[/url])
+[url="http://bspk.rs/MC/StatusEffectHUD/latest/index.html"]Latest[/url] (v1.23 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StatusEffectHUD/latest/index.html"]Mirror[/url])
 [url="http://bspk.rs/MC/StatusEffectHUD/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StatusEffectHUD/index.html"]Mirror[/url])
 [url="https://raw.github.com/bspkrs/StatusEffectHUD/master/change.log"]Change Log[/url]
 
@@ -267,4 +269,5 @@ Thanks to [url="http://www.minecraft...7577-osparkso/"]oSPARKSo[/url] for this h
 
 [size=4]If you like what I've done here, help me get more storage on [url="http://db.tt/DzTZ6zy"]Dropbox[/url][/size] or [url="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=briefcase%2espeakers%40gmail%2ecom&lc=US&item_name=bspkrs%20mod%20development&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest"][img]https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif[/img][/url][size=4]![/size]
 
-[color=#000080][size=6][b]Reuse / Mod Packs[/b]:[/size][/color]These mods are released under the Creative Commons Share Alike non-commercial License.  They are allowed to be used in mod packs as long as I receive credit and the URL of this forum thread is provided.  No adf.ly links.  Do not post these mods on other sites.[represent]
+[color=#000080][size=6][b]Reuse / Mod Packs[/b]:[/size][/color]These mods are released under the Creative Commons Share Alike non-commercial License.  They are allowed to be used in mod packs as long as I receive credit and the URL of this forum thread is provided.  No adf.ly links.  Do not post these mods on other sites.
+[represent]

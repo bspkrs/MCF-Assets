@@ -6,13 +6,15 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
 
 [b]News:[/b]
+21-Apr-2014 - [b]bspkrsCore 6.5[/b] is out to bring more stability to the Main Menu gimmick code with regard to crashes.
+
 18-Apr-2014 - New releases are out for all mods including bspkrsCore. There are now tooltips for the config settings to give a little more info than just a name. Hover your mouse over the config setting name to see the tooltips.
 
 15-Apr-2014 - [b]ArmorStatusHUDv1.22[/b] and [b]bspkrsCorev6.3[/b] are out! ArmorStatusHUD got a little refinement with the item overlay and item damage options and bspkrsCore got a fix for the config GUI scroll bar not working once you've clicked an option.
 
-13-Apr-2014 - I just spent about a week writing decent code for in-game config GUIs, and now all three HUD mods are using it! New releases are out for [b]ArmorStatusHUD[/b], [b]DirectionHUD[/b], and [b]StatusEffectHUD[/b]. [b]NOTE: You [i]need[/i] to update bspkrsCore as well!  [/b]That's where most of the new code is![b] [/b]Minecraft will crash if you only update the HUD mod and not bspkrsCore!
+[spoiler='Older News']13-Apr-2014 - I just spent about a week writing decent code for in-game config GUIs, and now all three HUD mods are using it! New releases are out for [b]ArmorStatusHUD[/b], [b]DirectionHUD[/b], and [b]StatusEffectHUD[/b]. [b]NOTE: You [i]need[/i] to update bspkrsCore as well!  [/b]That's where most of the new code is![b] [/b]Minecraft will crash if you only update the HUD mod and not bspkrsCore!
 
-[spoiler='Older News']24-Jan-2014 - New releases are out for all three HUD mods. These releases fix a problem with the mod versioning and introduce a hook for enabling/disabling the HUDs. A future release of bspkrsCore will use these hooks to provide a keybinding for toggling them.
+24-Jan-2014 - New releases are out for all three HUD mods. These releases fix a problem with the mod versioning and introduce a hook for enabling/disabling the HUDs. A future release of bspkrsCore will use these hooks to provide a keybinding for toggling them.
 
 20-Jan-2014 - There is an FML defect that causes mods that depend on another mod to not load properly. Remove mcmod.info from the jar file as a temporary workaround.
 

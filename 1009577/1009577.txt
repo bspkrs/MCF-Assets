@@ -10,6 +10,8 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
 
 [size=4][b]News[/b]:[/size]
+21-Apr-2014 - [b]bspkrsCore 6.5[/b] is out to bring more stability to the Main Menu gimmick code with regard to crashes.
+
 18-Apr-2014 - New releases are out for [b]CrystalWing[/b] and [b]FloatingRuins[/b]. These releases add config screens that are accessible from the Mods screen on the main menu. From the mods screen scroll to the entries for CrystalWing and FloatingRuins. Select one and click the Config button. You will be able to change any of the settings for these mods. Hover over the config setting names to get more info.
 
 14-Apr-2014 - [b]StartingInventory 1.7.2.r02[/b] is now available! This release adds the ability to save/load items that require NBT data such as items from Tinker's Construct and many other advanced mods!

@@ -10,6 +10,8 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
 
 [size=4][b]News[/b]:[/size]
+25-Apr-2014 - New releases are out for [b]bspkrsCore[/b], [b]FloatingRuins[/b], and [b]Treecapitator[/b]! [b]bspkrsCore[/b] got more config GUI tweaks to make it more stable, [b]FloatingRuins[/b] got a bit of optimization to lower the number of block update notifications being sent to the client, and [b]Treecapitator[/b] got 1) config GUI stuff (not finished, but you can change settings in-game at least), 2) break speed code fixes :3, and 3) several new config options around item drops!
+
 22-Apr-2014 - [b]bspkrsCore 6.6[/b] is out! This release fixes a [b]SERIOUS[/b] bug in the code to get random mobs that would prevent certain entities from being able to spawn in your world! [b]It is HIGHLY RECOMMENDED that you update if you are using bspkrsCore 6.4 or 6.5[/b]! This release also adds more config GUI functionality.
 
 21-Apr-2014 - [b]bspkrsCore 6.5[/b] is out to bring more stability to the Main Menu gimmick code with regard to crashes.
@@ -329,7 +331,7 @@ This mod contains core classes used in all other mods I release.  If you want to
 [b]You will be ignored if you post about MC crashing because you didn't install bspkrsCore.[/b]
 
 [b][size=5]Treecapitator[/size][/b]
-Forge (SSP/SMP): [url="http://bspk.rs/MC/Treecapitator/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r01) [url="http://bspk.rs/MC/Treecapitator/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/Treecapitator/dev/index.html"]Betas[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/dev/index.html"]Mirror[/url])
+Forge (SSP/SMP): [url="http://bspk.rs/MC/Treecapitator/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r02) [url="http://bspk.rs/MC/Treecapitator/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/Treecapitator/dev/index.html"]Betas[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/dev/index.html"]Mirror[/url])
 [size=2]ModLoader (SSP): [url="http://bspk.rs/MC/TreeCapitator_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/TreeCapitator/blob/master/change.log"]Change Log[/url]
 [spoiler='More Info']
@@ -337,6 +339,7 @@ This mod allows you to chop down an entire tree (leaves and all) by harvesting o
 
 [b][size=4]Features [/size][/b][b](see .minecraft/config/TreeCapitator.cfg for details)[/b][b][size=4]:[/size][/b]
 - [b]Forge version can break any log out of the box [/b]
+- [b]NEW[/b] - change settings in-game from the Mods list config button!
 - Sneak while chopping to break logs normally (configurable)
 - Treecapitation Enchantment mode available.
 - The break speed of log blocks is determined by the height of the tree it belongs to. If you don't like it, set treeHeightDecidesBreakSpeed=false in your config.
@@ -347,6 +350,7 @@ This mod allows you to chop down an entire tree (leaves and all) by harvesting o
 - option to destroy leaves (enabled by default)
 - option to shear leaves (with a shear-type item in hotbar)
 - option to shear vines (with a shear-type item in hotbar)
+- [b]NEW[/b] - ability to stack drops!
 - disable drops in creative
 - disable tool requirement
 - The FML IMC system is now utilized to allow other mods to provide their own tree/item configurations.  You can configure the priority of user (config file) vs. mod (IMC) configs for cases when a mod is configured both in the config file and by the mod itself via IMC.
@@ -586,7 +590,7 @@ I:uses=8
 [/spoiler]
 
 [size=5][b]FloatingRuins[/b]:[/size]
-Forge (SSP/SMP): [url="http://bspk.rs/MC/FloatingRuins_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_Forge/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r03) [url="http://bspk.rs/MC/FloatingRuins_Forge/index.html"]All Releases[/url]([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_Forge/index.html"]Mirror[/url])
+Forge (SSP/SMP): [url="http://bspk.rs/MC/FloatingRuins_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_Forge/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r04) [url="http://bspk.rs/MC/FloatingRuins_Forge/index.html"]All Releases[/url]([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_Forge/index.html"]Mirror[/url])
 [size=2]ModLoader (SSP): [url="http://bspk.rs/MC/FloatingRuins_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/FloatingRuins_ML/index.html"]All Releases[/url]([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_ML/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/FloatingRuins/blob/master/change.log"]Change Log[/url][spoiler]Floating islands taken from the ground with mini-ruins on top. The ruins' shape, material and mob spawners' choice of mobs are all biome-based.
 
@@ -607,131 +611,8 @@ Video by [url="http://www.youtube.com/user/LobsCast"]LobsCast[/url]:
 [img]http://bspk.rs/Minecraft/FloatingRuins01.png[/img][img]http://bspk.rs/Minecraft/FR4.png[/img]
 [img]http://bspk.rs/Minecraft/vvBVg.png[/img][/spoiler]
 
-[b]Forge Config file [/b](.minecraft/config/FloatingRuins.cfg):[spoiler][code]# Configuration file
-
-####################
-# general
-####################
-
-general {
-# Set to true if you want FloatingRuins to log info about what it's doing, false to disable [default: false]
-B:allowDebugLogging=false
-
-# Set to true to allow generation of floating ruins on superflat maps, false to disable. [default: false]
-B:allowInSuperFlat=false
-
-# When set to true spawners will be able to spawn any of the mobs for the biome the floating island generated in, set to false to use the old logic of randomly picking just one mob. [default: true]
-B:allowMultiMobSpawners=true
-
-# Add biome IDs where you do not want Floating Ruins to generate. Format used: ";" separates between each biome ID. [default: 7;8;9;11;15;16;]
-S:biomeIDBlacklist=7;8;9;11;15;16;
-
-# Add block IDs to this list if you don't want them to be moved when a floating island is generated. Format used: "," separates between id and metadata and ";" separates between each block. [default: minecraft:bedrock;]
-S:blockIDBlacklist=minecraft:bedrock;
-
-# The maximum depth/thickness of islands (Min=depthMean, Max=50). [range: 9 ~ 45, default: 45]
-I:depthMax=45
-
-# The average island depth. Half of the islands will be shallower than depthMean, half of the islands will be deeper than depthMean. (Min=depthMin, Max=depthMax). [range: 5 ~ 45, default: 9]
-I:depthMean=9
-
-# The minimum depth/thickness of islands (Min=2, Max=depthMean). [range: 5 ~ 9, default: 5]
-I:depthMin=5
-
-# How strongly island depth should tend to lie around depthMean. (Min=1, Max=10). [range: 1 ~ 10, default: 3]
-I:depthNorm=3
-
-# Add dimension IDs where you do not want Floating Ruins to generate. Format used: ";" separates between each dimension ID. [default: -1;1]
-S:dimensionIDBlacklist=-1;1
-
-# Set to true to generate harder dungeons (roof is bedrock, chest is harder to get to, mobs spawn more aggressively), set to false to generate normal dungeons. [default: false]
-B:harderDungeons=false
-
-# The maximum world height for floating ruins (Min=heightMean, Max=240). [range: 100 ~ 240, default: 240]
-I:heightMax=240
-
-# The average island height. Half of the islands will be below heightMean, half of the islands will be above heightMean. (Min=heightMin, Max=heightMax). [range: 80 ~ 240, default: 100]
-I:heightMean=100
-
-# The minimum world height for floating ruins (Min=80, Max=heightMax). [range: 80 ~ 100, default: 80]
-I:heightMin=80
-
-# How strongly island height should tend to lie around heightMean. (Min=1, Max=10). [range: 1 ~ 10, default: 3]
-I:heightNorm=3
-
-# The number of items in a ruin's chest. [range: 1 ~ 27, default: 4]
-I:numberOfItems=4
-
-# The maximum radius of each island. Making this value too large will result in very large chunks of your world turning into floating islands (Min=radiusMean, Max=50). [range: 10 ~ 50, default: 50]
-I:radiusMax=50
-
-# The average island radius. Half of the islands will be smaller than radiusMean, half of the islands will be larger than radiusMean. (Min=radiusMin, Max=radiusMax). [range: 7 ~ 50, default: 10]
-I:radiusMean=9
-
-# The minimum radius of each island. I recommend keeping this at 7 or more (Min=5, Max=radiusMean). [range: 5 ~ 9, default: 7]
-I:radiusMin=5
-
-# How strongly island radius should tend to lie around radiusMean. (Min=1, Max=10). [range: 1 ~ 10, default: 3]
-I:radiusNorm=3
-
-# The probability of a floating island generating is 1 in each 'rarity' number of chunks. [range: 1 ~ 2147483647, default: 800]
-I:rarity=80
-
-# The probability of a floating island having a dungeon on it is 1 in each 'dungeonRarity' number of islands. [range: 1 ~ 2147483647, default: 1]
-I:rarityDungeon=1
-
-# The relative chance of an island having the cone shape. [range: 0 ~ 2147483647, default: 14]
-I:shapeConeWeight=14
-
-# The relative chance of an island having the jetsons shape. [range: 0 ~ 2147483647, default: 1]
-I:shapeJetsonsWeight=1
-
-# The relative chance of an island having the spheroid shape. [range: 0 ~ 2147483647, default: 21]
-I:shapeSpheroidWeight=21
-I:shapeStalactiteWeight=0
-
-# Mob spawners can be configured using the mobs' names, each separated by a comma. Using "Default" will make the specified biome use the same settings as 'spawnerDefault'. [default: Creeper, Skeleton, Zombie, CaveSpider]
-S:spawnerDefault=Creeper, Skeleton, Zombie, CaveSpider
-
-# [default: WitherSkeleton, PigZombie, Blaze]
-S:spawnerDesert=WitherSkeleton, PigZombie, Blaze
-
-# [default: Witch, CaveSpider]
-S:spawnerForest=Witch, CaveSpider
-
-# [default: Default]
-S:spawnerHills=Default
-
-# [default: Zombie, Skeleton, Wolf]
-S:spawnerIceBiomes=Zombie, Skeleton, Wolf
-
-# [default: Skeleton, CaveSpider]
-S:spawnerJungle=Skeleton, CaveSpider
-
-# [default: MushroomCow]
-S:spawnerMushroom=MushroomCow
-
-# If the dungeon is close enough to lava, the spawner will use these mobs: [default: Blaze, LavaSlime, WitherSkeleton, PigZombie]
-S:spawnerNearLava=Blaze, LavaSlime, WitherSkeleton, PigZombie
-
-# [default: Silverfish, ChargedCreeper]
-S:spawnerOcean=Silverfish, ChargedCreeper
-
-# [default: Spider, Zombie, Creeper]
-S:spawnerPlains=Spider, Zombie, Creeper
-
-# [default: Silverfish, Creeper]
-S:spawnerRiver=Silverfish, Creeper
-
-# [default: Creeper, CaveSpider, Witch]
-S:spawnerSwampland=Creeper, CaveSpider, Witch
-
-# [default: Zombie, Creeper, Wolf]
-S:spawnerTaiga=Zombie, Creeper, Wolf
-
-# The ids for items found in chests. Format used: "," separates between item id, quantity, and metadata and ";" separates between each item. [default: minecraft:arrow, 10; minecraft:arrow, 16; minecraft:coal, 6; minecraft:diamond, 1; minecraft:iron_ingot, 3; minecraft:gold_ingot, 2; minecraft:mushroom_stew, 2; minecraft:feather, 1; minecraft:chainmail_helmet, 1; minecraft:chainmail_chestplate, 1; minecraft:chainmail_leggings, 1; minecraft:chainmail_boots, 1; minecraft:painting, 2; minecraft:painting, 5; minecraft:golden_apple, 1; minecraft:golden_apple, 3; minecraft:bucket, 2; minecraft:lava_bucket, 1; minecraft:milk_bucket, 1; minecraft:book, 4; minecraft:slime_ball, 6; minecraft:egg, 4; minecraft:egg, 8; minecraft:glowstone_dust, 12; minecraft:glowstone_dust, 8; minecraft:cooked_fished, 3; minecraft:dye, 5, 0; minecraft:cake, 2; minecraft:blaze_rod, 2; minecraft:nether_wart, 6; minecraft:emerald, 4; minecraft:emerald, 6; minecraft:quartz, 6; minecraft:map, 1; minecraft:obsidian, 4; minecraft:ice, 3; ]
-S:stringOfIds=minecraft:arrow, 10;minecraft:arrow, 16;minecraft:coal, 6;minecraft:diamond, 1;minecraft:iron_ingot, 3;minecraft:gold_ingot, 2;minecraft:mushroom_stew, 2;minecraft:feather, 1;minecraft:chainmail_helmet, 1;minecraft:chainmail_chestplate, 1;minecraft:chainmail_leggings, 1;minecraft:chainmail_boots, 1;minecraft:painting, 2;minecraft:painting, 5;minecraft:golden_apple, 1;minecraft:golden_apple, 3;minecraft:bucket, 2;minecraft:lava_bucket, 1;minecraft:milk_bucket, 1;minecraft:book, 4;minecraft:slime_ball, 6;minecraft:egg, 4;minecraft:egg, 8;minecraft:glowstone_dust, 12;minecraft:glowstone_dust, 8;minecraft:cooked_fished, 3;minecraft:dye, 5, 0;minecraft:cake, 2;minecraft:blaze_rod, 2;minecraft:nether_wart, 6;minecraft:emerald, 4;minecraft:emerald, 6;minecraft:quartz, 6;minecraft:map, 1;minecraft:obsidian, 4;minecraft:ice, 3;
-}[/code][/spoiler]
+[b]Forge Config file [/b](.minecraft/config/FloatingRuins.cfg):
+No longer necessary to edit this file manually! From the Mods list in-game select the entry for FloatingRuins and click the Config button!
 [/spoiler]
 
 [size=5][b]StartingInventory[/b]: [/size]

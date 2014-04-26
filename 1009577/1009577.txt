@@ -331,7 +331,7 @@ This mod contains core classes used in all other mods I release.  If you want to
 [b]You will be ignored if you post about MC crashing because you didn't install bspkrsCore.[/b]
 
 [b][size=5]Treecapitator[/size][/b]
-Forge (SSP/SMP): [url="http://bspk.rs/MC/Treecapitator/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r02) [url="http://bspk.rs/MC/Treecapitator/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/Treecapitator/dev/index.html"]Betas[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/dev/index.html"]Mirror[/url])
+Forge (SSP/SMP): [url="http://bspk.rs/MC/Treecapitator_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator_Forge/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r02) [url="http://bspk.rs/MC/Treecapitator_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator_Forge/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/Treecapitator_Forge/dev/index.html"]Betas[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator_Forge/dev/index.html"]Mirror[/url])
 [size=2]ModLoader (SSP): [url="http://bspk.rs/MC/TreeCapitator_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/TreeCapitator/blob/master/change.log"]Change Log[/url]
 [spoiler='More Info']

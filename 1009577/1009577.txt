@@ -14,13 +14,13 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 
 22-Apr-2014 - [b]bspkrsCore 6.6[/b] is out! This release fixes a [b]SERIOUS[/b] bug in the code to get random mobs that would prevent certain entities from being able to spawn in your world! [b]It is HIGHLY RECOMMENDED that you update if you are using bspkrsCore 6.4 or 6.5[/b]! This release also adds more config GUI functionality.
 
-21-Apr-2014 - [b]bspkrsCore 6.5[/b] is out to bring more stability to the Main Menu gimmick code with regard to crashes.
+[spoiler='Older News']21-Apr-2014 - [b]bspkrsCore 6.5[/b] is out to bring more stability to the Main Menu gimmick code with regard to crashes.
 
 18-Apr-2014 - New releases are out for [b]CrystalWing[/b] and [b]FloatingRuins[/b]. These releases add config screens that are accessible from the Mods screen on the main menu. From the mods screen scroll to the entries for CrystalWing and FloatingRuins. Select one and click the Config button. You will be able to change any of the settings for these mods. Hover over the config setting names to get more info.
 
 14-Apr-2014 - [b]StartingInventory 1.7.2.r02[/b] is now available! This release adds the ability to save/load items that require NBT data such as items from Tinker's Construct and many other advanced mods!
 
-[spoiler='Older News']13-Apr-2014 - There is a new version of bspkrsCore out that supports the creation of in-game config GUIs.  I have updated my HUD mods to support this, and will do the same for these mods soon. There were also a bunch of other changes, so let me know if you see any weird crashes with these mods and the new bspkrsCore.
+13-Apr-2014 - There is a new version of bspkrsCore out that supports the creation of in-game config GUIs.  I have updated my HUD mods to support this, and will do the same for these mods soon. There were also a bunch of other changes, so let me know if you see any weird crashes with these mods and the new bspkrsCore.
 
 28-Jan-2014 - [b]FloatingRuins 1.7.2.r02[/b] is now available. This release fixes the new shape code to generate the same shapes as before, and also fixes igloos having full snow blocks on their floors instead of the snow layer blocks.
 
@@ -66,7 +66,7 @@ Update: I have released [b]FloatingRuins 1.6.4.r02[/b], [b]BlockBreaker 1.6.4.r0
 
 30-Sep-2013 - [b]IngameInfo 1.6.4.r03[/b] is out to fix the item damage tags not returning 0 when the item is null.  I have also back-ported this fix to [b]IngameInfo 1.6.2.r05[/b].
 
-26-Sep-2013 - Please consider helping out a great cause and get some cool perks for it! [url="http://www.extra-life.org/index.cfm?fuseaction=donordrive.participant&participantID=45410"]http://www.extra-lif...icipantID=45410[/url]
+26-Sep-2013 - Please consider helping out a great cause and get some cool perks for it! [url="http://www.extra-life.org/index.cfm?fuseaction=donordrive.participant&amp;participantID=45410"]http://www.extra-lif...icipantID=45410[/url]
 It's for the kids!
 
 23-Sep-2013 - IngameInfo 1.6.4.r02 is out to (hopefully) fix issues with displaying mod item damage values.  I've also back-ported this release to 1.6.2 and 1.5.2.  The latest bspkrsCore is required (v3.05).
@@ -304,7 +304,7 @@ Edit 2: My dumb ass forgot to add in the block ID blacklist in the config file s
 [b]Twitter:[/b] [url="https://twitter.com/bspkrs"]https://twitter.com/bspkrs[/url]
 
 [size=4][url="http://www.minecraftforum.net/topic/124117-100-daftpvfs-mods/"]Donate to DaftPVF[/url] if you like his mods!  
-If you like what I've done here, help me get more storage on [url="http://db.tt/DzTZ6zy"]Dropbox[/url][/size] or [url="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=briefcase%2espeakers%40gmail%2ecom&lc=US&item_name=bspkrs%20mod%20development&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest"][img]https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif[/img][/url][size=4]![/size]
+If you like what I've done here, help me get more storage on [url="http://db.tt/DzTZ6zy"]Dropbox[/url][/size] or [url="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=briefcase%2espeakers%40gmail%2ecom&amp;lc=US&amp;item_name=bspkrs%20mod%20development&amp;no_note=0&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHostedGuest"][img]https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif[/img][/url][size=4]![/size]
 
 [b]Other mods I've released:[/b]
 Be sure to check out [b][url="http://www.minecraftforum.net/topic/1548243-"]WorldStateCheckpoints[/url][/b], my fork of MightyPork's Checkpoints Backup Mod.  It allows you to make save points in your SP worlds!  An essential tool for any Minecrafter!
@@ -331,7 +331,7 @@ This mod contains core classes used in all other mods I release.  If you want to
 [b]You will be ignored if you post about MC crashing because you didn't install bspkrsCore.[/b]
 
 [b][size=5]Treecapitator[/size][/b]
-Forge (SSP/SMP): [url="http://bspk.rs/MC/Treecapitator_Forge/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator_Forge/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r02) [url="http://bspk.rs/MC/Treecapitator_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator_Forge/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/Treecapitator_Forge/dev/index.html"]Betas[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator_Forge/dev/index.html"]Mirror[/url])
+Forge (SSP/SMP): [url="http://bspk.rs/MC/Treecapitator/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r02) [url="http://bspk.rs/MC/Treecapitator/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/Treecapitator/dev/index.html"]Betas[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/dev/index.html"]Mirror[/url])
 [size=2]ModLoader (SSP): [url="http://bspk.rs/MC/TreeCapitator_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/TreeCapitator/blob/master/change.log"]Change Log[/url]
 [spoiler='More Info']
@@ -404,7 +404,7 @@ Usage:
 The useful information is accessed by using tags in the file.
 The format for tags is <tag> for regular tags and <istag[yes no]=""> for dynamically set tags based on true / false states. (e.g.: whether or not the chunk you are in has a chance of spawning slimes)
 
-The color of the text can be changed by using the character '&' or the character '§' and a color code or using the new color tags. The available colors and their respective code is shown in this image:
+The color of the text can be changed by using the character '&amp;' or the character '§' and a color code or using the new color tags. The available colors and their respective code is shown in this image:
 [img]http://www.minecraftwiki.net/images/4/4c/Colors.png[/img]
 
 [b]Configuration File (.minecraft/config/mod_ingameinfo.bsprop.cfg):[/b][code]#memoryUnit (java.lang.String:MB) -- Valid memory unit strings are KB, MB, GB
@@ -427,29 +427,29 @@ memoryUnit=MB[/code]
 [i]~ <right> or <topright>[/i] - Makes the current line go to the top right part of the screen.
 ~ [i]<middleleft> <middlecenter> <middleright> <bottomleft> <bottomcenter> <bottomright>[/i]
 [b]Text Color tags[/b]:
-[i]~ <black>[/i] - same as &0
-[i]~ <darkblue> / <navy>[/i] - same as &1
-[i]~ <darkgreen> / <green>[/i] - same as &2
-[i]~ <darkaqua> / <darkcyan> / <turquoise>[/i] - same as &3
-[i]~ <darkred>[/i] - same as &4
-[i]~ <purple> / <violet>[/i] - same as &5
-[i]~ <gold> / <orange>[/i] - same as &6
-[i]~ <lightgrey> / <grey>[/i] - same as &7 ("lightgray" or "gray" are also accepted)
-[i]~ <darkgrey> / <charcoal>[/i] - same as &8 ("darkgray" is also accepted)
-[i]~ <indigo> / <blue> / <lightblue>[/i] - same as &9
-[i]~ <brightgreen> / <lightgreen> / <lime>[/i] - same as &a
-[i]~ <aqua> / <lightcyan> / <celeste> / <diamond>[/i] - same as &b
-[i]~ <red> / <lightred> / <salmon>[/i] - same as &c
-[i]~ <pink> / <magenta>[/i] - same as &d
-[i]~ <yellow>[/i] - same as &e
-[i]~ <white>[/i] - same as &f
+[i]~ <black>[/i] - same as &amp;0
+[i]~ <darkblue> / <navy>[/i] - same as &amp;1
+[i]~ <darkgreen> / <green>[/i] - same as &amp;2
+[i]~ <darkaqua> / <darkcyan> / <turquoise>[/i] - same as &amp;3
+[i]~ <darkred>[/i] - same as &amp;4
+[i]~ <purple> / <violet>[/i] - same as &amp;5
+[i]~ <gold> / <orange>[/i] - same as &amp;6
+[i]~ <lightgrey> / <grey>[/i] - same as &amp;7 ("lightgray" or "gray" are also accepted)
+[i]~ <darkgrey> / <charcoal>[/i] - same as &amp;8 ("darkgray" is also accepted)
+[i]~ <indigo> / <blue> / <lightblue>[/i] - same as &amp;9
+[i]~ <brightgreen> / <lightgreen> / <lime>[/i] - same as &amp;a
+[i]~ <aqua> / <lightcyan> / <celeste> / <diamond>[/i] - same as &amp;b
+[i]~ <red> / <lightred> / <salmon>[/i] - same as &amp;c
+[i]~ <pink> / <magenta>[/i] - same as &amp;d
+[i]~ <yellow>[/i] - same as &amp;e
+[i]~ <white>[/i] - same as &amp;f
 [b]Text Format tags[/b]:
-[i]~ <random>[/i] - same as &k
-[i]~ <bold> / <b>[/i] - same as &l
-[i]~ <strikethrough> / <strike> / <s>[/i] - same as &m
-[i]~ <underline> / <u>[/i] - same as &n
-[i]~ <italic> / <italics> / <i>[/i] - same as &o
-[i]~ <reset> / <r>[/i] - same as &r
+[i]~ <random>[/i] - same as &amp;k
+[i]~ <bold> / <b>[/i] - same as &amp;l
+[i]~ <strikethrough> / <strike> / <s>[/i] - same as &amp;m
+[i]~ <underline> / <u>[/i] - same as &amp;n
+[i]~ <italic> / <italics> / <i>[/i] - same as &amp;o
+[i]~ <reset> / <r>[/i] - same as &amp;r
 [b]Player tags[/b]:
 [i]~ <username>[/i] - The player's username.
 [i]~ <score>[/i] - The player's score. (Mojang fixed it in 1.4.4!)
@@ -525,20 +525,20 @@ memoryUnit=MB[/code]
 ~ [i]<memtotal> <memmax> <memfree> <memused>[/i] - memory items from the debug display
 [i]~ <texturepack>[/i] - The name of the selected texture pack. (great for screenshots!)
 ~ [i]<irltime[]> or <rltime[]>[/i] - The current local time.  This tag accepts a Java SimpleDateFormat string in the brackets (ex- <rltime[hh:mma]> would show 5:08PM, <rltim[HH:mm]> would show 17:08).  More info on SimpleDateFormat strings can be found [url="http://docs.oracle.com/javase/1.4.2/docs/api/java/text/SimpleDateFormat.html"]here[/url].[/spoiler]
-[b]Example 1[/b]:[spoiler]This text: [code]<left>Day <day>, &2<fps>&f fps
+[b]Example 1[/b]:[spoiler]This text: [code]<left>Day <day>, &amp;2<fps>&amp;f fps
 <right>Light level: <light>
 Biome: <biome>
 <equippedname> equipped.
-<center>&3<username> &f
-<hardcore[hardcore | score &e<score>&f/<gamemode>]>
-<daytime[&esun/&3moon]>[/code]Made this show up:
-[spoiler][img]http://bspk.rs/Minecraft/Ingame%20Info%20Example%20Picture.png[/img][/spoiler][/spoiler][b]Example 2[/b]:[spoiler][code]<topleft>&fDay <day> (<daytime[&eDay time/&8Night time]>&f)
-Light: <max[<light>/6.5[&e/&c]]><light>
-Score: &e<score>
-<equippedname>: <max[<pct(<equippedmaxdamage>,10)>/<equippeddamageleft>[&c/&e]]><equippeddamageleft> &f/ &e<equippedmaxdamage>
-&fEXP: &e<xpthislevel>&f / &e<xpcap>
-x=&e<x> &fz=&e<z>
-z=&e<y>[/code]Images:[spoiler][img]http://bspk.rs/Minecraft/IngameInfo1.png[/img]
+<center>&amp;3<username> &amp;f
+<hardcore[hardcore | score &amp;e<score>&amp;f/<gamemode>]>
+<daytime[&amp;esun/&amp;3moon]>[/code]Made this show up:
+[spoiler][img]http://bspk.rs/Minecraft/Ingame%20Info%20Example%20Picture.png[/img][/spoiler][/spoiler][b]Example 2[/b]:[spoiler][code]<topleft>&amp;fDay <day> (<daytime[&amp;eDay time/&amp;8Night time]>&amp;f)
+Light: <max[<light>/6.5[&amp;e/&amp;c]]><light>
+Score: &amp;e<score>
+<equippedname>: <max[<pct(<equippedmaxdamage>,10)>/<equippeddamageleft>[&amp;c/&amp;e]]><equippeddamageleft> &amp;f/ &amp;e<equippedmaxdamage>
+&amp;fEXP: &amp;e<xpthislevel>&amp;f / &amp;e<xpcap>
+x=&amp;e<x> &amp;fz=&amp;e<z>
+z=&amp;e<y>[/code]Images:[spoiler][img]http://bspk.rs/Minecraft/IngameInfo1.png[/img]
 
 [img]http://bspk.rs/Minecraft/IngameInfo2.png[/img]
 
@@ -598,7 +598,7 @@ Thanks [url="http://www.minecraftforum.net/user/2339605-thelucror/"]theLucror[/u
 [media]http://www.youtube.com/watch?v=SyaRwscc8Gc[/media]
 
 Thanks [url="http://www.minecraftforum.net/user/78231-thegreatone5224/"]thegreatone5224[/url]!
-[media]http://www.youtube.com/watch?&v=-mA-pb3K_L8[/media]
+[media]http://www.youtube.com/watch?&amp;v=-mA-pb3K_L8[/media]
 
 Updated video (shows more recent features!) by [url="http://www.youtube.com/user/HappyPotatoProd?feature=watch"]HappyPotatoProd[/url]:
 [media]http://www.youtube.com/watch?v=946JEbsxHLQ[/media]
@@ -621,7 +621,7 @@ No longer necessary to edit this file manually! From the Mods list in-game selec
 [url="https://github.com/bspkrs/StartingInventory/blob/master/change.log"]Change Log[/url]
 [spoiler]This mod gives you items and blocks each time you start a new world, just by editing a .txt file.
 
-[media]http://www.youtube.com/watch?v=ukxYBvGeuzo&[/media]
+[media]http://www.youtube.com/watch?v=ukxYBvGeuzo&amp;[/media]
 
 The file can be found at
 [b].minecraft/config/StartingInventory/startingInventory.txt[/b] ([b].minecraft/mods/daftpvf/startingInventory.txt[/b] in releases before 1.4.4.r01).
@@ -685,7 +685,7 @@ S:blockList=17;
 # Maximum number of blocks to be removed per game tick (1/20 seconds). Using a low number will keep the game from getting hugeperformance drops but also decreases the speed at which blocks are destroyed. [range: 1 ~ 1000, default: 50]
 I:blocksPerTick=50
 
-# Item drops values: 0-No drops. 1-Drops in Survival. 2-Drops in Survival & Creative. 3-Drops in Survival, Creative, & Adventure [range: 0 ~ 3, default: 1]
+# Item drops values: 0-No drops. 1-Drops in Survival. 2-Drops in Survival &amp; Creative. 3-Drops in Survival, Creative, &amp; Adventure [range: 0 ~ 3, default: 1]
 I:itemDropMode=1
 
 # Maximum distance from the first block to search for blocks to destroy. Use -1 for infinite. [range: -1 ~ 1000, default: 6]
@@ -707,7 +707,7 @@ Requires [url="http://www.minecraftforum.net/topic/75440-"]Risugami's ModLoader[
 
 [b]Known Mod Conflicts as of 1.7.2[/b]:[list]
 [*][b]CJB's QuickCraft mod[/b] [b]and/or Cheat mod[/b] breaks [b]TreeCapitator[/b] amongst other things.
-[*][b]Better Blocks & Items[/b] / [b]Rotation Key[/b] and [b]Forgotten Nature / LCTrees[/b] are incompatible with [b]TreeCapitator ML[/b] by default; Forgotten Nature / LCTrees can be made compatible by changing the config option lumberJack to false.
+[*][b]Better Blocks &amp; Items[/b] / [b]Rotation Key[/b] and [b]Forgotten Nature / LCTrees[/b] are incompatible with [b]TreeCapitator ML[/b] by default; Forgotten Nature / LCTrees can be made compatible by changing the config option lumberJack to false.
 [*][s][b]MultiMine[/b] is incompatible with [b]TreeCapitator[/b] [i]unless[/i] you add the log block IDs you are using in TreeCapitator to the MultiMine block exclusion list found in AS_MultiMine.cfg.  If you do that then they will play nice.[/s]
 [/list]
 [anchor='KnownIssues'][b]Known Issues in 1.7.2:[/b][/anchor][list]

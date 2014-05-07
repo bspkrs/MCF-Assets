@@ -1,4 +1,4 @@
-[size=4][b]Current updates to 1.7.2 for Crystal Wing, Floating Ruins, [/b][/size][size=4][b]Starting Inventory, and Treecapitator[/b][/size][size=4][b]!  DaftPVF approved![/b][/size]
+[size=5][b]Current updates to 1.7.2 for Crystal Wing, Floating Ruins, Starting Inventory, and Treecapitator!  DaftPVF approved![/b][/size]
 
 [size=4]DaftPVF went on hiatus in February 2012.  He [url="http://www.minecraftforum.net/topic/124117-100-daftpvfs-mods/page__st__920#entry12634055"]gave me permission[/url] to continue development on his mods, so I'll keep things up to date.[/size]
 
@@ -8,6 +8,11 @@
 Ok, that's all well and good... and I'd even say that maybe 1/10 times this is my fault.  In order for me to help you, however, I'll need some info that you most likely have.  Use pastebin.com (or a paste service of your choice) to provide your full log file.  If you are using ModLoader, the log file is /.minecraft/ModLoader.txt.  If you are using Forge, the log file is /.minecraft/ForgeModLoader-client-0.log (for client) or /.minecraft/ForgeModLoader-server-0.log (for server).  Some mods have a setting called allowDebugLogging which should be set to true before you post your log file.  [color=#ff0000][b]WITHOUT THIS INFORMATION IT IS VERY DIFFICULT TO PROVIDE ASSISTANCE, AND THE LIKELIHOOD OF GETTING A RESPONSE IS LOW.[/b][/color][/spoiler]
 
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
+
+[b]Highly Recommended:[/b]
+There is a new mod called [b]OpenEye[/b] that can help players figure out why their game crashed! It does this by collecting data on crash reports and providing analytics on that data through their website. I highly recommend that EVERYONE install it. The more data they have the easier it will be for others to figure out crash reports!
+
+[size=5][url="http://openeye.openmods.info/download"]Download OpenEye here[/url][/size]
 
 [size=4][b]News[/b]:[/size]
 25-Apr-2014 - New releases are out for [b]bspkrsCore[/b], [b]FloatingRuins[/b], and [b]Treecapitator[/b]! [b]bspkrsCore[/b] got more config GUI tweaks to make it more stable, [b]FloatingRuins[/b] got a bit of optimization to lower the number of block update notifications being sent to the client, and [b]Treecapitator[/b] got 1) config GUI stuff (not finished, but you can change settings in-game at least), 2) break speed code fixes :3, and 3) several new config options around item drops!
@@ -310,9 +315,6 @@ If you like what I've done here, help me get more storage on [url="http://db.tt/
 Be sure to check out [b][url="http://www.minecraftforum.net/topic/1548243-"]WorldStateCheckpoints[/url][/b], my fork of MightyPork's Checkpoints Backup Mod.  It allows you to make save points in your SP worlds!  An essential tool for any Minecrafter!
 
 [size=4]All of my original mods (StatusEffectHUD, DirectionHUD, and now ArmorStatusHUD) can be found [url="http://www.minecraftforum.net/topic/1114612-"]here[/url].[/size]
-
-[b]Test Server:[/b]
-I had an extra server sitting around, so I decided to make it a test/demo server for my mods. The IP address is [b]192.210.150.163[/b]. [b]bspkrsCore[/b] and [b]CrystalWing[/b] are [b]required to join[/b]; I also [b]recommend Treecapitator[/b] for the full experience. This is a server for trying out the mods, so it will be reset periodically and arbitrarily. It is also a WIP, so there are likely to be unfinished products and possible annoyances. All are welcome.
 
 [b]Video Spotlights:[/b]
 Thanks CaptainSours!

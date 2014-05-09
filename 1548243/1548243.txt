@@ -136,8 +136,8 @@ Thanks [url="http://www.minecraftforum.net/user/1717049-aschoff/"]Aschoff[/url]!
 [media]http://www.youtube.com/watch?v=AQptDeQvZAk[/media][/spoiler]
 
 [size=5][b]Downloads[/b][/size]:
-Forge releases: [size=5][url="http://bspk.rs/MC/WorldStateCheckpoints_Forge/latest/index.html"]Latest[/url][/size] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/WorldStateCheckpoints_Forge/latest/index.html"]Mirror[/url]) [size=5](1.7.2.r02)[/size] [url="http://bspk.rs/MC/WorldStateCheckpoints_Forge/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/WorldStateCheckpoints_Forge/index.html"]Mirror[/url])
-[size=2]ModLoader releases: [url="http://bspk.rs/MC/WorldStateCheckpoints/latest/index.html"]Latest[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/WorldStateCheckpoints/latest/index.html"]Mirror[/url]) (1.6.4.r02) [url="http://bspk.rs/MC/WorldStateCheckpoints/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/WorldStateCheckpoints/index.html"]Mirror[/url])[/size]
+Forge releases: [size=5][url="http://bspk.rs/MC/WorldStateCheckpoints/latest/index.html"]Latest[/url][/size] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/WorldStateCheckpoints/latest/index.html"]Mirror[/url]) [size=5](1.7.2.r02)[/size] [url="http://bspk.rs/MC/WorldStateCheckpoints/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/WorldStateCheckpoints/index.html"]Mirror[/url])
+[size=2]ModLoader releases: [url="http://bspk.rs/MC/WorldStateCheckpoints_ML/latest/index.html"]Latest[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/WorldStateCheckpoints_ML/latest/index.html"]Mirror[/url]) (1.6.4.r02) [url="http://bspk.rs/MC/WorldStateCheckpoints_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/WorldStateCheckpoints_ML/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/WorldStateCheckpoints/blob/master/change.log"]Change Log[/url]
 
 [size=5][b]Installation[/b][/size]:

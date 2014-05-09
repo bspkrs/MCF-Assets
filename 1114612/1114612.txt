@@ -5,6 +5,9 @@ Ok, that's all well and good... and I'd even say that maybe 1/10 times this is m
 
 [spoiler='A Note on PMs']I generally do not respond to PMs sent regarding modpack permissions (read the end of this thread and/or read the license) or help/support for any mods (you should post your issue/question on the thread so that anyone that knows the answer can respond). If you recently sent me a PM for either of those reasons, that's why you didn't get an answer.[/spoiler]
 
+[b]Have a crash you don't understand? Check here first: [/b]
+[url="http://openeye.openmods.info/crashes?form%5Bpackage%5D=bspkrs"]Crashes for bspkrs' mods on OpenEye.OpenMods.info[/url]
+
 [b]Highly Recommended:[/b]
 There is a new mod called [b]OpenEye[/b] that can help players figure out why their game crashed! It does this by collecting data on crash reports and providing analytics on that data through their website. I highly recommend that EVERYONE install it. The more data they have the easier it will be for others to figure out crash reports!
 

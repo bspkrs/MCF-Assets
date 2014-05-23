@@ -14,13 +14,15 @@ There is a new mod called [b]OpenEye[/b] that can help players figure out why th
 [size=5][url="http://openeye.openmods.info/download"]Download OpenEye here[/url][/size]
 
 [b]News:[/b]
+23-May-2014 - New releases are out for all mods including bspkrsCore! The latest version of bspkrsCore is required for all the new releases. Please refer to the change logs for details.
+
 25-Apr-2014 - New releases are out for [b]bspkrsCore[/b] and [b]ArmorStatusHUD[/b]! [b]bspkrsCore[/b] got more tweaks to the config GUI system to make it more stable, and [b]ArmorStatusHUD[/b] got a new feature related to the in-game config GUI system.
 
-22-Apr-2014 - [b]bspkrsCore 6.6[/b] is out! This release fixes a [b]SERIOUS[/b] bug in the code to get random mobs that would prevent certain entities from being able to spawn in your world! [b]It is HIGHLY RECOMMENDED that you update if you are using bspkrsCore 6.4 or 6.5[/b]! This release also adds more config GUI functionality.
+[spoiler='Older News']22-Apr-2014 - [b]bspkrsCore 6.6[/b] is out! This release fixes a [b]SERIOUS[/b] bug in the code to get random mobs that would prevent certain entities from being able to spawn in your world! [b]It is HIGHLY RECOMMENDED that you update if you are using bspkrsCore 6.4 or 6.5[/b]! This release also adds more config GUI functionality.
 
 I also released new versions of the HUD mods today that fixes flickering when the player list is shown in MP.
 
-[spoiler='Older News']21-Apr-2014 - [b]bspkrsCore 6.5[/b] is out to bring more stability to the Main Menu gimmick code with regard to crashes.
+21-Apr-2014 - [b]bspkrsCore 6.5[/b] is out to bring more stability to the Main Menu gimmick code with regard to crashes.
 
 18-Apr-2014 - New releases are out for all mods including bspkrsCore. There are now tooltips for the config settings to give a little more info than just a name. Hover your mouse over the config setting name to see the tooltips.
 
@@ -167,7 +169,7 @@ If you want to turn off update checking for my mods, you will need to set allowU
 [center][size=5][b]ALL MODS BEYOND THIS POINT REQUIRE bspkrsCore TO BE INSTALLED.[/b][/size][/center]
 [center][size=5][b]You will be ignored if you post about MC crashing because you didn't install bspkrsCore.[/b][/size][/center]
 
-[color=#000080][size=6][b]ArmorStatusHUD[/b] [b](v1.25 for 1.7.2)[/b][/size][/color][spoiler='More Info']ArmorStatusHUD displays your currently equipped armor and held item along with the durability remaining without having to open your inventory!
+[color=#000080][size=6][b]ArmorStatusHUD[/b] [b](v1.26 for 1.7.2)[/b][/size][/color][spoiler='More Info']ArmorStatusHUD displays your currently equipped armor and held item along with the durability remaining without having to open your inventory!
 
 [b]Features[/b]:
 - [b]NEW[/b]: use the command [b]/armorstatus config[/b] to open the in-game config GUI!
@@ -192,14 +194,14 @@ If you want to turn off update checking for my mods, you will need to set allowU
 [img]https://raw.github.com/bspkrs/MCF-Assets/master/1114612/img/ArmorStatusHUD2.png[/img][/spoiler][spoiler='Videos']Thanks [url="http://www.minecraft...89-chronofury/"]ChronoFury[/url]![media]http://www.youtube.com/watch?v=TmMIPsq5EOc[/media][/spoiler]
 
 [b]Downloads[/b]:
-[url="http://bspk.rs/MC/ArmorStatusHUD/latest/index.html"]Latest[/url] (v1.25 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/ArmorStatusHUD/latest/index.html"]Mirror[/url])
+[url="http://bspk.rs/MC/ArmorStatusHUD/latest/index.html"]Latest[/url] (v1.26 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/ArmorStatusHUD/latest/index.html"]Mirror[/url])
 [url="http://bspk.rs/MC/ArmorStatusHUD/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/ArmorStatusHUD/index.html"]Mirror[/url])
 [url="https://raw.github.com/bspkrs/ArmorStatusHUD/master/change.log"]Change Log[/url]
 
 [b]Thanks[/b]:- ShaRose (for helping me with the item rendering)
 [/spoiler]
 
-[color=#000080][size=6][b]DirectionHUD (v1.21 for 1.7.2)[/b][/size][/color][spoiler='More Info']Want to know what magnetic direction you are facing without installing fancy maps or trying to figure it out from the Debug GUI? [b]DirectionHUD[/b] is for you!
+[color=#000080][size=6][b]DirectionHUD (v1.22 for 1.7.2)[/b][/size][/color][spoiler='More Info']Want to know what magnetic direction you are facing without installing fancy maps or trying to figure it out from the Debug GUI? [b]DirectionHUD[/b] is for you!
 DirectionHUD displays your magnetic compass heading at the top of your screen.
 
 [b]Features[/b][b]:[/b]
@@ -233,13 +235,13 @@ The indices start at 0 (the top compass is index 0).  In the default image file 
 Thanks [url="http://www.minecraft...featheryninja/"]FeatheryNinja[/url]![media]http://www.youtube.com/watch?v=eRuTi_huomU[/media][/spoiler]
 
 [b]Downloads[/b]:
-[url="http://bspk.rs/MC/DirectionHUD/latest/index.html"]Latest[/url] (v1.21 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/DirectionHUD/latest/index.html"]Mirror[/url])
+[url="http://bspk.rs/MC/DirectionHUD/latest/index.html"]Latest[/url] (v1.22 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/DirectionHUD/latest/index.html"]Mirror[/url])
 [url="http://bspk.rs/MC/DirectionHUD/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/DirectionHUD/index.html"]Mirror[/url])
 [url="https://raw.github.com/bspkrs/DirectionHUD/master/change.log"]Change Log[/url]
 
 [b]Thanks[/b]:- DaftPVF (for letting me work on his mods)[/spoiler]
 
-[color=#000080][size=6][b]StatusEffectHUD[/b] [b](v1.24 for 1.7.2)[/b][/size][/color][spoiler='More Info']Do you hate having to open your inventory to see what potion effects are still active?  In the heat of battle and need to know when to guzzle that next regeneration potion?[b] StatusEffectHUD[/b] is for you!
+[color=#000080][size=6][b]StatusEffectHUD[/b] [b](v1.25 for 1.7.2)[/b][/size][/color][spoiler='More Info']Do you hate having to open your inventory to see what potion effects are still active?  In the heat of battle and need to know when to guzzle that next regeneration potion?[b] StatusEffectHUD[/b] is for you!
 
 StatusEffectHUD displays your currently active potions/effects without having to open your inventory! Sweet!
 
@@ -269,7 +271,7 @@ Thanks [url="http://www.minecraft...5625-zain2028/"]zain2028[/url]! (yeah, he wa
 Thanks [url="http://www.minecraft...02625-tehanon/"]TehAnon[/url]![media]http://www.youtube.com/watch?v=n2jiSdhJ41Y[/media][media]http://www.youtube.com/watch?v=l28XaP8QyrM[/media][/spoiler]
 
 [b]Downloads[/b]:
-[url="http://bspk.rs/MC/StatusEffectHUD/latest/index.html"]Latest[/url] (v1.24 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StatusEffectHUD/latest/index.html"]Mirror[/url])
+[url="http://bspk.rs/MC/StatusEffectHUD/latest/index.html"]Latest[/url] (v1.25 for 1.7.2) ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StatusEffectHUD/latest/index.html"]Mirror[/url])
 [url="http://bspk.rs/MC/StatusEffectHUD/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StatusEffectHUD/index.html"]Mirror[/url])
 [url="https://raw.github.com/bspkrs/StatusEffectHUD/master/change.log"]Change Log[/url]
 

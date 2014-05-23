@@ -2,7 +2,7 @@
 
 [size=4]DaftPVF went on hiatus in February 2012.  He [url="http://www.minecraftforum.net/topic/124117-100-daftpvfs-mods/page__st__920#entry12634055"]gave me permission[/url] to continue development on his mods, so I'll keep things up to date.[/size]
 
-[size=5][b]READ THE ENTIRE OP [/b][/size][size=5][b]BEFORE ASKING.  Yes, the entire thing.[/b][/size]
+[size=5][b]READ THIS ENTIRE POST [/b][/size][size=5][b]BEFORE ASKING.  Yes, the entire thing.[/b][/size]
 
 [spoiler='Read this before posting about issues'][size=5][b]HELP! MOD X DOESN'T WORK!!! YOU CRASHED MINECRAFT!![/b][/size]
 Ok, that's all well and good... and I'd even say that maybe 1/10 times this is my fault.  In order for me to help you, however, I'll need some info that you most likely have.  Use pastebin.com (or a paste service of your choice) to provide your full log file.  If you are using ModLoader, the log file is /.minecraft/ModLoader.txt.  If you are using Forge, the log file is /.minecraft/ForgeModLoader-client-0.log (for client) or /.minecraft/ForgeModLoader-server-0.log (for server).  Some mods have a setting called allowDebugLogging which should be set to true before you post your log file.  [color=#ff0000][b]WITHOUT THIS INFORMATION IT IS VERY DIFFICULT TO PROVIDE ASSISTANCE, AND THE LIKELIHOOD OF GETTING A RESPONSE IS LOW.[/b][/color][/spoiler]
@@ -18,11 +18,17 @@ There is a new mod called [b]OpenEye[/b] that can help players figure out why th
 [size=5][url="http://openeye.openmods.info/download"]Download OpenEye here[/url][/size]
 
 [size=4][b]News[/b]:[/size]
+23-May-2014 - New releases are out for all mods including bspkrsCore! The latest release of bspkrsCore is required for all the new releases.
+
+The most notable release is [b]Treecapitator 2.0[/b]! This release of Treecapitator adds a few awesome new features: auto tree detection and auto axe detection! That's right! No mucking around with the config file is needed to get trees and axes from other mods to work (provided the other mods are coded correctly). When you use an axe to try and chop a log of any kind Treecapitator will try to determine if the item you're using is an axe and whether the block you're breaking is a log (and also is part of a tree). If those conditions are met the axe will be registered as such, the tree will be registered as such, and all of that will be automagically added to your local config file! Neato!
+
+As always, please report any issues you find with the new releases here.
+
 25-Apr-2014 - New releases are out for [b]bspkrsCore[/b], [b]FloatingRuins[/b], and [b]Treecapitator[/b]! [b]bspkrsCore[/b] got more config GUI tweaks to make it more stable, [b]FloatingRuins[/b] got a bit of optimization to lower the number of block update notifications being sent to the client, and [b]Treecapitator[/b] got 1) config GUI stuff (not finished, but you can change settings in-game at least), 2) break speed code fixes :3, and 3) several new config options around item drops!
 
-22-Apr-2014 - [b]bspkrsCore 6.6[/b] is out! This release fixes a [b]SERIOUS[/b] bug in the code to get random mobs that would prevent certain entities from being able to spawn in your world! [b]It is HIGHLY RECOMMENDED that you update if you are using bspkrsCore 6.4 or 6.5[/b]! This release also adds more config GUI functionality.
+[spoiler='Older News']22-Apr-2014 - [b]bspkrsCore 6.6[/b] is out! This release fixes a [b]SERIOUS[/b] bug in the code to get random mobs that would prevent certain entities from being able to spawn in your world! [b]It is HIGHLY RECOMMENDED that you update if you are using bspkrsCore 6.4 or 6.5[/b]! This release also adds more config GUI functionality.
 
-[spoiler='Older News']21-Apr-2014 - [b]bspkrsCore 6.5[/b] is out to bring more stability to the Main Menu gimmick code with regard to crashes.
+21-Apr-2014 - [b]bspkrsCore 6.5[/b] is out to bring more stability to the Main Menu gimmick code with regard to crashes.
 
 18-Apr-2014 - New releases are out for [b]CrystalWing[/b] and [b]FloatingRuins[/b]. These releases add config screens that are accessible from the Mods screen on the main menu. From the mods screen scroll to the entries for CrystalWing and FloatingRuins. Select one and click the Config button. You will be able to change any of the settings for these mods. Hover over the config setting names to get more info.
 
@@ -336,14 +342,14 @@ This mod contains core classes used in all other mods I release.  If you want to
 [b]You will be ignored if you post about MC crashing because you didn't install bspkrsCore.[/b]
 
 [b][size=5]Treecapitator[/size][/b]
-Forge (SSP/SMP): [url="http://bspk.rs/MC/Treecapitator/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r02) [url="http://bspk.rs/MC/Treecapitator/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/Treecapitator/dev/index.html"]Betas[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/dev/index.html"]Mirror[/url])
+Forge (SSP/SMP): [url="http://bspk.rs/MC/Treecapitator/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/latest/index.html"]Mirror[/url]) (2.0.0) [url="http://bspk.rs/MC/Treecapitator/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/Treecapitator/dev/index.html"]Betas[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/dev/index.html"]Mirror[/url])
 [size=2]ModLoader (SSP): [url="http://bspk.rs/MC/TreeCapitator_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/TreeCapitator/blob/master/change.log"]Change Log[/url]
 [spoiler='More Info']
 This mod allows you to chop down an entire tree (leaves and all) by harvesting one of its logs. Based on Terraria tree-cutting style.
 
 [b][size=4]Features [/size][/b][b](see .minecraft/config/TreeCapitator.cfg for details)[/b][b][size=4]:[/size][/b]
-- [b]Forge version can break any log out of the box [/b]
+- [b]Forge version can break any log out of the box [/b](fo' relz)
 - [b]NEW[/b] - change settings in-game from the Mods list config button!
 - Sneak while chopping to break logs normally (configurable)
 - Treecapitation Enchantment mode available.
@@ -550,7 +556,7 @@ z=&amp;amp;e<y>[/code]Images:[spoiler][img]http://bspk.rs/Minecraft/IngameInfo1.
 [img]http://bspk.rs/Minecraft/IngameInfo3.png[/img][/spoiler][/spoiler][/spoiler]
 
 [size=5][b]CrystalWing[/b]: [/size]
-[size=4]Forge Universal[/size]: [url="http://bspk.rs/MC/CrystalWing/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r02) [url="http://bspk.rs/MC/CrystalWing/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing/index.html"]Mirror[/url])
+[size=4]Forge Universal[/size]: [url="http://bspk.rs/MC/CrystalWing/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r03) [url="http://bspk.rs/MC/CrystalWing/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing/index.html"]Mirror[/url])
 [size=2]ML Client: [url="http://bspk.rs/MC/CrystalWing_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/CrystalWing_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing_ML/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/CrystalWing/blob/master/change.log"]Change Log[/url][spoiler]Thanks DonkeyPanic!
 [media]http://www.youtube.com/watch?v=ywM5crVJdxQ[/media]
@@ -595,7 +601,7 @@ I:uses=8
 [/spoiler]
 
 [size=5][b]FloatingRuins[/b]:[/size]
-Forge (SSP/SMP): [url="http://bspk.rs/MC/FloatingRuins/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r04) [url="http://bspk.rs/MC/FloatingRuins/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins/index.html"]Mirror[/url])
+Forge (SSP/SMP): [url="http://bspk.rs/MC/FloatingRuins/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r05) [url="http://bspk.rs/MC/FloatingRuins/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins/index.html"]Mirror[/url])
 [size=2]ModLoader (SSP): [url="http://bspk.rs/MC/FloatingRuins_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/FloatingRuins_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_ML/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/FloatingRuins/blob/master/change.log"]Change Log[/url][spoiler]Floating islands taken from the ground with mini-ruins on top. The ruins' shape, material and mob spawners' choice of mobs are all biome-based.
 
@@ -621,7 +627,7 @@ No longer necessary to edit this file manually! From the Mods list in-game selec
 [/spoiler]
 
 [size=5][b]StartingInventory[/b]: [/size]
-[size=4]Forge (SSP/SMP)[/size]: [url="http://bspk.rs/MC/StartingInventory/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r02) [url="http://bspk.rs/MC/StartingInventory/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory/index.html"]Mirror[/url])
+[size=4]Forge (SSP/SMP)[/size]: [url="http://bspk.rs/MC/StartingInventory/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r03) [url="http://bspk.rs/MC/StartingInventory/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory/index.html"]Mirror[/url])
 [size=2]ModLoader (SSP): [url="http://bspk.rs/MC/StartingInventory_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/StartingInventory_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_ML/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/StartingInventory/blob/master/change.log"]Change Log[/url]
 [spoiler]This mod gives you items and blocks each time you start a new world, just by editing a .txt file.

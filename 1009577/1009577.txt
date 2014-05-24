@@ -18,6 +18,8 @@ There is a new mod called [b]OpenEye[/b] that can help players figure out why th
 [size=5][url="http://openeye.openmods.info/download"]Download OpenEye here[/url][/size]
 
 [size=4][b]News[/b]:[/size]
+24-May-2014 - [b]Treecapitator 2.0.2[/b] is now available and resolves the server crash due to a GUI class reference.
+
 23-May-2014 - New releases are out for all mods including bspkrsCore! The latest release of bspkrsCore is required for all the new releases.
 
 The most notable release is [b]Treecapitator 2.0[/b]! This release of Treecapitator adds a few awesome new features: auto tree detection and auto axe detection! That's right! No mucking around with the config file is needed to get trees and axes from other mods to work (provided the other mods are coded correctly). When you use an axe to try and chop a log of any kind Treecapitator will try to determine if the item you're using is an axe and whether the block you're breaking is a log (and also is part of a tree). If those conditions are met the axe will be registered as such, the tree will be registered as such, and all of that will be automagically added to your local config file! Neato!
@@ -344,7 +346,7 @@ This mod contains core classes used in all other mods I release.  If you want to
 [b]You will be ignored if you post about MC crashing because you didn't install bspkrsCore.[/b]
 
 [b][size=5]Treecapitator[/size][/b]
-Forge (SSP/SMP): [url="http://bspk.rs/MC/Treecapitator/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/latest/index.html"]Mirror[/url]) (2.0.1) [url="http://bspk.rs/MC/Treecapitator/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/Treecapitator/dev/index.html"]Betas[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/dev/index.html"]Mirror[/url])
+Forge (SSP/SMP): [url="http://bspk.rs/MC/Treecapitator/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/latest/index.html"]Mirror[/url]) (2.0.2) [url="http://bspk.rs/MC/Treecapitator/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/Treecapitator/dev/index.html"]Betas[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/dev/index.html"]Mirror[/url])
 [size=2]ModLoader (SSP): [url="http://bspk.rs/MC/TreeCapitator_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/TreeCapitator/blob/master/change.log"]Change Log[/url]
 [spoiler='More Info']

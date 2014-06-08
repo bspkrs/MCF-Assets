@@ -18,6 +18,8 @@ There is a new mod called [b]OpenEye[/b] that can help players figure out why th
 [size=5][url="http://openeye.openmods.info/download"]Download OpenEye here[/url][/size]
 
 [size=4][b]News[/b]:[/size]
+8-Jun-2014 - [b]Treecapitator 2.0.3[/b] is now available! This release fixes a number of crashes and removes the special code that was in place for Multi-Mine as it's no longer needed.
+
 24-May-2014 - [b]Treecapitator 2.0.2[/b] is now available and resolves the server crash due to a GUI class reference.
 
 23-May-2014 - New releases are out for all mods including bspkrsCore! The latest release of bspkrsCore is required for all the new releases.
@@ -28,9 +30,9 @@ As always, please report any issues you find with the new releases here.
 
 Update: Treecapitator 2.0.1 fixes the crash when breaking a log with no item selected :3
 
-25-Apr-2014 - New releases are out for [b]bspkrsCore[/b], [b]FloatingRuins[/b], and [b]Treecapitator[/b]! [b]bspkrsCore[/b] got more config GUI tweaks to make it more stable, [b]FloatingRuins[/b] got a bit of optimization to lower the number of block update notifications being sent to the client, and [b]Treecapitator[/b] got 1) config GUI stuff (not finished, but you can change settings in-game at least), 2) break speed code fixes :3, and 3) several new config options around item drops!
+[spoiler='Older News']25-Apr-2014 - New releases are out for [b]bspkrsCore[/b], [b]FloatingRuins[/b], and [b]Treecapitator[/b]! [b]bspkrsCore[/b] got more config GUI tweaks to make it more stable, [b]FloatingRuins[/b] got a bit of optimization to lower the number of block update notifications being sent to the client, and [b]Treecapitator[/b] got 1) config GUI stuff (not finished, but you can change settings in-game at least), 2) break speed code fixes :3, and 3) several new config options around item drops!
 
-[spoiler='Older News']22-Apr-2014 - [b]bspkrsCore 6.6[/b] is out! This release fixes a [b]SERIOUS[/b] bug in the code to get random mobs that would prevent certain entities from being able to spawn in your world! [b]It is HIGHLY RECOMMENDED that you update if you are using bspkrsCore 6.4 or 6.5[/b]! This release also adds more config GUI functionality.
+22-Apr-2014 - [b]bspkrsCore 6.6[/b] is out! This release fixes a [b]SERIOUS[/b] bug in the code to get random mobs that would prevent certain entities from being able to spawn in your world! [b]It is HIGHLY RECOMMENDED that you update if you are using bspkrsCore 6.4 or 6.5[/b]! This release also adds more config GUI functionality.
 
 21-Apr-2014 - [b]bspkrsCore 6.5[/b] is out to bring more stability to the Main Menu gimmick code with regard to crashes.
 
@@ -346,7 +348,7 @@ This mod contains core classes used in all other mods I release.  If you want to
 [b]You will be ignored if you post about MC crashing because you didn't install bspkrsCore.[/b]
 
 [b][size=5]Treecapitator[/size][/b]
-Forge (SSP/SMP): [url="http://bspk.rs/MC/Treecapitator/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/latest/index.html"]Mirror[/url]) (2.0.2) [url="http://bspk.rs/MC/Treecapitator/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/Treecapitator/dev/index.html"]Betas[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/dev/index.html"]Mirror[/url])
+Forge (SSP/SMP): [url="http://bspk.rs/MC/Treecapitator/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/latest/index.html"]Mirror[/url]) (2.0.3) [url="http://bspk.rs/MC/Treecapitator/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/Treecapitator/dev/index.html"]Betas[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/Treecapitator/dev/index.html"]Mirror[/url])
 [size=2]ModLoader (SSP): [url="http://bspk.rs/MC/TreeCapitator_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/TreeCapitator_ML/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/TreeCapitator/blob/master/change.log"]Change Log[/url]
 [spoiler='More Info']

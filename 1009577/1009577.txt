@@ -20,6 +20,8 @@ There is a new mod called [b]OpenEye[/b] that can help players figure out why th
 [size=4][b]News[/b]:[/size]
 8-Jun-2014 - [b]Treecapitator 2.0.3[/b] is now available! This release fixes a number of crashes and removes the special code that was in place for Multi-Mine as it's no longer needed.
 
+[b]FloatingRuins 1.7.2.r06[/b] is out to fix the negative random number crash.
+
 24-May-2014 - [b]Treecapitator 2.0.2[/b] is now available and resolves the server crash due to a GUI class reference.
 
 23-May-2014 - New releases are out for all mods including bspkrsCore! The latest release of bspkrsCore is required for all the new releases.
@@ -607,7 +609,7 @@ I:uses=8
 [/spoiler]
 
 [size=5][b]FloatingRuins[/b]:[/size]
-Forge (SSP/SMP): [url="http://bspk.rs/MC/FloatingRuins/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r05) [url="http://bspk.rs/MC/FloatingRuins/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins/index.html"]Mirror[/url])
+Forge (SSP/SMP): [url="http://bspk.rs/MC/FloatingRuins/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r06) [url="http://bspk.rs/MC/FloatingRuins/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins/index.html"]Mirror[/url])
 [size=2]ModLoader (SSP): [url="http://bspk.rs/MC/FloatingRuins_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/FloatingRuins_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_ML/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/FloatingRuins/blob/master/change.log"]Change Log[/url][spoiler]Floating islands taken from the ground with mini-ruins on top. The ruins' shape, material and mob spawners' choice of mobs are all biome-based.
 

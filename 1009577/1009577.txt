@@ -1,4 +1,4 @@
-[size=5][b]Current updates to 1.7.2 for Crystal Wing, Floating Ruins, Starting Inventory, and Treecapitator!  DaftPVF approved![/b][/size]
+[size=5][b]Current updates to 1.7.10 for Crystal Wing, Floating Ruins, Starting Inventory, and Treecapitator!  DaftPVF approved![/b][/size]
 
 [size=4]DaftPVF went on hiatus in February 2012.  He [url="http://www.minecraftforum.net/topic/124117-100-daftpvfs-mods/page__st__920#entry12634055"]gave me permission[/url] to continue development on his mods, so I'll keep things up to date.[/size]
 
@@ -18,6 +18,8 @@ There is a new mod called [b]OpenEye[/b] that can help players figure out why th
 [size=5][url="http://openeye.openmods.info/download"]Download OpenEye here[/url][/size]
 
 [size=4][b]News[/b]:[/size]
+30-Jun-2014 - [b]1.7.10[/b] releases are out for all mods except Treecapitator (the 1.7.2 jar file works on 1.7.10). The only known issue is that the main menu mob rendering in bspkrsCore is not showing player skins. I'm not sure I can fix it, but we'll see.
+
 8-Jun-2014 - [b]Treecapitator 2.0.3[/b] is now available! This release fixes a number of crashes and removes the special code that was in place for Multi-Mine as it's no longer needed.
 
 [b]FloatingRuins 1.7.2.r06[/b] is out to fix the negative random number crash.
@@ -344,7 +346,7 @@ Thanks CaptainSours!
 Drop the downloaded .zip file into the mods folder under .minecraft.
 ModLoader/Forge download: [url="http://bspk.rs/MC/bspkrsCore/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/bspkrsCore/latest/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/bspkrsCore/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/bspkrsCore/index.html"]Mirror[/url]) [url="http://bspk.rs/MC/bspkrsCore/dev/index.html"]Dev[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/bspkrsCore/dev/index.html"]Mirror[/url])
 [url="https://github.com/bspkrs/bspkrsCore/blob/master/change.log"]Change Log[/url]
-This mod contains core classes used in all other mods I release.  If you want to turn off update checking for my mods, you will need to set allowUpdateCheck=false in mod_bspkrsCore.bsprops.cfg.
+This mod contains core classes used in all other mods I release.  If you want to turn off update checking for my mods, you will need to set allowUpdateCheck=false in bspkrsCore.cfg.
 
 [size=6][b]ALL MODS BEYOND THIS POINT REQUIRE bspkrsCore TO BE INSTALLED.[/b][/size]
 [b]You will be ignored if you post about MC crashing because you didn't install bspkrsCore.[/b]
@@ -564,7 +566,7 @@ z=&amp;amp;e<y>[/code]Images:[spoiler][img]http://bspk.rs/Minecraft/IngameInfo1.
 [img]http://bspk.rs/Minecraft/IngameInfo3.png[/img][/spoiler][/spoiler][/spoiler]
 
 [size=5][b]CrystalWing[/b]: [/size]
-[size=4]Forge Universal[/size]: [url="http://bspk.rs/MC/CrystalWing/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r03) [url="http://bspk.rs/MC/CrystalWing/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing/index.html"]Mirror[/url])
+[size=4]Forge Universal[/size]: [url="http://bspk.rs/MC/CrystalWing/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing/latest/index.html"]Mirror[/url]) (Forge 1.7.10.r01) [url="http://bspk.rs/MC/CrystalWing/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing/index.html"]Mirror[/url])
 [size=2]ML Client: [url="http://bspk.rs/MC/CrystalWing_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/CrystalWing_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/CrystalWing_ML/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/CrystalWing/blob/master/change.log"]Change Log[/url][spoiler]Thanks DonkeyPanic!
 [media]http://www.youtube.com/watch?v=ywM5crVJdxQ[/media]
@@ -609,7 +611,7 @@ I:uses=8
 [/spoiler]
 
 [size=5][b]FloatingRuins[/b]:[/size]
-Forge (SSP/SMP): [url="http://bspk.rs/MC/FloatingRuins/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r06) [url="http://bspk.rs/MC/FloatingRuins/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins/index.html"]Mirror[/url])
+Forge (SSP/SMP): [url="http://bspk.rs/MC/FloatingRuins/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins/latest/index.html"]Mirror[/url]) (Forge 1.7.10.r01) [url="http://bspk.rs/MC/FloatingRuins/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins/index.html"]Mirror[/url])
 [size=2]ModLoader (SSP): [url="http://bspk.rs/MC/FloatingRuins_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/FloatingRuins_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/FloatingRuins_ML/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/FloatingRuins/blob/master/change.log"]Change Log[/url][spoiler]Floating islands taken from the ground with mini-ruins on top. The ruins' shape, material and mob spawners' choice of mobs are all biome-based.
 
@@ -635,7 +637,7 @@ No longer necessary to edit this file manually! From the Mods list in-game selec
 [/spoiler]
 
 [size=5][b]StartingInventory[/b]: [/size]
-[size=4]Forge (SSP/SMP)[/size]: [url="http://bspk.rs/MC/StartingInventory/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory/latest/index.html"]Mirror[/url]) (Forge 1.7.2.r03) [url="http://bspk.rs/MC/StartingInventory/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory/index.html"]Mirror[/url])
+[size=4]Forge (SSP/SMP)[/size]: [url="http://bspk.rs/MC/StartingInventory/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory/latest/index.html"]Mirror[/url]) (Forge 1.7.10.r01) [url="http://bspk.rs/MC/StartingInventory/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory/index.html"]Mirror[/url])
 [size=2]ModLoader (SSP): [url="http://bspk.rs/MC/StartingInventory_ML/latest/index.html"]Latest Release[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_ML/latest/index.html"]Mirror[/url]) (ML 1.6.4.r01) [url="http://bspk.rs/MC/StartingInventory_ML/index.html"]All Releases[/url] ([url="http://dl.dropboxusercontent.com/u/20748481/MC/StartingInventory_ML/index.html"]Mirror[/url])[/size]
 [url="https://github.com/bspkrs/StartingInventory/blob/master/change.log"]Change Log[/url]
 [spoiler]This mod gives you items and blocks each time you start a new world, just by editing a .txt file.
